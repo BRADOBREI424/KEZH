@@ -1,0 +1,742 @@
+﻿<Page x:Class="KEZH.PageFolder.PageStudent.PageEditStudent"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:KEZH.PageFolder.PageStudent"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d" 
+      d:DesignHeight="1030" d:DesignWidth="1860"
+      Title="PageEditStudent" Loaded="Page_Loaded">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="30"/>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="30"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="230"/>
+            <RowDefinition Height="123*"/>
+            <RowDefinition Height="123*"/>
+            <RowDefinition Height="123*"/>
+            <RowDefinition Height="248*"/>
+            <RowDefinition Height="0*"/>
+            <RowDefinition Height="123*"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+
+        <TextBox x:Name="TbImage"/>
+
+        <Rectangle Fill="White" Grid.Column="1" Grid.Row="1"
+                   Grid.ColumnSpan="6"
+                   RadiusX="40"
+                   RadiusY="40" Margin="0 30 0 30">
+        </Rectangle>
+        <Button x:Name="btnBack" Grid.Row="1" Grid.Column="1"
+                Background="Transparent" BorderBrush="Transparent" Height="Auto" Margin="42,60,10,50" Click="btnBack_Click">
+            <Image Source="/KEZH;component/ResourceFolder/PictureCommon/BackArrow.png" Width="100" Height="100"/>
+        </Button>
+        <Label x:Name="LblAddStudent" Content="Редактировать студента"
+               Grid.Column="2" Grid.Row="1" Grid.ColumnSpan="3"
+               Style="{DynamicResource LblLogo}" Margin="50,30,302,110"
+               HorizontalContentAlignment="Left"/>
+
+        <Label x:Name="LblInfo" Content="Измените информацию о студенте, после этого нажмите на кнопку редактировать"
+               Grid.Column="2" Grid.Row="1" Grid.ColumnSpan="4"
+               Style="{DynamicResource LblStyle}" Margin="50,110,0,50"
+               HorizontalContentAlignment="Left"/>
+
+        <Border BorderBrush="White" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2"
+                Grid.RowSpan="3" CornerRadius="20" Margin="60, 20" BorderThickness="4">
+            <Image x:Name="ImagePhoto"/>
+        </Border>
+
+        <Button x:Name="btnPlaceImage" Grid.Row="5" Grid.Column="1"
+                Height="80"
+                Content="Обзор" Style="{DynamicResource BtnMain1}"                
+                materialDesign:ButtonAssist.CornerRadius="40" Grid.ColumnSpan="2" 
+                Margin="60,10,60,158" Click="btnPlaceImage_Click"/>
+
+        <Button x:Name="BtnEdit" Grid.Row="7" Grid.Column="1"
+                Height="Auto"
+                Content="Редактировать" Style="{DynamicResource BtnMain1}"                
+                materialDesign:ButtonAssist.CornerRadius="40" Grid.ColumnSpan="2" Click="BtnEdit_Click" />
+
+        <TabControl Grid.Row="2" Grid.Column="3" Grid.ColumnSpan="4" Grid.RowSpan="6" 
+                    Background="Transparent" BorderBrush="#807CEF">
+            <TabItem Style="{DynamicResource TabStyleDimaL}">
+                <TabItem.Header>
+                    <Label Content="Информация" Style="{DynamicResource LblStyleTabControl}"/>
+                </TabItem.Header>
+                <Grid x:Name="GrFIOStudent" Grid.ColumnSpan="8" Grid.RowSpan="9">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="30"/>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="25"/>
+                        <ColumnDefinition Width="250"/>
+                        <ColumnDefinition Width="25"/>
+                        <ColumnDefinition Width="250"/>
+                        <ColumnDefinition Width="25"/>
+                        <ColumnDefinition Width="250"/>
+                        <ColumnDefinition Width="25"/>
+                        <ColumnDefinition Width="250"/>
+                        <ColumnDefinition Width="30"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition/>
+                        <RowDefinition Height="30"/>
+                    </Grid.RowDefinitions>
+
+                    <Label x:Name="LblDataStudent" Content="Данные о студенте"
+                   FontWeight="Bold"
+               Grid.Column="3" Grid.Row="1" Grid.ColumnSpan="5"
+                   VerticalContentAlignment="Bottom"
+               Style="{DynamicResource LblStyle}" Margin="12"/>
+
+                    <TextBox x:Name="TbLastName" Grid.Row="2" Grid.Column="3"
+                 materialDesign:HintAssist.Hint="Фамилия"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Margin="12"/>
+                    <TextBox x:Name="TbFirstName" Grid.Row="3" Grid.Column="3"
+                 Grid.ColumnSpan="1"
+                 materialDesign:HintAssist.Hint="Имя"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Margin="12"/>
+                    <TextBox x:Name="TbMiddleName" Grid.Row="4" Grid.Column="3"
+                 materialDesign:HintAssist.Hint="Отчество"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Height="Auto" Margin="12"/>
+
+                    <ComboBox x:Name="CbGender" Grid.Row="2" Grid.Column="5"
+                  materialDesign:HintAssist.Hint=" Пол"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Margin="12,12,0,12" 
+                      VerticalAlignment="Stretch"/>
+
+                    <DatePicker x:Name="DpDateOfBorn" Grid.Row="3" Grid.Column="5"
+                    materialDesign:HintAssist.Hint="Дата рождения"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Margin="12,12,0,12" 
+                        VerticalAlignment="Stretch"/>
+
+                    <TextBox x:Name="TbNumberPhone" Grid.Row="4" Grid.Column="5" MaxLength="16"
+                 materialDesign:HintAssist.Hint="Номер телефона"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Margin="12,12,0,12"/>
+
+                    <ComboBox x:Name="CbFamily" Grid.Row="2" Grid.Column="7"
+                  materialDesign:HintAssist.Hint=" Семья"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Grid.ColumnSpan="2" Margin="12,12,0,12" VerticalAlignment="Stretch"
+                              SelectionChanged="CbFamily_SelectionChanged"/>
+
+                    <ComboBox x:Name="CbFamilyStatus" Grid.Row="3" Grid.Column="7"
+                  materialDesign:HintAssist.Hint=" Семейный статус"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Grid.ColumnSpan="2" Margin="12,12,0,12" VerticalAlignment="Stretch"/>
+
+                    <CheckBox Content="В браке" x:Name="ChbFamilyPosition" 
+                              Grid.Row="4" VerticalAlignment="Bottom" 
+                  Grid.Column="7"                        
+                  materialDesign:CheckBoxAssist.CheckBoxSize="40"             
+                  HorizontalAlignment="Stretch"
+                  Height="Auto" Margin="12" Width="Auto"/>
+
+                    <TextBox x:Name="TbEmail" Grid.Row="5" Grid.Column="3"
+                 Grid.ColumnSpan="5" HorizontalAlignment="Center" Width="500"
+                 materialDesign:HintAssist.Hint="Электронная почта"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Margin="12"/>
+                    <TextBlock Text="Приказ о зачислении" Style="{DynamicResource tBlockLogo}"
+                               TextWrapping="Wrap" Grid.Row="1" Grid.Column="9" FontSize="26" TextAlignment="Center" Margin="12,12,10,12"/>
+                    <TextBox x:Name="TbOrder" Grid.Row="2" Grid.Column="9"
+                 HorizontalAlignment="Center"
+                 materialDesign:HintAssist.Hint="№ Приказа"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Margin="12,10,10,14" Width="229"/>
+                    <DatePicker x:Name="DpDateOfOrder" Grid.Row="3" Grid.Column="9"
+                    materialDesign:HintAssist.Hint="Приказ от"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Margin="12,12,10,12" 
+                        VerticalAlignment="Stretch"/>
+                    <TextBox x:Name="TbComment" Grid.Row="5" Grid.Column="9"
+                 HorizontalAlignment="Center"
+                 materialDesign:HintAssist.Hint="Коментарий"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Margin="12,10,-113,10" Width="383" Grid.ColumnSpan="2" Grid.RowSpan="2"
+                             VerticalContentAlignment="Top"
+                             TextWrapping="Wrap"/>
+                </Grid>
+            </TabItem>
+
+
+
+
+
+            <TabItem Style="{DynamicResource TabStyle}">
+                <TabItem.Header>
+                    <Label Content="Документы" Style="{DynamicResource LblStyleTabControl}"/>
+                </TabItem.Header>
+                <Grid x:Name="GrDocumentStudent" Grid.ColumnSpan="8" Grid.RowSpan="9">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="250"/>
+                        <ColumnDefinition Width="25"/>
+                        <ColumnDefinition Width="290"/>
+                        <ColumnDefinition Width="130"/>
+                        <ColumnDefinition Width="105"/>
+                        <ColumnDefinition Width="25"/>
+                        <ColumnDefinition Width="380"/>
+                        <ColumnDefinition Width="145"/>
+                        <ColumnDefinition Width="0"/>
+                        <ColumnDefinition Width="30"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="120"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition/>
+                        <RowDefinition Height="30"/>
+                    </Grid.RowDefinitions>
+
+
+                    <Label x:Name="LblPassword" Content="Паспорт"
+                   FontWeight="Bold"
+               Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="3"
+                   VerticalContentAlignment="Bottom"
+               Style="{DynamicResource LblStyle}" Margin="12"/>
+
+
+                    <TextBox x:Name="TbSeries" Grid.Row="2" Grid.Column="1"
+                 MaxLength="4" Margin="12"
+                 materialDesign:HintAssist.Hint="Серия паспорта"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1"/>
+                    <TextBox x:Name="TbNumber" Grid.Row="2" Grid.Column="3"
+                 MaxLength="6" Margin="12"
+                 materialDesign:HintAssist.Hint="Номер паспорта"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1"/>
+                    <ComboBox x:Name="CbIsuedByWhom" Grid.Row="3" Grid.Column="1"
+                  materialDesign:HintAssist.Hint=" Кем выдан"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Margin="12,12,77,12" 
+                      VerticalAlignment="Stretch" Grid.ColumnSpan="3"/>
+                    <Button x:Name="btnAddIsuuedByWhom" Grid.Row="3" Grid.Column="3"
+                Style="{DynamicResource btnArrow}"
+                Width="50" Height="Auto" BorderBrush="Transparent"
+                HorizontalAlignment="Right" Margin="0,38,12,12">
+                        <Image Source="/KEZH;component/ResourceFolder/PictureCommon/AddButtonIco.png"/>
+                    </Button>
+                    <DatePicker x:Name="DpDateOfIsue" Grid.Row="4" Grid.Column="1"
+                    materialDesign:HintAssist.Hint="Дата выдачи"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Margin="12,12,12,12" VerticalAlignment="Stretch"/>
+                    <TextBox x:Name="TbCode" Grid.Row="4" Grid.Column="3"
+                 MaxLength="7" Margin="12,12,12,12"
+                 materialDesign:HintAssist.Hint="Код подразделения"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1"/>
+
+                    <ComboBox x:Name="CbPlaceOfBorn" Grid.Row="5" Grid.Column="1"
+                  materialDesign:HintAssist.Hint=" Место рождения"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Grid.ColumnSpan="3" Margin="12,12,77,12" VerticalAlignment="Stretch"/>
+
+                    <Button x:Name="btnPlaceOfBorn" Grid.Row="5" Grid.Column="3"
+                Style="{DynamicResource btnArrow}"
+                Width="50" Height="Auto" BorderThickness="2"
+                    BorderBrush="Transparent"
+                HorizontalAlignment="Right" Margin="0,38,12,12" >
+                        <Image Source="/KEZH;component/ResourceFolder/PictureCommon/AddButtonIco.png"/>
+                    </Button>
+
+
+                    <Label x:Name="LblDopDocument" Content="Другие документы"
+                   FontWeight="Bold"
+               Grid.Column="5" Grid.Row="1" Grid.ColumnSpan="3"
+                   VerticalContentAlignment="Bottom"
+               Style="{DynamicResource LblStyle}" Margin="12"/>
+
+
+
+
+                    <TextBox x:Name="TbHospital" Grid.Row="2" Grid.Column="5"
+                 MaxLength="16"
+                 materialDesign:HintAssist.Hint="Медицинский полис"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" 
+                     Margin="12" Grid.ColumnSpan="3"/>
+
+                    <TextBox x:Name="TbINN" Grid.Row="3" Grid.Column="5"
+                 MaxLength="12"
+                 materialDesign:HintAssist.Hint="ИНН"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1"
+                     Margin="12" Grid.ColumnSpan="3"/>
+
+                    <TextBox x:Name="TbSNILS" Grid.Row="4" Grid.Column="5" MaxLength="11"
+                 materialDesign:HintAssist.Hint="СНИЛС"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1"
+                     Margin="12" Grid.ColumnSpan="3"/>
+                </Grid>
+            </TabItem>
+
+
+
+            <TabItem Style="{DynamicResource TabStyle}">
+                <TabItem.Header>
+                    <Label Content="Адрес" Style="{DynamicResource LblStyleTabControl}"/>
+                </TabItem.Header>
+                <Grid x:Name="GrAddressMenu" Grid.ColumnSpan="8" Grid.RowSpan="9">
+                    <TabControl Background="Transparent" BorderBrush="#807CEF">
+                        <TabItem Style="{DynamicResource TabStyleDimaL}">
+                            <TabItem.Header>
+                                <Label Content="Прописка" Style="{DynamicResource LblStyleTabControl}"/>
+                            </TabItem.Header>
+                            <Grid x:Name="GrAddressPropiska" Grid.ColumnSpan="8" Grid.RowSpan="9">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="100"/>
+                                    <ColumnDefinition Width="218"/>
+                                    <ColumnDefinition Width="32"/>
+                                    <ColumnDefinition Width="25"/>
+                                    <ColumnDefinition Width="250"/>
+                                    <ColumnDefinition Width="25"/>
+                                    <ColumnDefinition Width="250"/>
+                                    <ColumnDefinition Width="25"/>
+                                    <ColumnDefinition Width="250"/>
+                                    <ColumnDefinition Width="25"/>
+                                    <ColumnDefinition Width="250"/>
+                                    <ColumnDefinition Width="30"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="100"/>
+                                    <RowDefinition Height="100"/>
+                                    <RowDefinition Height="100"/>
+                                    <RowDefinition Height="100"/>
+                                    <RowDefinition Height="100"/>
+                                    <RowDefinition Height="100"/>
+                                    <RowDefinition/>
+                                    <RowDefinition Height="30"/>
+                                </Grid.RowDefinitions>
+
+                                <Label x:Name="LblPropis" Content="Прописка студента из паспорта"
+                                        FontWeight="Bold"
+                                        Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="8"
+                                        VerticalContentAlignment="Bottom"
+                                        Style="{DynamicResource LblStyle}" Margin="12"/>
+
+                                <ComboBox x:Name="CbRegCity" Grid.Row="2" Grid.Column="1"
+                  materialDesign:HintAssist.Hint=" Город"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Margin="12,12,180,12" Grid.ColumnSpan="4" VerticalAlignment="Stretch"/>
+                                <Button x:Name="btnAddRegCity" Grid.Row="2" Grid.Column="4"
+                Style="{DynamicResource btnArrow}" Margin="85,38,115,12"
+                Width="50" Height="50" BorderThickness="2" BorderBrush="Transparent" >
+                                    <Image Source="/KEZH;component/ResourceFolder/PictureCommon/AddButtonIco.png"/>
+                                </Button>
+                                <ComboBox x:Name="CbRegStreet" Grid.Row="2" Grid.Column="4"
+                  materialDesign:HintAssist.Hint=" Улица"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Margin="150,12,77,12" Grid.ColumnSpan="5" VerticalAlignment="Stretch"/>
+                                <Button x:Name="btnRegStreet" Grid.Row="2" Grid.Column="8"
+                Style="{DynamicResource btnArrow}" BorderThickness="2"
+                Width="50" Height="50" HorizontalAlignment="Right" 
+                    Margin="0,38,12,12" BorderBrush="Transparent" >
+                                    <Image Source="/KEZH;component/ResourceFolder/PictureCommon/AddButtonIco.png"/>
+                                </Button>
+                                <TextBox x:Name="TbRegPostcode" Grid.Row="3" Grid.Column="1"
+                 MaxLength="6"
+                 materialDesign:HintAssist.Hint="Индекс"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Grid.ColumnSpan="3" Margin="12"/>
+                                <TextBox x:Name="TbRegHouse" Grid.Row="3" Grid.Column="4"
+                 materialDesign:HintAssist.Hint="Дом"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Margin="12"/>
+                                <TextBox x:Name="TbRegEnclosure" Grid.Row="3" Grid.Column="6"
+                 materialDesign:HintAssist.Hint="Корпус"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Margin="12"/>
+                                <TextBox x:Name="TbRegAppartment" Grid.Row="3" Grid.Column="8"
+                 materialDesign:HintAssist.Hint="Квартира"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Margin="12"/>
+                            </Grid>
+
+                        </TabItem>
+                        <TabItem Style="{DynamicResource TabStyle}">
+                            <TabItem.Header>
+                                <Label Content="Фактический адрес" Style="{DynamicResource LblStyleTabControl}"/>
+                            </TabItem.Header>
+                            <Grid x:Name="GrAddressFackt" Grid.ColumnSpan="8" Grid.RowSpan="9">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="100"/>
+                                    <ColumnDefinition Width="250"/>
+                                    <ColumnDefinition Width="25"/>
+                                    <ColumnDefinition Width="250"/>
+                                    <ColumnDefinition Width="25"/>
+                                    <ColumnDefinition Width="250"/>
+                                    <ColumnDefinition Width="25"/>
+                                    <ColumnDefinition Width="250"/>
+                                    <ColumnDefinition Width="25"/>
+                                    <ColumnDefinition Width="250"/>
+                                    <ColumnDefinition Width="30"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="100"/>
+                                    <RowDefinition Height="100"/>
+                                    <RowDefinition Height="100"/>
+                                    <RowDefinition Height="100"/>
+                                    <RowDefinition Height="100"/>
+                                    <RowDefinition Height="100"/>
+                                    <RowDefinition/>
+                                    <RowDefinition Height="30"/>
+                                </Grid.RowDefinitions>
+
+
+                                <Label x:Name="LblFackt" Content="Фактический адрес проживания студента"
+                                        FontWeight="Bold"
+                                        Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="7"
+                                        VerticalContentAlignment="Bottom"
+                                        Style="{DynamicResource LblStyle}" Margin="12"/>
+
+                                <ComboBox x:Name="CbRealCity" Grid.Row="2" Grid.Column="1"
+                  materialDesign:HintAssist.Hint=" Город"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Margin="12,12,180,12" Grid.ColumnSpan="3" VerticalAlignment="Stretch"/>
+                                <Button x:Name="btnAddRealCity" Grid.Row="2" Grid.Column="3"
+                Style="{DynamicResource btnArrow}" Margin="85,38,115,12"
+                Width="50" Height="50" BorderThickness="2" BorderBrush="Transparent" >
+                                    <Image Source="/KEZH;component/ResourceFolder/PictureCommon/AddButtonIco.png"/>
+                                </Button>
+                                <ComboBox x:Name="CbRealStreet" Grid.Row="2" Grid.Column="3"
+                  materialDesign:HintAssist.Hint=" Улица"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Margin="150,12,77,12" Grid.ColumnSpan="5" VerticalAlignment="Stretch"/>
+                                <Button x:Name="btnRealStreet" Grid.Row="2" Grid.Column="7"
+                Style="{DynamicResource btnArrow}" BorderThickness="2"
+                Width="50" Height="50" HorizontalAlignment="Right" 
+                    Margin="0,38,12,12" BorderBrush="Transparent" >
+                                    <Image Source="/KEZH;component/ResourceFolder/PictureCommon/AddButtonIco.png"/>
+                                </Button>
+                                <TextBox x:Name="TbRealPostcode" Grid.Row="3" Grid.Column="1"
+                 MaxLength="6"
+                 materialDesign:HintAssist.Hint="Индекс"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Grid.ColumnSpan="2" Margin="12"/>
+                                <TextBox x:Name="TbRealHouse" Grid.Row="3" Grid.Column="3"
+                 materialDesign:HintAssist.Hint="Дом"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Margin="12"/>
+                                <TextBox x:Name="TbRealEnclosure" Grid.Row="3" Grid.Column="5"
+                 materialDesign:HintAssist.Hint="Корпус"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Margin="12"/>
+                                <TextBox x:Name="TbRealAppartment" Grid.Row="3" Grid.Column="7"
+                 materialDesign:HintAssist.Hint="Квартира"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Margin="12"/>
+                            </Grid>
+
+                        </TabItem>
+                        <TabItem Style="{DynamicResource TabStyleDimaR}">
+                            <TabItem.Header>
+                                <Label Content="Временная регистрация" Style="{DynamicResource LblStyleTabControl}"/>
+                            </TabItem.Header>
+                            <Grid x:Name="GrAddressVrem" Grid.ColumnSpan="8" Grid.RowSpan="9">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="100"/>
+                                    <ColumnDefinition Width="250"/>
+                                    <ColumnDefinition Width="25"/>
+                                    <ColumnDefinition Width="250"/>
+                                    <ColumnDefinition Width="25"/>
+                                    <ColumnDefinition Width="250"/>
+                                    <ColumnDefinition Width="25"/>
+                                    <ColumnDefinition Width="250"/>
+                                    <ColumnDefinition Width="25"/>
+                                    <ColumnDefinition Width="250"/>
+                                    <ColumnDefinition Width="30"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="100"/>
+                                    <RowDefinition Height="100"/>
+                                    <RowDefinition Height="100"/>
+                                    <RowDefinition Height="100"/>
+                                    <RowDefinition Height="100"/>
+                                    <RowDefinition Height="100"/>
+                                    <RowDefinition/>
+                                    <RowDefinition Height="30"/>
+                                </Grid.RowDefinitions>
+
+
+                                <Label x:Name="LblVrem" Content="Временная регистрация студента"
+                                        FontWeight="Bold"
+                                        Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="7"
+                                        VerticalContentAlignment="Bottom"
+                                        Style="{DynamicResource LblStyle}" Margin="12"/>
+
+                                <ComboBox x:Name="CbVremCity" Grid.Row="2" Grid.Column="1"
+                  materialDesign:HintAssist.Hint=" Город"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Margin="12,12,180,12" Grid.ColumnSpan="3" VerticalAlignment="Stretch"/>
+                                <Button x:Name="btnAddVremCity" Grid.Row="2" Grid.Column="3"
+                Style="{DynamicResource btnArrow}" Margin="85,38,115,12"
+                Width="50" Height="50" BorderThickness="2" BorderBrush="Transparent">
+                                    <Image Source="/KEZH;component/ResourceFolder/PictureCommon/AddButtonIco.png"/>
+                                </Button>
+                                <ComboBox x:Name="CbVremStreet" Grid.Row="2" Grid.Column="3"
+                  materialDesign:HintAssist.Hint=" Улица"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Margin="150,12,77,12" Grid.ColumnSpan="5" VerticalAlignment="Stretch"/>
+                                <Button x:Name="btnVremStreet" Grid.Row="2" Grid.Column="7"
+                Style="{DynamicResource btnArrow}" BorderThickness="2"
+                Width="50" Height="50" HorizontalAlignment="Right" 
+                    Margin="0,38,12,12" BorderBrush="Transparent" >
+                                    <Image Source="/KEZH;component/ResourceFolder/PictureCommon/AddButtonIco.png"/>
+                                </Button>
+                                <TextBox x:Name="TbVremPostcode" Grid.Row="3" Grid.Column="1"
+                 MaxLength="6"
+                 materialDesign:HintAssist.Hint="Индекс"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Grid.ColumnSpan="2" Margin="12"/>
+                                <TextBox x:Name="TbVremHouse" Grid.Row="3" Grid.Column="3"
+                 materialDesign:HintAssist.Hint="Дом"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Margin="12"/>
+                                <TextBox x:Name="TbVremEnclosure" Grid.Row="3" Grid.Column="5"
+                 materialDesign:HintAssist.Hint="Корпус"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Margin="12"/>
+                                <TextBox x:Name="TbVremAppartment" Grid.Row="3" Grid.Column="7"
+                 materialDesign:HintAssist.Hint="Квартира"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Margin="12"/>
+                                <Button x:Name="btnClearTempReg" Content="Очистить" Grid.Row="4" Grid.Column="3"
+                                        Grid.ColumnSpan="3" Style="{DynamicResource BtnMain1}" Height="50"
+                                        materialDesign:ButtonAssist.CornerRadius="25" Click="btnClearTempReg_Click"/>
+                            </Grid>
+                        </TabItem>
+                    </TabControl>
+                </Grid>
+            </TabItem>
+            <TabItem Style="{DynamicResource TabStyle}">
+                <TabItem.Header>
+                    <Label Content="Родители" Style="{DynamicResource LblStyleTabControl}"/>
+                </TabItem.Header>
+                <Grid x:Name="GrParent" Grid.ColumnSpan="8" Grid.RowSpan="9">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="130"/>
+                        <ColumnDefinition Width="250"/>
+                        <ColumnDefinition Width="25"/>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="25"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="25"/>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="25"/>
+                        <ColumnDefinition Width="250"/>
+                        <ColumnDefinition Width="30"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition/>
+                        <RowDefinition Height="30"/>
+                    </Grid.RowDefinitions>
+
+                    <Label x:Name="LblMom" Content="Мать/Мачеха"
+                   FontWeight="Bold"
+               Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="3"
+                   VerticalContentAlignment="Bottom"
+               Style="{DynamicResource LblStyle}" Margin="12"/>
+
+                    <Label x:Name="LblPap" Content="Отец/Отчим"
+                   FontWeight="Bold"
+               Grid.Column="7" Grid.Row="1" Grid.ColumnSpan="3"
+                   VerticalContentAlignment="Bottom"
+               Style="{DynamicResource LblStyle}" Margin="12"/>
+
+                    <TextBox x:Name="TbMomLastName" Grid.Column="1" Grid.Row="2"
+                 materialDesign:HintAssist.Hint="Фамилия"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Grid.ColumnSpan="3" Margin="12,12,12,12"/>
+                    <TextBox x:Name="TbMomFirstName" Grid.Column="1" Grid.Row="3"
+                 materialDesign:HintAssist.Hint="Имя"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Grid.ColumnSpan="3" Margin="12,12,12,12"/>
+                    <TextBox x:Name="TbMomMiddleName" Grid.Column="1" Grid.Row="4"
+                 materialDesign:HintAssist.Hint="Отчество"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Grid.ColumnSpan="3" Margin="12,12,12,12"/>
+                    <TextBox x:Name="TbMomNumberPhone" Grid.Column="1" Grid.Row="5"
+                 MaxLength="16"
+                 materialDesign:HintAssist.Hint="Номер телефона"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Grid.ColumnSpan="3" Margin="12,12,12,12"/>
+                    <TextBox x:Name="TbDadLastName" Grid.Column="7" Grid.Row="2"
+                 materialDesign:HintAssist.Hint="Фамилия"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Grid.ColumnSpan="3"/>
+                    <TextBox x:Name="TbDadFirstName" Grid.Column="7" Grid.Row="3"
+                 materialDesign:HintAssist.Hint="Имя"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Grid.ColumnSpan="3"/>
+                    <TextBox x:Name="TbDadMiddleName" Grid.Column="7" Grid.Row="4"
+                 materialDesign:HintAssist.Hint="Отчество"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Grid.ColumnSpan="3"/>
+                    <TextBox x:Name="TbDadNumberPhone" Grid.Column="7" Grid.Row="5"
+                 MaxLength="16"
+                 materialDesign:HintAssist.Hint="Номер телефона"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Grid.ColumnSpan="3" Margin="12,12,12,12"/>
+
+                    <CheckBox Content="Отсутствует" x:Name="ChbNoMom" 
+                              Grid.Row="6" VerticalAlignment="Center" 
+                  Grid.Column="1"                        
+                  materialDesign:CheckBoxAssist.CheckBoxSize="40"             
+                  HorizontalAlignment="Stretch"
+                  Height="Auto" Margin="12" Width="Auto" Checked="ChbNoMom_Checked" Unchecked="ChbNoMom_Unchecked"/>
+
+                    <CheckBox Content="Отсутствует" x:Name="ChbNoPap" 
+                              Grid.Row="6" VerticalAlignment="Center" 
+                  Grid.Column="7"                        
+                  materialDesign:CheckBoxAssist.CheckBoxSize="40"             
+                  HorizontalAlignment="Stretch"
+                  Height="Auto" Margin="12,30" Width="Auto" Grid.ColumnSpan="3"
+                              Checked="ChbNoPap_Checked" Unchecked="ChbNoPap_Unchecked"/>
+                </Grid>
+            </TabItem>
+            <TabItem Style="{DynamicResource TabStyleDimaR}">
+                <TabItem.Header>
+                    <Label Content="Опекун" Style="{DynamicResource LblStyleTabControl}"/>
+                </TabItem.Header>
+                <Grid x:Name="GrGuard" Grid.ColumnSpan="8" Grid.RowSpan="9">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="130"/>
+                        <ColumnDefinition Width="250"/>
+                        <ColumnDefinition Width="25"/>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="25"/>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="25"/>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="25"/>
+                        <ColumnDefinition Width="250"/>
+                        <ColumnDefinition Width="30"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition/>
+                        <RowDefinition Height="30"/>
+                    </Grid.RowDefinitions>
+
+                    <Label x:Name="LblMomGuard" Content="Мать опекун"
+                   FontWeight="Bold"
+               Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="3"
+                   VerticalContentAlignment="Bottom"
+               Style="{DynamicResource LblStyle}" Margin="12"/>
+
+                    <Label x:Name="LblPapGuard" Content="Отец опекун"
+                   FontWeight="Bold"
+               Grid.Column="7" Grid.Row="1" Grid.ColumnSpan="3"
+                   VerticalContentAlignment="Bottom"
+               Style="{DynamicResource LblStyle}" Margin="12"/>
+
+                    <TextBox x:Name="TbMomLastNameGuard" Grid.Column="1" Grid.Row="2"
+                 materialDesign:HintAssist.Hint="Фамилия"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Grid.ColumnSpan="3" Margin="12,12,12,12"/>
+                    <TextBox x:Name="TbMomFirstNameGuard" Grid.Column="1" Grid.Row="3"
+                 materialDesign:HintAssist.Hint="Имя"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Grid.ColumnSpan="3" Margin="12,12,12,12"/>
+                    <TextBox x:Name="TbMomMiddleNameGuard" Grid.Column="1" Grid.Row="4"
+                 materialDesign:HintAssist.Hint="Отчество"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Grid.ColumnSpan="3" Margin="12,12,12,12"/>
+                    <TextBox x:Name="TbMomNumberPhoneGuard" Grid.Column="1" Grid.Row="5"
+                 MaxLength="16"
+                 materialDesign:HintAssist.Hint="Номер телефона"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Grid.ColumnSpan="3" Margin="12,12,12,12"/>
+                    <TextBox x:Name="TbDadLastNameGuard" Grid.Column="7" Grid.Row="2"
+                 materialDesign:HintAssist.Hint="Фамилия"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Grid.ColumnSpan="3"/>
+                    <TextBox x:Name="TbDadFirstNameGuard" Grid.Column="7" Grid.Row="3"
+                 materialDesign:HintAssist.Hint="Имя"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Grid.ColumnSpan="3"/>
+                    <TextBox x:Name="TbDadMiddleNameGuard" Grid.Column="7" Grid.Row="4"
+                 materialDesign:HintAssist.Hint="Отчество"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Grid.ColumnSpan="3"/>
+                    <TextBox x:Name="TbDadNumberPhoneGuard" Grid.Column="7" Grid.Row="5"
+                 MaxLength="16"
+                 materialDesign:HintAssist.Hint="Номер телефона"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" Grid.ColumnSpan="3" Margin="12,12,12,12"/>
+
+                    <CheckBox Content="Отсутствует" x:Name="ChbNoMomGuard" 
+                              Grid.Row="6" VerticalAlignment="Center" 
+                  Grid.Column="1"                        
+                  materialDesign:CheckBoxAssist.CheckBoxSize="40"             
+                  HorizontalAlignment="Stretch"
+                  Height="Auto" Margin="12" Width="Auto"
+                              Checked="ChbNoMomGuard_Checked" Unchecked="ChbNoMomGuard_Unchecked"/>
+
+                    <CheckBox Content="Отсутствует" x:Name="ChbNoPapGuard" 
+                              Grid.Row="6" VerticalAlignment="Center" 
+                  Grid.Column="7"                        
+                  materialDesign:CheckBoxAssist.CheckBoxSize="40"             
+                  HorizontalAlignment="Stretch"
+                  Height="Auto" Margin="12,30" Width="Auto" Grid.ColumnSpan="3"
+                              Checked="ChbNoPapGuard_Checked" Unchecked="ChbNoPapGuard_Unchecked"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Page>

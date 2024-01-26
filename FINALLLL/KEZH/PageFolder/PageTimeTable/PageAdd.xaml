@@ -1,0 +1,84 @@
+﻿<Page x:Class="KEZH.PageFolder.PageTimeTable.PageAdd"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:KEZH.PageFolder.PageTimeTable"
+       xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d" 
+      d:DesignHeight="520" d:DesignWidth="650"
+      Title="PageAdd" Loaded="Page_Loaded">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="90"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition Height="80"/>
+        </Grid.RowDefinitions>
+
+        <Label Content="Добавление" Grid.Column="0" 
+               Grid.ColumnSpan="2" Style="{DynamicResource LblLogo}"/>
+
+
+        <ComboBox x:Name="CbSemestr" Grid.Column="0"
+                 Grid.Row="1"
+              materialDesign:HintAssist.Hint=" Семестр"
+              FontSize="24" Margin="40 10 40 10"                  
+              VerticalAlignment="Center" Height="80" SelectionChanged="CbSemestr_SelectionChanged"/>
+
+        <ComboBox x:Name="CbDayWeek" Grid.Column="1"
+                  Grid.Row="1"
+              materialDesign:HintAssist.Hint=" День недели"
+              FontSize="24" Margin="40 12 40 12"                  
+              VerticalAlignment="Center" Height="80"/>
+
+        <ComboBox x:Name="CbNumber" Grid.Column="0"
+                  Grid.Row="2"
+              materialDesign:HintAssist.Hint=" Номер пары"
+              FontSize="24" Margin="40 12 40 12"                 
+              VerticalAlignment="Center" Height="80"/>
+
+        <ComboBox x:Name="CbGroup" Grid.Column="1"
+                 Grid.Row="2"
+              materialDesign:HintAssist.Hint=" Название группы"
+              FontSize="24" Margin="40 12 40 12"                  
+              VerticalAlignment="Center" Height="80"/>
+
+        <ComboBox x:Name="CbDiscipline" Grid.Column="0"
+                 Grid.ColumnSpan="2" Grid.Row="3"
+              materialDesign:HintAssist.Hint=" Дисциплина"
+              FontSize="24" Margin="40,20,150,20"                 
+              VerticalAlignment="Center" Height="80"/>
+
+
+        <Button x:Name="BtnAddDiscipline" Grid.Row="3" Grid.Column="1" Click="BtnAddDiscipline_Click"
+                Background="Transparent" BorderBrush="Transparent" Height="80" Width="80" Margin="205,12,40,12">
+            <Image Source="/KEZH;component/ResourceFolder/PictureCommon/AddButtonIco.png"/>
+        </Button>
+
+        <Button x:Name="btOtmena" Content="Очистить"
+                Grid.Column="0" 
+                FontSize="30"
+                 Style="{DynamicResource BtnMain1}"                
+                materialDesign:ButtonAssist.CornerRadius="25"
+                Grid.Row="4" Height="auto" 
+                Click="btOtmena_Click" Margin="12,12,140,12">
+
+        </Button>
+
+        <Button x:Name="btAdd" Content="Добавить" 
+                FontSize="30"
+                 Style="{DynamicResource BtnMain1}"                
+                materialDesign:ButtonAssist.CornerRadius="25"
+                Grid.Row="4" Height="auto" 
+                Click="btAdd_Click" Margin="190,12,12,12" Grid.ColumnSpan="2"/>
+
+
+    </Grid>
+</Page>

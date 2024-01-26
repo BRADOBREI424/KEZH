@@ -1,0 +1,134 @@
+﻿<Page x:Class="KEZH.PageFolder.PageAttendance.PageListAttendance"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:KEZH.PageFolder.PageAttendance"
+       xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d" 
+      d:DesignHeight="1030" d:DesignWidth="1860"
+      Title="PageListAttendance" Background="#DDDCFF" Loaded="Page_Loaded">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="907*"/>
+            <ColumnDefinition Width="353*"/>
+            <ColumnDefinition Width="350"/>
+            <ColumnDefinition Width="50"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="120"/>
+            <RowDefinition Height="120"/>
+            <RowDefinition Height="120"/>
+            <RowDefinition Height="120"/>
+            <RowDefinition Height="120"/>
+            <RowDefinition Height="120"/>
+            <RowDefinition/>
+            <RowDefinition Height="120"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <Rectangle Fill="White" Grid.Column="1" Grid.Row="1" 
+                   Grid.ColumnSpan="4"
+                   RadiusX="40" RadiusY="40" 
+                   Margin="10,10,10,10" Grid.RowSpan="2"/>
+        <Label x:Name="LblAttendance" Content="Список посещаемости"
+               Grid.Column="2" Grid.RowSpan="2" Grid.ColumnSpan="2" Grid.Row="1"
+               Style="{DynamicResource LblLogo}"/>
+        <Button x:Name="BtnExport" Grid.Column="4" Grid.Row="1" Grid.RowSpan="2"
+                Style="{DynamicResource ForgetButtonAuthorization}"
+                Height="80" Width="Auto" Click="BtnExport_Click" Margin="20">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="/KEZH;component/ResourceFolder/PictureCommon/Excel.png" Height="60" Width="60"/>
+                <Label Content="Экспорт" Style="{DynamicResource LblStyle}"/>
+
+
+            </StackPanel>
+        </Button>
+        <Button x:Name="btnBack" Grid.Column="1"
+                Grid.Row="1" BorderBrush="Transparent"
+            Style="{DynamicResource btnArrow}"                 
+                   
+                 Height="100" Width="100" Margin="0 0 -70 0"
+                Click="btnBack_Click" 
+                Grid.RowSpan="2">
+            <Button.Content>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/KEZH;component/ResourceFolder/PictureCommon/BackArrow.png"
+                           Width="100" Height="100"/>
+                </StackPanel>
+            </Button.Content>
+        </Button>
+        <TextBox x:Name="TbSearch" Grid.Row="3" Grid.Column="2"                 
+                 materialDesign:HintAssist.Hint="Поиск"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1"
+                 
+                 FontSize="35" TextChanged="TbSearch_TextChanged" Grid.ColumnSpan="2"/>
+
+        <materialDesign:PackIcon Grid.Row="3" Grid.Column="1" Kind="Search"
+                                 Foreground="#5952FF" Width="50" Height="50"
+                                  Margin="0,50,0,0"
+                                 HorizontalAlignment="Right"/>
+
+
+       
+       
+        <Label Content="Период времени" Grid.Row="4" Grid.Column="4" 
+               FontSize="35" 
+               FontWeight="Bold"
+              Style="{DynamicResource LblStyle}"/>
+
+        <DatePicker Name="DpDate1" Grid.Column="4" 
+                     Grid.Row="5"
+                  materialDesign:HintAssist.Hint="С"
+                    FontSize="30" Margin="12" VerticalAlignment="Stretch"/>
+        <DatePicker Name="DpDate2" Grid.Column="4" 
+                    Grid.Row="6" 
+                  materialDesign:HintAssist.Hint="По"
+                    FontSize="30" Margin="12" VerticalAlignment="Stretch"/>
+        <Button x:Name="btnSaveAttendance" Grid.Column="4" Grid.Row="7" 
+                
+                Content="Применить" Style="{DynamicResource BtnMain1}"
+               
+                materialDesign:ButtonAssist.CornerRadius="40" Click="btnSaveAttendance_Click" Height="80" />
+        <Button x:Name="btnClear" Grid.Column="4" Grid.Row="9" 
+                Margin="12,-100,12,0"
+               
+                Content="Очистить" Style="{DynamicResource BtnMain1}" 
+                materialDesign:ButtonAssist.CornerRadius="40" Click="btnClear_Click" Height="80"/>
+        <DataGrid x:Name="dgStudentToAttendance" AutoGenerateColumns="False"
+                  IsReadOnly="True" Grid.Column="1" Grid.Row="4"
+                  Grid.ColumnSpan="3" Grid.RowSpan="7" 
+                  materialDesign:DataGridAssist.CornerRadius="50"
+                  VirtualizingPanel.IsVirtualizing="False">
+            <DataGrid.Columns>                
+                <DataGridTextColumn x:Name="dgTcFIO"
+                                    Header="ФИО"
+                                    Binding="{Binding FIO}"/>
+                <DataGridTextColumn x:Name="dgTcDateAttendance"
+                                    Header="Дата присутствия"
+                                    Binding="{Binding DateAttendance, StringFormat=d}"/>
+                <DataGridTextColumn x:Name="dgTcNameStusAttendance"
+                                    Header="Присутствие"
+                                    Binding="{Binding NameStusAttendance}"/>
+                <DataGridTextColumn x:Name="dgTcComment"
+                                    Header="Комментарий"
+                                    Binding="{Binding Comment}"
+                                    Width="300">                  
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="TextBlock.TextWrapping" Value="Wrap"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+       
+
+    </Grid>
+</Page>

@@ -1,0 +1,61 @@
+﻿<Window x:Class="KEZH.WindowFolder.WindowAdd.WinAddStreet"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KEZH.WindowFolder.WindowAdd"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="КЭЖ" Height="500" Width="450"
+        WindowStartupLocation="CenterScreen"
+        Background="#DDDCFF" WindowStyle="None"
+        Style="{DynamicResource WinIcon}">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="35"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <Grid x:Name="ToolBar" Height="35" VerticalAlignment="Top"
+              Background="White" Opacity="0.8" Grid.ColumnSpan="3">
+            <StackPanel Orientation="Horizontal" Height="35" FlowDirection="RightToLeft">
+
+                <Button x:Name="btnClose" Background="Transparent" Padding="0"
+                        BorderBrush="Transparent" Height="Auto" Width="35" Click="btnClose_Click" MouseEnter="btnClose_MouseEnter">
+                    <StackPanel>
+                        <Image x:Name="ImgClose" Source="/KEZH;component/ResourceFolder/PictureCommon/Close.png"
+                               Margin="2"/>
+                    </StackPanel>
+                </Button>
+
+            </StackPanel>
+            <Button x:Name="btnCloseV2" Background="Transparent" Padding="0"
+                        BorderBrush="Transparent" Height="Auto" Width="35" Click="btnClose_Click"
+                    HorizontalAlignment="Right" Visibility="Hidden" MouseLeave="btnCloseV2_MouseLeave">
+                <StackPanel>
+                    <Image x:Name="ImgCloseV2" Source="/KEZH;component/ResourceFolder/PictureCommon/CloseV2.png"
+                               Margin="2" />
+                </StackPanel>
+            </Button>
+
+        </Grid>
+        <Label Grid.Row="1" Grid.Column="1" Content="Добавить улицу"
+               Style="{DynamicResource LblLogo}"/>
+        <TextBox x:Name="TbStreet" Grid.Row="2" Grid.Column="1"
+                 Height="80"
+                 materialDesign:HintAssist.Hint="Улица"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1"/>
+        <Button x:Name="btnAdd" Grid.Row="3" Grid.Column="1"
+                Content="Добавить" Height="80"
+                Style="{DynamicResource BtnMain}"
+                materialDesign:ButtonAssist.CornerRadius="40" Click="btnAdd_Click"/>
+    </Grid>
+</Window>

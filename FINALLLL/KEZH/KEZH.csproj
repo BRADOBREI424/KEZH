@@ -1,0 +1,558 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D9795C84-B526-49AB-874D-C5F2D5C80243}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>KEZH</RootNamespace>
+    <AssemblyName>KEZH</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>\\tk34\306\03-1ИСП, Д-03-1ИСП\123КЕЖ\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>7464050DEC3B5A92E03F6C345A6023EAD1569FC0</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>KEZH_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MaterialDesignColors, Version=2.0.1.2556, Culture=neutral, PublicKeyToken=df2a72020bd7962a, processorArchitecture=MSIL">
+      <HintPath>packages\MaterialDesignColors.2.0.1\lib\net452\MaterialDesignColors.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDesignThemes.Wpf, Version=4.1.0.2556, Culture=neutral, PublicKeyToken=df2a72020bd7962a, processorArchitecture=MSIL">
+      <HintPath>packages\MaterialDesignThemes.4.1.0\lib\net452\MaterialDesignThemes.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ClassFolder\ClassAdd.cs" />
+    <Compile Include="ClassFolder\ClassAuthorization.cs" />
+    <Compile Include="ClassFolder\ClassCB.cs" />
+    <Compile Include="ClassFolder\ClassDG.cs" />
+    <Compile Include="ClassFolder\ClassEdit.cs" />
+    <Compile Include="ClassFolder\ClassLoopVisualTree.cs" />
+    <Compile Include="ClassFolder\ClassMB.cs" />
+    <Compile Include="ClassFolder\ClassRead.cs" />
+    <Compile Include="ClassFolder\TableFolder\ClassAddress.cs" />
+    <Compile Include="ClassFolder\TableFolder\ClassCity.cs" />
+    <Compile Include="ClassFolder\TableFolder\ClassCounter.cs" />
+    <Compile Include="ClassFolder\TableFolder\ClassGroup.cs" />
+    <Compile Include="ClassFolder\TableFolder\ClassMark.cs" />
+    <Compile Include="ClassFolder\TableFolder\ClassParentGuard.cs" />
+    <Compile Include="ClassFolder\TableFolder\ClassParents.cs" />
+    <Compile Include="ClassFolder\TableFolder\ClassPassport.cs" />
+    <Compile Include="ClassFolder\TableFolder\ClassRegistration.cs" />
+    <Compile Include="ClassFolder\TableFolder\ClassRole.cs" />
+    <Compile Include="ClassFolder\TableFolder\ClassSemestr.cs" />
+    <Compile Include="ClassFolder\TableFolder\ClassSpecialization.cs" />
+    <Compile Include="ClassFolder\TableFolder\ClassStreet.cs" />
+    <Compile Include="ClassFolder\TableFolder\ClassTeacher.cs" />
+    <Compile Include="ClassFolder\TableFolder\ClassDiscipline.cs" />
+    <Compile Include="ClassFolder\TableFolder\ClassImage.cs" />
+    <Compile Include="ClassFolder\TableFolder\ClassOrder.cs" />
+    <Compile Include="ClassFolder\TableFolder\ClassStudent.cs" />
+    <Compile Include="ClassFolder\TableFolder\ClassTimeTable.cs" />
+    <Compile Include="ClassFolder\TableFolder\ClassUser.cs" />
+    <Compile Include="ClassFolder\TableFolder\ClassVremAddress.cs" />
+    <Compile Include="PageFolder\PageAttendance\PageAttendance.xaml.cs">
+      <DependentUpon>PageAttendance.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageFolder\PageAttendance\PageListAttendance.xaml.cs">
+      <DependentUpon>PageListAttendance.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageFolder\PageAuthorization\PageAuthorization.xaml.cs">
+      <DependentUpon>PageAuthorization.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageFolder\PageAuthorization\PageEnterMail.xaml.cs">
+      <DependentUpon>PageEnterMail.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageFolder\PageAuthorization\PageForgetPassword.xaml.cs">
+      <DependentUpon>PageForgetPassword.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageFolder\PageAuthorization\PageNewPassword.xaml.cs">
+      <DependentUpon>PageNewPassword.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageFolder\PageAuthorization\PagePasswordRecovered.xaml.cs">
+      <DependentUpon>PagePasswordRecovered.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageFolder\PageAuthorization\PageReciveCode.xaml.cs">
+      <DependentUpon>PageReciveCode.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageFolder\PageDeducatedStudent\PageDeducatedList.xaml.cs">
+      <DependentUpon>PageDeducatedList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageFolder\PageEditComboBox\EditComboBox.xaml.cs">
+      <DependentUpon>EditComboBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageFolder\PageMarks\PageInvoicingMarks.xaml.cs">
+      <DependentUpon>PageInvoicingMarks.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageFolder\PageMarks\PageMarksLists.xaml.cs">
+      <DependentUpon>PageMarksLists.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageFolder\PageSocialPedagog\PageAttendance\PageAttendanceList.xaml.cs">
+      <DependentUpon>PageAttendanceList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageFolder\PageSocialPedagog\PageListStudent\PageStidentList.xaml.cs">
+      <DependentUpon>PageStidentList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageFolder\PageStudent\PageAddStudent.xaml.cs">
+      <DependentUpon>PageAddStudent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageFolder\PageStudent\PageEditStudent.xaml.cs">
+      <DependentUpon>PageEditStudent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageFolder\PageStudent\PageStudent.xaml.cs">
+      <DependentUpon>PageStudent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageFolder\PageTimeTable\PageAdd.xaml.cs">
+      <DependentUpon>PageAdd.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageFolder\PageTimeTable\PageEdit.xaml.cs">
+      <DependentUpon>PageEdit.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageFolder\PageTimeTable\PageTimeTable.xaml.cs">
+      <DependentUpon>PageTimeTable.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WindowFolder\WinChooseOrder.xaml.cs">
+      <DependentUpon>WinChooseOrder.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WindowFolder\WinClassroomTeacher.xaml.cs">
+      <DependentUpon>WinClassroomTeacher.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WindowFolder\WindowAdd\WinAddCity.xaml.cs">
+      <DependentUpon>WinAddCity.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WindowFolder\WindowAdd\WinAddDiscipline.xaml.cs">
+      <DependentUpon>WinAddDiscipline.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WindowFolder\WindowAdd\WinAddDisciplineToTimeTable.xaml.cs">
+      <DependentUpon>WinAddDisciplineToTimeTable.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WindowFolder\WindowAdd\WinAddGroup.xaml.cs">
+      <DependentUpon>WinAddGroup.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WindowFolder\WindowAdd\WinAddIssuedByWhom.xaml.cs">
+      <DependentUpon>WinAddIssuedByWhom.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WindowFolder\WindowAdd\WinAddPlaceOfBorn.xaml.cs">
+      <DependentUpon>WinAddPlaceOfBorn.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WindowFolder\WindowAdd\WinAddSpecializtion.xaml.cs">
+      <DependentUpon>WinAddSpecializtion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WindowFolder\WindowAdd\WinAddStreet.xaml.cs">
+      <DependentUpon>WinAddStreet.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WindowFolder\WinInfo\WinInfo.xaml.cs">
+      <DependentUpon>WinInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WindowFolder\WinInfo\WinInfoProgram.xaml.cs">
+      <DependentUpon>WinInfoProgram.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WindowFolder\WinInfo\WinTechSupport.xaml.cs">
+      <DependentUpon>WinTechSupport.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WindowFolder\WinSingIn.xaml.cs">
+      <DependentUpon>WinSingIn.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WindowFolder\WinSocialPedagog\WinSocialPedagog.xaml.cs">
+      <DependentUpon>WinSocialPedagog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WindowFolder\WinSystemAdmin.xaml.cs">
+      <DependentUpon>WinSystemAdmin.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ResourceFolder\KEZHUserGuide.docx" />
+    <Resource Include="ResourceFolder\Helvetica Neue OTS.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="PageFolder\PageAttendance\PageAttendance.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PageFolder\PageAttendance\PageListAttendance.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PageFolder\PageAuthorization\PageAuthorization.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PageFolder\PageAuthorization\PageEnterMail.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PageFolder\PageAuthorization\PageForgetPassword.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PageFolder\PageAuthorization\PageNewPassword.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PageFolder\PageAuthorization\PagePasswordRecovered.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PageFolder\PageAuthorization\PageReciveCode.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PageFolder\PageDeducatedStudent\PageDeducatedList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PageFolder\PageEditComboBox\EditComboBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PageFolder\PageMarks\PageInvoicingMarks.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PageFolder\PageMarks\PageMarksLists.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PageFolder\PageSocialPedagog\PageAttendance\PageAttendanceList.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PageFolder\PageSocialPedagog\PageListStudent\PageStidentList.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PageFolder\PageStudent\PageAddStudent.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PageFolder\PageStudent\PageEditStudent.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PageFolder\PageStudent\PageStudent.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PageFolder\PageTimeTable\PageAdd.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PageFolder\PageTimeTable\PageEdit.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PageFolder\PageTimeTable\PageTimeTable.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ResourceFolder\DictionaryResource.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WindowFolder\WinChooseOrder.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WindowFolder\WinClassroomTeacher.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WindowFolder\WindowAdd\WinAddCity.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="WindowFolder\WindowAdd\WinAddDiscipline.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WindowFolder\WindowAdd\WinAddDisciplineToTimeTable.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WindowFolder\WindowAdd\WinAddGroup.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WindowFolder\WindowAdd\WinAddIssuedByWhom.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="WindowFolder\WindowAdd\WinAddPlaceOfBorn.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="WindowFolder\WindowAdd\WinAddSpecializtion.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WindowFolder\WindowAdd\WinAddStreet.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="WindowFolder\WinInfo\WinInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WindowFolder\WinInfo\WinInfoProgram.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WindowFolder\WinInfo\WinTechSupport.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WindowFolder\WinSingIn.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WindowFolder\WinSocialPedagog\WinSocialPedagog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="WindowFolder\WinSystemAdmin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ResourceFolder\PictureSingIn\AuthorizationBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ResourceFolder\PictureSingIn\Man.png" />
+    <Resource Include="ResourceFolder\PictureSingIn\Woman.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ResourceFolder\PictureSingIn\QuestionLock.png" />
+    <Resource Include="ResourceFolder\PictureSingIn\UnLock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ResourceFolder\PictureSingIn\Lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ResourceFolder\PictureSingIn\Back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ResourceFolder\PictureCommon\Close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ResourceFolder\PictureCommon\Hide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ResourceFolder\PictureTeacher\Home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ResourceFolder\PictureTeacher\StudentList.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ResourceFolder\PictureTeacher\TimeTable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ResourceFolder\PictureTeacher\Attendance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ResourceFolder\PictureTeacher\Marks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ResourceFolder\PictureCommon\AddButtonIco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ResourceFolder\PictureCommon\CloseV2.png" />
+    <Resource Include="ResourceFolder\PictureCommon\MinimizeV2 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ResourceFolder\PictureCommon\Excel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ResourceFolder\PictureCommon\Back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ResourceFolder\PictureAttendance\Group 29.png" />
+    <Resource Include="ResourceFolder\PictureAttendance\Group 86.png" />
+    <Resource Include="ResourceFolder\PictureAttendance\Group 88.png" />
+    <Resource Include="ResourceFolder\PictureAttendance\Group 92 %281%29.png" />
+    <Resource Include="ResourceFolder\PictureAttendance\Group 92.png" />
+    <Resource Include="ResourceFolder\PictureAttendance\Group 93.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ResourceFolder\PageTimeTable\Group 76.png" />
+    <Resource Include="ResourceFolder\PageTimeTable\Group 83.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ResourceFolder\PictureTeacher\headwear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ResourceFolder\PictureCommon\BackArrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ResourceFolder\PictureCommon\NextArrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ResourceFolder\PictureCommon\Maximaize.png" />
+    <Resource Include="ResourceFolder\PictureCommon\MaximaizeV2.png" />
+    <Resource Include="ResourceFolder\PictureCommon\Normalize.png" />
+    <Resource Include="ResourceFolder\PictureCommon\NormalizeV2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ResourceFolder\PictureTeacher\Mark.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="packages\MaterialDesignThemes.4.1.0\build\MaterialDesignThemes.targets" Condition="Exists('packages\MaterialDesignThemes.4.1.0\build\MaterialDesignThemes.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Данный проект ссылается на пакеты NuGet, отсутствующие на этом компьютере. Используйте восстановление пакетов NuGet, чтобы скачать их.  Дополнительную информацию см. по адресу: http://go.microsoft.com/fwlink/?LinkID=322105. Отсутствует следующий файл: {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\MaterialDesignThemes.4.1.0\build\MaterialDesignThemes.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\MaterialDesignThemes.4.1.0\build\MaterialDesignThemes.targets'))" />
+  </Target>
+</Project>

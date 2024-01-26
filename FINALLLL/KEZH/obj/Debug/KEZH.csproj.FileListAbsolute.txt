@@ -1,0 +1,1122 @@
+C:\Users\306pc12\Documents\03-1ИСП\New KEZH\KEZH\bin\Debug\KEZH.exe.config
+C:\Users\306pc12\Documents\03-1ИСП\New KEZH\KEZH\bin\Debug\KEZH.exe
+C:\Users\306pc12\Documents\03-1ИСП\New KEZH\KEZH\bin\Debug\KEZH.pdb
+C:\Users\306pc12\Documents\03-1ИСП\New KEZH\KEZH\obj\Debug\KEZH.csprojAssemblyReference.cache
+C:\Users\306pc12\Documents\03-1ИСП\New KEZH\KEZH\obj\Debug\WindowFolder\WinSingIn.g.cs
+C:\Users\306pc12\Documents\03-1ИСП\New KEZH\KEZH\obj\Debug\App.g.cs
+C:\Users\306pc12\Documents\03-1ИСП\New KEZH\KEZH\obj\Debug\KEZH_MarkupCompile.cache
+C:\Users\306pc12\Documents\03-1ИСП\New KEZH\KEZH\obj\Debug\KEZH_MarkupCompile.lref
+C:\Users\306pc12\Documents\03-1ИСП\New KEZH\KEZH\obj\Debug\WindowFolder\WinSingIn.baml
+C:\Users\306pc12\Documents\03-1ИСП\New KEZH\KEZH\obj\Debug\KEZH.g.resources
+C:\Users\306pc12\Documents\03-1ИСП\New KEZH\KEZH\obj\Debug\KEZH.Properties.Resources.resources
+C:\Users\306pc12\Documents\03-1ИСП\New KEZH\KEZH\obj\Debug\KEZH.csproj.GenerateResource.cache
+C:\Users\306pc12\Documents\03-1ИСП\New KEZH\KEZH\obj\Debug\KEZH.csproj.CoreCompileInputs.cache
+C:\Users\306pc12\Documents\03-1ИСП\New KEZH\KEZH\obj\Debug\KEZH.exe
+C:\Users\306pc12\Documents\03-1ИСП\New KEZH\KEZH\obj\Debug\KEZH.pdb
+C:\Users\306pc12\Documents\03-1ИСП\New KEZH\KEZH\bin\Debug\MaterialDesignColors.dll
+C:\Users\306pc12\Documents\03-1ИСП\New KEZH\KEZH\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\306pc12\Documents\03-1ИСП\New KEZH\KEZH\bin\Debug\MaterialDesignColors.pdb
+C:\Users\306pc12\Documents\03-1ИСП\New KEZH\KEZH\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\306pc12\Documents\03-1ИСП\New KEZH\KEZH\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\306pc12\Documents\03-1ИСП\New KEZH\KEZH\obj\Debug\ResourceFolder\DictionaryResource.baml
+C:\Users\306pc12\Documents\03-1ИСП\New KEZH\KEZH\obj\Debug\KEZH.csproj.CopyComplete
+C:\Users\306pc12\Documents\03-1ИСП\New KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PageAuthorization.g.cs
+C:\Users\306pc12\Documents\03-1ИСП\New KEZH\KEZH\obj\Debug\App.baml
+C:\Users\306pc12\Documents\03-1ИСП\New KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PageAuthorization.baml
+C:\Users\306pc12\Documents\03-1ИСП\New KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PageForgetPassword.g.cs
+C:\Users\306pc12\Documents\03-1ИСП\New KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PageForgetPassword.baml
+C:\Users\306pc12\Documents\03-1ИСП\New KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PageEnterMail.g.cs
+C:\Users\306pc12\Documents\03-1ИСП\New KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PageEnterMail.baml
+C:\Users\306pc12\Documents\03-1ИСП\New KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PageReciveCode.g.cs
+C:\Users\306pc12\Documents\03-1ИСП\New KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PageReciveCode.baml
+C:\Users\306pc12\Documents\03-1ИСП\New KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PageNewPassword.g.cs
+C:\Users\306pc12\Documents\03-1ИСП\New KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PageNewPassword.baml
+C:\Users\306pc12\Documents\03-1ИСП\New KEZH\KEZH\obj\Debug\WindowFolder\WinClassroomTeacher.g.cs
+C:\Users\306pc12\Documents\03-1ИСП\New KEZH\KEZH\obj\Debug\WindowFolder\WinSystemAdmin.g.cs
+C:\Users\306pc12\Documents\03-1ИСП\New KEZH\KEZH\obj\Debug\WindowFolder\WinClassroomTeacher.baml
+C:\Users\306pc12\Documents\03-1ИСП\New KEZH\KEZH\obj\Debug\WindowFolder\WinSystemAdmin.baml
+C:\Users\306pc12\Documents\03-1ИСП\New KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PagePasswordRecovered.g.cs
+C:\Users\306pc12\Documents\03-1ИСП\New KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PagePasswordRecovered.baml
+C:\Users\306pc12\Documents\03-1ИСП\New KEZH\KEZH\obj\Debug\PageFolder\PageMarks\PageInvoicingMarks.g.cs
+C:\Users\306pc12\Documents\03-1ИСП\New KEZH\KEZH\obj\Debug\PageFolder\PageMarks\PageInvoicingMarks.baml
+C:\Users\306pc11\Documents\New KEZH\KEZH\obj\Debug\KEZH.csprojAssemblyReference.cache
+C:\Users\306pc11\Documents\New KEZH\KEZH\obj\Debug\ResourceFolder\DictionaryResource.baml
+C:\Users\306pc11\Documents\New KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PageAuthorization.g.cs
+C:\Users\306pc11\Documents\New KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PageEnterMail.g.cs
+C:\Users\306pc11\Documents\New KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PageForgetPassword.g.cs
+C:\Users\306pc11\Documents\New KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PageNewPassword.g.cs
+C:\Users\306pc11\Documents\New KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PagePasswordRecovered.g.cs
+C:\Users\306pc11\Documents\New KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PageReciveCode.g.cs
+C:\Users\306pc11\Documents\New KEZH\KEZH\obj\Debug\PageFolder\PageMarks\PageInvoicingMarks.g.cs
+C:\Users\306pc11\Documents\New KEZH\KEZH\obj\Debug\WindowFolder\WinSingIn.g.cs
+C:\Users\306pc11\Documents\New KEZH\KEZH\obj\Debug\WindowFolder\WinSystemAdmin.g.cs
+C:\Users\306pc11\Documents\New KEZH\KEZH\obj\Debug\App.g.cs
+C:\Users\306pc11\Documents\New KEZH\KEZH\obj\Debug\KEZH_MarkupCompile.cache
+C:\Users\306pc11\Documents\New KEZH\KEZH\obj\Debug\KEZH_MarkupCompile.lref
+C:\Users\306pc11\Documents\New KEZH\KEZH\obj\Debug\KEZH.exe
+C:\Users\306pc11\Documents\New KEZH\KEZH\obj\Debug\KEZH.pdb
+C:\Users\306pc11\Documents\New KEZH\KEZH\bin\Debug\KEZH.exe.config
+C:\Users\306pc11\Documents\New KEZH\KEZH\bin\Debug\KEZH.exe
+C:\Users\306pc11\Documents\New KEZH\KEZH\bin\Debug\KEZH.pdb
+C:\Users\306pc11\Documents\New KEZH\KEZH\bin\Debug\MaterialDesignColors.dll
+C:\Users\306pc11\Documents\New KEZH\KEZH\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\306pc11\Documents\New KEZH\KEZH\bin\Debug\MaterialDesignColors.pdb
+C:\Users\306pc11\Documents\New KEZH\KEZH\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\306pc11\Documents\New KEZH\KEZH\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\306pc11\Documents\New KEZH\KEZH\obj\Debug\WindowFolder\WinClassroomTeacher.g.cs
+C:\Users\306pc11\Documents\New KEZH\KEZH\obj\Debug\App.baml
+C:\Users\306pc11\Documents\New KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PageAuthorization.baml
+C:\Users\306pc11\Documents\New KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PageEnterMail.baml
+C:\Users\306pc11\Documents\New KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PageForgetPassword.baml
+C:\Users\306pc11\Documents\New KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PageNewPassword.baml
+C:\Users\306pc11\Documents\New KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PagePasswordRecovered.baml
+C:\Users\306pc11\Documents\New KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PageReciveCode.baml
+C:\Users\306pc11\Documents\New KEZH\KEZH\obj\Debug\PageFolder\PageMarks\PageInvoicingMarks.baml
+C:\Users\306pc11\Documents\New KEZH\KEZH\obj\Debug\WindowFolder\WinClassroomTeacher.baml
+C:\Users\306pc11\Documents\New KEZH\KEZH\obj\Debug\WindowFolder\WinSingIn.baml
+C:\Users\306pc11\Documents\New KEZH\KEZH\obj\Debug\WindowFolder\WinSystemAdmin.baml
+C:\Users\306pc11\Documents\New KEZH\KEZH\obj\Debug\KEZH.g.resources
+C:\Users\306pc11\Documents\New KEZH\KEZH\obj\Debug\KEZH.Properties.Resources.resources
+C:\Users\306pc11\Documents\New KEZH\KEZH\obj\Debug\KEZH.csproj.GenerateResource.cache
+C:\Users\306pc11\Documents\New KEZH\KEZH\obj\Debug\KEZH.csproj.CoreCompileInputs.cache
+C:\Users\306pc11\Documents\New KEZH\KEZH\obj\Debug\KEZH.csproj.CopyComplete
+C:\Users\306pc11\Documents\New KEZH\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddDiscipline.g.cs
+C:\Users\306pc11\Documents\New KEZH\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddDiscipline.baml
+C:\Users\306pc11\Documents\New KEZH\KEZH\obj\Debug\PageFolder\PageMarks\PageMarksLists.g.cs
+C:\Users\306pc11\Documents\New KEZH\KEZH\obj\Debug\PageFolder\PageMarks\PageMarksLists.baml
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\bin\Debug\KEZH.exe.config
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\bin\Debug\KEZH.exe
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\bin\Debug\KEZH.pdb
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\bin\Debug\MaterialDesignColors.dll
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\bin\Debug\MaterialDesignColors.pdb
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\obj\Debug\KEZH.csprojAssemblyReference.cache
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\obj\Debug\ResourceFolder\DictionaryResource.baml
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\obj\Debug\PageFolder\PageAuthorization\PageAuthorization.g.cs
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\obj\Debug\PageFolder\PageAuthorization\PageEnterMail.g.cs
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\obj\Debug\PageFolder\PageAuthorization\PageForgetPassword.g.cs
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\obj\Debug\PageFolder\PageAuthorization\PageNewPassword.g.cs
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\obj\Debug\PageFolder\PageAuthorization\PagePasswordRecovered.g.cs
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\obj\Debug\PageFolder\PageAuthorization\PageReciveCode.g.cs
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\obj\Debug\PageFolder\PageMarks\PageInvoicingMarks.g.cs
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\obj\Debug\PageFolder\PageMarks\PageMarksLists.g.cs
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\obj\Debug\WindowFolder\WinClassroomTeacher.g.cs
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddDiscipline.g.cs
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\obj\Debug\WindowFolder\WinSingIn.g.cs
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\obj\Debug\WindowFolder\WinSystemAdmin.g.cs
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\obj\Debug\App.g.cs
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\obj\Debug\KEZH_MarkupCompile.cache
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\obj\Debug\KEZH_MarkupCompile.lref
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\obj\Debug\App.baml
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\obj\Debug\PageFolder\PageAuthorization\PageAuthorization.baml
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\obj\Debug\PageFolder\PageAuthorization\PageEnterMail.baml
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\obj\Debug\PageFolder\PageAuthorization\PageForgetPassword.baml
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\obj\Debug\PageFolder\PageAuthorization\PageNewPassword.baml
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\obj\Debug\PageFolder\PageAuthorization\PagePasswordRecovered.baml
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\obj\Debug\PageFolder\PageAuthorization\PageReciveCode.baml
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\obj\Debug\PageFolder\PageMarks\PageInvoicingMarks.baml
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\obj\Debug\PageFolder\PageMarks\PageMarksLists.baml
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\obj\Debug\WindowFolder\WinClassroomTeacher.baml
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddDiscipline.baml
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\obj\Debug\WindowFolder\WinSingIn.baml
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\obj\Debug\WindowFolder\WinSystemAdmin.baml
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\obj\Debug\KEZH.g.resources
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\obj\Debug\KEZH.Properties.Resources.resources
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\obj\Debug\KEZH.csproj.GenerateResource.cache
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\obj\Debug\KEZH.csproj.CoreCompileInputs.cache
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\obj\Debug\KEZH.csproj.CopyComplete
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\obj\Debug\KEZH.exe
+C:\Users\308pc10\Desktop\New KEZH (1)\KEZH\obj\Debug\KEZH.pdb
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\bin\Debug\KEZH.exe.config
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\bin\Debug\KEZH.exe
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\bin\Debug\KEZH.pdb
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\bin\Debug\MaterialDesignColors.dll
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\bin\Debug\MaterialDesignColors.pdb
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\obj\Debug\KEZH.csprojAssemblyReference.cache
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\obj\Debug\ResourceFolder\DictionaryResource.baml
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\obj\Debug\PageFolder\PageAuthorization\PageAuthorization.g.cs
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\obj\Debug\PageFolder\PageAuthorization\PageEnterMail.g.cs
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\obj\Debug\PageFolder\PageAuthorization\PageForgetPassword.g.cs
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\obj\Debug\PageFolder\PageAuthorization\PageNewPassword.g.cs
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\obj\Debug\PageFolder\PageAuthorization\PagePasswordRecovered.g.cs
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\obj\Debug\PageFolder\PageAuthorization\PageReciveCode.g.cs
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\obj\Debug\PageFolder\PageMarks\PageInvoicingMarks.g.cs
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\obj\Debug\PageFolder\PageMarks\PageMarksLists.g.cs
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\obj\Debug\WindowFolder\WinClassroomTeacher.g.cs
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddDiscipline.g.cs
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\obj\Debug\WindowFolder\WinSingIn.g.cs
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\obj\Debug\WindowFolder\WinSystemAdmin.g.cs
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\obj\Debug\App.g.cs
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\obj\Debug\KEZH_MarkupCompile.cache
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\obj\Debug\KEZH_MarkupCompile.lref
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\obj\Debug\App.baml
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\obj\Debug\PageFolder\PageAuthorization\PageAuthorization.baml
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\obj\Debug\PageFolder\PageAuthorization\PageEnterMail.baml
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\obj\Debug\PageFolder\PageAuthorization\PageForgetPassword.baml
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\obj\Debug\PageFolder\PageAuthorization\PageNewPassword.baml
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\obj\Debug\PageFolder\PageAuthorization\PagePasswordRecovered.baml
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\obj\Debug\PageFolder\PageAuthorization\PageReciveCode.baml
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\obj\Debug\PageFolder\PageMarks\PageInvoicingMarks.baml
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\obj\Debug\PageFolder\PageMarks\PageMarksLists.baml
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\obj\Debug\WindowFolder\WinClassroomTeacher.baml
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddDiscipline.baml
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\obj\Debug\WindowFolder\WinSingIn.baml
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\obj\Debug\WindowFolder\WinSystemAdmin.baml
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\obj\Debug\KEZH.g.resources
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\obj\Debug\KEZH.Properties.Resources.resources
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\obj\Debug\KEZH.csproj.GenerateResource.cache
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\obj\Debug\KEZH.csproj.CoreCompileInputs.cache
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\obj\Debug\KEZH.csproj.CopyComplete
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\obj\Debug\KEZH.exe
+C:\Users\306pc11\Desktop\New KEZH (1)\KEZH\obj\Debug\KEZH.pdb
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\bin\Debug\KEZH.exe.config
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\bin\Debug\KEZH.exe
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\bin\Debug\KEZH.pdb
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\bin\Debug\MaterialDesignColors.dll
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\bin\Debug\MaterialDesignColors.pdb
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\KEZH.csprojAssemblyReference.cache
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\ResourceFolder\DictionaryResource.baml
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageAuthorization.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageEnterMail.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageForgetPassword.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageNewPassword.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PagePasswordRecovered.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageReciveCode.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\PageFolder\PageMarks\PageInvoicingMarks.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\PageFolder\PageMarks\PageMarksLists.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\WindowFolder\WinClassroomTeacher.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddDiscipline.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\WindowFolder\WinSingIn.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\WindowFolder\WinSystemAdmin.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\App.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\KEZH_MarkupCompile.cache
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\KEZH_MarkupCompile.lref
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\App.baml
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageAuthorization.baml
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageEnterMail.baml
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageForgetPassword.baml
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageNewPassword.baml
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PagePasswordRecovered.baml
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageReciveCode.baml
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\PageFolder\PageMarks\PageInvoicingMarks.baml
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\PageFolder\PageMarks\PageMarksLists.baml
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\WindowFolder\WinClassroomTeacher.baml
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddDiscipline.baml
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\WindowFolder\WinSingIn.baml
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\WindowFolder\WinSystemAdmin.baml
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\KEZH.g.resources
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\KEZH.Properties.Resources.resources
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\KEZH.csproj.GenerateResource.cache
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\KEZH.csproj.CoreCompileInputs.cache
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\KEZH.csproj.CopyComplete
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\KEZH.exe
+C:\Users\306pc11\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\KEZH.pdb
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\bin\Debug\KEZH.exe.config
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\bin\Debug\KEZH.exe
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\bin\Debug\KEZH.pdb
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\bin\Debug\MaterialDesignColors.dll
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\bin\Debug\MaterialDesignColors.pdb
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\KEZH.csprojAssemblyReference.cache
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\ResourceFolder\DictionaryResource.baml
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageAuthorization.g.cs
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageEnterMail.g.cs
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageForgetPassword.g.cs
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageNewPassword.g.cs
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PagePasswordRecovered.g.cs
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageReciveCode.g.cs
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\PageFolder\PageMarks\PageInvoicingMarks.g.cs
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\PageFolder\PageMarks\PageMarksLists.g.cs
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\WindowFolder\WinClassroomTeacher.g.cs
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddDiscipline.g.cs
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\WindowFolder\WinSingIn.g.cs
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\WindowFolder\WinSystemAdmin.g.cs
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\App.g.cs
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\KEZH_MarkupCompile.cache
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\KEZH_MarkupCompile.lref
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\App.baml
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageAuthorization.baml
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageEnterMail.baml
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageForgetPassword.baml
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageNewPassword.baml
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PagePasswordRecovered.baml
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageReciveCode.baml
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\PageFolder\PageMarks\PageInvoicingMarks.baml
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\PageFolder\PageMarks\PageMarksLists.baml
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\WindowFolder\WinClassroomTeacher.baml
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddDiscipline.baml
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\WindowFolder\WinSingIn.baml
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\WindowFolder\WinSystemAdmin.baml
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\KEZH.g.resources
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\KEZH.Properties.Resources.resources
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\KEZH.csproj.GenerateResource.cache
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\KEZH.csproj.CoreCompileInputs.cache
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\KEZH.csproj.CopyComplete
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\KEZH.exe
+C:\Users\308pc10\Desktop\NEW KEZH 03062021\KEZH\obj\Debug\KEZH.pdb
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\KEZH.csprojAssemblyReference.cache
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\ResourceFolder\DictionaryResource.baml
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageAuthorization.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageEnterMail.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageForgetPassword.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageNewPassword.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PagePasswordRecovered.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageReciveCode.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\PageFolder\PageMarks\PageInvoicingMarks.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\PageFolder\PageMarks\PageMarksLists.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\WindowFolder\WinClassroomTeacher.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddDiscipline.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\WindowFolder\WinSingIn.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\WindowFolder\WinSystemAdmin.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\App.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\KEZH_MarkupCompile.cache
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\KEZH_MarkupCompile.lref
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\KEZH.exe
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\KEZH.pdb
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\bin\Debug\KEZH.exe.config
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\bin\Debug\KEZH.exe
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\bin\Debug\KEZH.pdb
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\bin\Debug\MaterialDesignColors.dll
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\bin\Debug\MaterialDesignColors.pdb
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\App.baml
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageAuthorization.baml
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageEnterMail.baml
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageForgetPassword.baml
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageNewPassword.baml
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PagePasswordRecovered.baml
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageReciveCode.baml
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\PageFolder\PageMarks\PageInvoicingMarks.baml
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\PageFolder\PageMarks\PageMarksLists.baml
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\WindowFolder\WinClassroomTeacher.baml
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddDiscipline.baml
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\WindowFolder\WinSingIn.baml
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\WindowFolder\WinSystemAdmin.baml
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\KEZH.g.resources
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\KEZH.Properties.Resources.resources
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\KEZH.csproj.GenerateResource.cache
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\KEZH.csproj.CoreCompileInputs.cache
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\KEZH.csproj.CopyComplete
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\KEZH.csproj.ResolveComReference.cache
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\PageFolder\PageStudent\PageAddStudent.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\PageFolder\PageStudent\PageStudent.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\PageFolder\PageStudent\PageAddStudent.baml
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\PageFolder\PageStudent\PageStudent.baml
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\WindowFolder\WinChooseOrder.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\WindowFolder\WinChooseOrder.baml
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\PageFolder\PageDeducatedStudent\PageDeducatedList.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\PageFolder\PageDeducatedStudent\PageDeducatedList.baml
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\PageFolder\PageAttendance\PageAttendance.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\PageFolder\PageAttendance\PageListAttendance.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\PageFolder\PageAttendance\PageAttendance.baml
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\PageFolder\PageAttendance\PageListAttendance.baml
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\WindowFolder\WinInfo\WinInfo.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\WindowFolder\WinInfo\WinTechSupport.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\WindowFolder\WinInfo\WinInfo.baml
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\WindowFolder\WinInfo\WinTechSupport.baml
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\PageFolder\PageTimeTable\PageTimeTable.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\PageFolder\PageTimeTable\PageTimeTable.baml
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\WindowFolder\WinInfo\WinInfoProgram.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 04062021\KEZH\obj\Debug\WindowFolder\WinInfo\WinInfoProgram.baml
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\bin\Debug\KEZH.exe.config
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\bin\Debug\KEZH.exe
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\bin\Debug\KEZH.pdb
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\bin\Debug\MaterialDesignColors.dll
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\bin\Debug\MaterialDesignColors.pdb
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\KEZH.csprojAssemblyReference.cache
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\KEZH.csproj.ResolveComReference.cache
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\ResourceFolder\DictionaryResource.baml
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageAttendance\PageAttendance.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageAttendance\PageListAttendance.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageAuthorization.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageEnterMail.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageForgetPassword.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageNewPassword.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PagePasswordRecovered.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageReciveCode.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageDeducatedStudent\PageDeducatedList.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageMarks\PageInvoicingMarks.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageMarks\PageMarksLists.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageStudent\PageAddStudent.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageStudent\PageStudent.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageTimeTable\PageTimeTable.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WinChooseOrder.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WinClassroomTeacher.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddDiscipline.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WinInfo\WinInfo.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WinInfo\WinInfoProgram.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WinInfo\WinTechSupport.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WinSingIn.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WinSystemAdmin.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\App.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\KEZH_MarkupCompile.cache
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\KEZH_MarkupCompile.lref
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\App.baml
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageAttendance\PageAttendance.baml
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageAttendance\PageListAttendance.baml
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageAuthorization.baml
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageEnterMail.baml
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageForgetPassword.baml
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageNewPassword.baml
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PagePasswordRecovered.baml
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageReciveCode.baml
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageDeducatedStudent\PageDeducatedList.baml
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageMarks\PageInvoicingMarks.baml
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageMarks\PageMarksLists.baml
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageStudent\PageAddStudent.baml
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageStudent\PageStudent.baml
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageTimeTable\PageTimeTable.baml
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WinChooseOrder.baml
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WinClassroomTeacher.baml
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddDiscipline.baml
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WinInfo\WinInfo.baml
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WinInfo\WinInfoProgram.baml
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WinInfo\WinTechSupport.baml
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WinSingIn.baml
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WinSystemAdmin.baml
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\KEZH.g.resources
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\KEZH.Properties.Resources.resources
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\KEZH.csproj.GenerateResource.cache
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\KEZH.csproj.CoreCompileInputs.cache
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\KEZH.csproj.CopyComplete
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\KEZH.exe
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\KEZH.pdb
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddCity.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddIssuedByWhom.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddPlaceOfBorn.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddStreet.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddCity.baml
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddIssuedByWhom.baml
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddPlaceOfBorn.baml
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddStreet.baml
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageTimeTable\PageAdd.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageTimeTable\PageEdit.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageTimeTable\PageAdd.baml
+C:\Users\306pc11\Desktop\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageTimeTable\PageEdit.baml
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\bin\Debug\KEZH.exe.config
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\bin\Debug\KEZH.exe
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\bin\Debug\KEZH.pdb
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\bin\Debug\MaterialDesignColors.dll
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\bin\Debug\MaterialDesignColors.pdb
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\KEZH.csprojAssemblyReference.cache
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\KEZH.csproj.ResolveComReference.cache
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\ResourceFolder\DictionaryResource.baml
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageAttendance\PageAttendance.g.cs
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageAttendance\PageListAttendance.g.cs
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageAuthorization.g.cs
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageEnterMail.g.cs
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageForgetPassword.g.cs
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageNewPassword.g.cs
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PagePasswordRecovered.g.cs
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageReciveCode.g.cs
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageDeducatedStudent\PageDeducatedList.g.cs
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageMarks\PageInvoicingMarks.g.cs
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageMarks\PageMarksLists.g.cs
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageStudent\PageAddStudent.g.cs
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageStudent\PageStudent.g.cs
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageTimeTable\PageAdd.g.cs
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageTimeTable\PageEdit.g.cs
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageTimeTable\PageTimeTable.g.cs
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WinChooseOrder.g.cs
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WinClassroomTeacher.g.cs
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddCity.g.cs
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddDiscipline.g.cs
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddIssuedByWhom.g.cs
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddPlaceOfBorn.g.cs
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddStreet.g.cs
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WinInfo\WinInfo.g.cs
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WinInfo\WinInfoProgram.g.cs
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WinInfo\WinTechSupport.g.cs
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WinSingIn.g.cs
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WinSystemAdmin.g.cs
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\App.g.cs
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\KEZH_MarkupCompile.cache
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\KEZH_MarkupCompile.lref
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\App.baml
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageAttendance\PageAttendance.baml
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageAttendance\PageListAttendance.baml
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageAuthorization.baml
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageEnterMail.baml
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageForgetPassword.baml
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageNewPassword.baml
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PagePasswordRecovered.baml
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageAuthorization\PageReciveCode.baml
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageDeducatedStudent\PageDeducatedList.baml
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageMarks\PageInvoicingMarks.baml
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageMarks\PageMarksLists.baml
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageStudent\PageAddStudent.baml
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageStudent\PageStudent.baml
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageTimeTable\PageAdd.baml
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageTimeTable\PageEdit.baml
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageTimeTable\PageTimeTable.baml
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WinChooseOrder.baml
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WinClassroomTeacher.baml
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddCity.baml
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddDiscipline.baml
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddIssuedByWhom.baml
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddPlaceOfBorn.baml
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddStreet.baml
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WinInfo\WinInfo.baml
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WinInfo\WinInfoProgram.baml
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WinInfo\WinTechSupport.baml
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WinSingIn.baml
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\WindowFolder\WinSystemAdmin.baml
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\KEZH.g.resources
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\KEZH.Properties.Resources.resources
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\KEZH.csproj.GenerateResource.cache
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\KEZH.csproj.CoreCompileInputs.cache
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\KEZH.csproj.CopyComplete
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\KEZH.exe
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\KEZH.pdb
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageStudent\PageEditStudent.g.cs
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\PageFolder\PageStudent\PageEditStudent.baml
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\bin\Debug\KEZH.exe.manifest
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\bin\Debug\KEZH.application
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\KEZH.exe.manifest
+C:\Users\306pc11\Desktop\123КЕЖ\NEW KEZH 08062021\KEZH\obj\Debug\KEZH.application
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\bin\Debug\KEZH.exe.config
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\bin\Debug\KEZH.exe.manifest
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\bin\Debug\KEZH.application
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\bin\Debug\KEZH.exe
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\bin\Debug\KEZH.pdb
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\bin\Debug\MaterialDesignColors.dll
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\bin\Debug\MaterialDesignColors.pdb
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\KEZH.csprojAssemblyReference.cache
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\KEZH.csproj.ResolveComReference.cache
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\ResourceFolder\DictionaryResource.baml
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAttendance\PageAttendance.g.cs
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAttendance\PageListAttendance.g.cs
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PageAuthorization.g.cs
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PageEnterMail.g.cs
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PageForgetPassword.g.cs
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PageNewPassword.g.cs
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PagePasswordRecovered.g.cs
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PageReciveCode.g.cs
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageDeducatedStudent\PageDeducatedList.g.cs
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageMarks\PageInvoicingMarks.g.cs
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageMarks\PageMarksLists.g.cs
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageStudent\PageAddStudent.g.cs
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageStudent\PageEditStudent.g.cs
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageStudent\PageStudent.g.cs
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageTimeTable\PageAdd.g.cs
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageTimeTable\PageEdit.g.cs
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageTimeTable\PageTimeTable.g.cs
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinChooseOrder.g.cs
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinClassroomTeacher.g.cs
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddCity.g.cs
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddDiscipline.g.cs
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddIssuedByWhom.g.cs
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddPlaceOfBorn.g.cs
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddStreet.g.cs
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinInfo\WinInfo.g.cs
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinInfo\WinInfoProgram.g.cs
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinInfo\WinTechSupport.g.cs
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinSingIn.g.cs
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinSystemAdmin.g.cs
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\App.g.cs
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\KEZH_MarkupCompile.cache
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\KEZH_MarkupCompile.lref
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\App.baml
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAttendance\PageAttendance.baml
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAttendance\PageListAttendance.baml
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PageAuthorization.baml
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PageEnterMail.baml
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PageForgetPassword.baml
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PageNewPassword.baml
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PagePasswordRecovered.baml
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PageReciveCode.baml
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageDeducatedStudent\PageDeducatedList.baml
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageMarks\PageInvoicingMarks.baml
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageMarks\PageMarksLists.baml
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageStudent\PageAddStudent.baml
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageStudent\PageEditStudent.baml
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageStudent\PageStudent.baml
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageTimeTable\PageAdd.baml
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageTimeTable\PageEdit.baml
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageTimeTable\PageTimeTable.baml
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinChooseOrder.baml
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinClassroomTeacher.baml
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddCity.baml
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddDiscipline.baml
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddIssuedByWhom.baml
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddPlaceOfBorn.baml
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddStreet.baml
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinInfo\WinInfo.baml
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinInfo\WinInfoProgram.baml
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinInfo\WinTechSupport.baml
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinSingIn.baml
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinSystemAdmin.baml
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\KEZH.g.resources
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\KEZH.Properties.Resources.resources
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\KEZH.csproj.GenerateResource.cache
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\KEZH.csproj.CoreCompileInputs.cache
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\KEZH.exe.manifest
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\KEZH.application
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\KEZH.csproj.CopyComplete
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\KEZH.exe
+C:\Users\306pc11\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\KEZH.pdb
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\bin\Debug\KEZH.exe.config
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\bin\Debug\KEZH.exe.manifest
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\bin\Debug\KEZH.application
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\bin\Debug\KEZH.exe
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\bin\Debug\KEZH.pdb
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\bin\Debug\MaterialDesignColors.dll
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\bin\Debug\MaterialDesignThemes.Wpf.dll
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\bin\Debug\MaterialDesignColors.pdb
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\bin\Debug\MaterialDesignThemes.Wpf.pdb
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\bin\Debug\MaterialDesignThemes.Wpf.xml
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\KEZH.csprojAssemblyReference.cache
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\KEZH.csproj.ResolveComReference.cache
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\ResourceFolder\DictionaryResource.baml
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAttendance\PageAttendance.g.cs
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAttendance\PageListAttendance.g.cs
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PageAuthorization.g.cs
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PageEnterMail.g.cs
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PageForgetPassword.g.cs
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PageNewPassword.g.cs
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PagePasswordRecovered.g.cs
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PageReciveCode.g.cs
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageDeducatedStudent\PageDeducatedList.g.cs
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageMarks\PageInvoicingMarks.g.cs
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageMarks\PageMarksLists.g.cs
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageStudent\PageAddStudent.g.cs
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageStudent\PageEditStudent.g.cs
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageStudent\PageStudent.g.cs
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageTimeTable\PageAdd.g.cs
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageTimeTable\PageEdit.g.cs
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageTimeTable\PageTimeTable.g.cs
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinChooseOrder.g.cs
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinClassroomTeacher.g.cs
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddCity.g.cs
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddDiscipline.g.cs
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddIssuedByWhom.g.cs
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddPlaceOfBorn.g.cs
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddStreet.g.cs
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinInfo\WinInfo.g.cs
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinInfo\WinInfoProgram.g.cs
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinInfo\WinTechSupport.g.cs
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinSingIn.g.cs
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinSystemAdmin.g.cs
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\App.g.cs
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\KEZH_MarkupCompile.cache
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\KEZH_MarkupCompile.lref
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\App.baml
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAttendance\PageAttendance.baml
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAttendance\PageListAttendance.baml
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PageAuthorization.baml
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PageEnterMail.baml
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PageForgetPassword.baml
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PageNewPassword.baml
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PagePasswordRecovered.baml
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PageReciveCode.baml
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageDeducatedStudent\PageDeducatedList.baml
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageMarks\PageInvoicingMarks.baml
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageMarks\PageMarksLists.baml
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageStudent\PageAddStudent.baml
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageStudent\PageEditStudent.baml
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageStudent\PageStudent.baml
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageTimeTable\PageAdd.baml
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageTimeTable\PageEdit.baml
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageTimeTable\PageTimeTable.baml
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinChooseOrder.baml
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinClassroomTeacher.baml
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddCity.baml
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddDiscipline.baml
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddIssuedByWhom.baml
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddPlaceOfBorn.baml
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddStreet.baml
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinInfo\WinInfo.baml
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinInfo\WinInfoProgram.baml
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinInfo\WinTechSupport.baml
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinSingIn.baml
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinSystemAdmin.baml
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\KEZH.g.resources
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\KEZH.Properties.Resources.resources
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\KEZH.csproj.GenerateResource.cache
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\KEZH.csproj.CoreCompileInputs.cache
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\KEZH.exe.manifest
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\KEZH.application
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\KEZH.csproj.CopyComplete
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\KEZH.exe
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\KEZH.pdb
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\ViewFakeLoad.g.cs
+\\tk34\306\03-1ИСП, Д-03-1ИСП\Ибрагимов\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\ViewFakeLoad.baml
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\bin\Debug\KEZH.exe.config
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\bin\Debug\KEZH.exe.manifest
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\bin\Debug\KEZH.application
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\bin\Debug\KEZH.exe
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\bin\Debug\KEZH.pdb
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\bin\Debug\MaterialDesignColors.dll
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\bin\Debug\MaterialDesignColors.pdb
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\KEZH.csprojAssemblyReference.cache
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\KEZH.csproj.ResolveComReference.cache
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\ResourceFolder\DictionaryResource.baml
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAttendance\PageAttendance.g.cs
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAttendance\PageListAttendance.g.cs
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PageAuthorization.g.cs
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PageEnterMail.g.cs
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PageForgetPassword.g.cs
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PageNewPassword.g.cs
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PagePasswordRecovered.g.cs
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PageReciveCode.g.cs
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageDeducatedStudent\PageDeducatedList.g.cs
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageMarks\PageInvoicingMarks.g.cs
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageMarks\PageMarksLists.g.cs
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageStudent\PageAddStudent.g.cs
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageStudent\PageEditStudent.g.cs
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageStudent\PageStudent.g.cs
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageTimeTable\PageAdd.g.cs
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageTimeTable\PageEdit.g.cs
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageTimeTable\PageTimeTable.g.cs
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinChooseOrder.g.cs
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinClassroomTeacher.g.cs
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddCity.g.cs
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddDiscipline.g.cs
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddIssuedByWhom.g.cs
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddPlaceOfBorn.g.cs
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddStreet.g.cs
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinInfo\WinInfo.g.cs
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinInfo\WinInfoProgram.g.cs
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinInfo\WinTechSupport.g.cs
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinSingIn.g.cs
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinSystemAdmin.g.cs
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\App.g.cs
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\KEZH_MarkupCompile.cache
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\KEZH_MarkupCompile.lref
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\App.baml
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAttendance\PageAttendance.baml
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAttendance\PageListAttendance.baml
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PageAuthorization.baml
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PageEnterMail.baml
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PageForgetPassword.baml
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PageNewPassword.baml
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PagePasswordRecovered.baml
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PageReciveCode.baml
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageDeducatedStudent\PageDeducatedList.baml
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageMarks\PageInvoicingMarks.baml
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageMarks\PageMarksLists.baml
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageStudent\PageAddStudent.baml
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageStudent\PageEditStudent.baml
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageStudent\PageStudent.baml
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageTimeTable\PageAdd.baml
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageTimeTable\PageEdit.baml
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageTimeTable\PageTimeTable.baml
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinChooseOrder.baml
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinClassroomTeacher.baml
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddCity.baml
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddDiscipline.baml
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddIssuedByWhom.baml
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddPlaceOfBorn.baml
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddStreet.baml
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinInfo\WinInfo.baml
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinInfo\WinInfoProgram.baml
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinInfo\WinTechSupport.baml
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinSingIn.baml
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinSystemAdmin.baml
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\KEZH.g.resources
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\KEZH.Properties.Resources.resources
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\KEZH.csproj.GenerateResource.cache
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\KEZH.csproj.CoreCompileInputs.cache
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\KEZH.exe.manifest
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\KEZH.application
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\KEZH.csproj.CopyComplete
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\KEZH.exe
+C:\Users\308pc1\Desktop\FInallKEZH\NEW KEZH FIN\KEZH\obj\Debug\KEZH.pdb
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\bin\Debug\KEZH.exe.config
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\bin\Debug\KEZH.exe.manifest
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\bin\Debug\KEZH.application
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\bin\Debug\KEZH.exe
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\bin\Debug\KEZH.pdb
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\bin\Debug\MaterialDesignColors.dll
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\bin\Debug\MaterialDesignColors.pdb
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\KEZH.csprojAssemblyReference.cache
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\KEZH.csproj.ResolveComReference.cache
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\ResourceFolder\DictionaryResource.baml
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAttendance\PageAttendance.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAttendance\PageListAttendance.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PageAuthorization.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PageEnterMail.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PageForgetPassword.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PageNewPassword.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PagePasswordRecovered.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PageReciveCode.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageDeducatedStudent\PageDeducatedList.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageMarks\PageInvoicingMarks.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageMarks\PageMarksLists.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageStudent\PageAddStudent.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageStudent\PageEditStudent.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageStudent\PageStudent.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageTimeTable\PageAdd.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageTimeTable\PageEdit.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageTimeTable\PageTimeTable.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinChooseOrder.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinClassroomTeacher.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddCity.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddDiscipline.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddIssuedByWhom.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddPlaceOfBorn.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddStreet.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinInfo\WinInfo.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinInfo\WinInfoProgram.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinInfo\WinTechSupport.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinSingIn.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinSystemAdmin.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\App.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\KEZH_MarkupCompile.cache
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\KEZH_MarkupCompile.lref
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\App.baml
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAttendance\PageAttendance.baml
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAttendance\PageListAttendance.baml
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PageAuthorization.baml
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PageEnterMail.baml
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PageForgetPassword.baml
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PageNewPassword.baml
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PagePasswordRecovered.baml
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageAuthorization\PageReciveCode.baml
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageDeducatedStudent\PageDeducatedList.baml
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageMarks\PageInvoicingMarks.baml
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageMarks\PageMarksLists.baml
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageStudent\PageAddStudent.baml
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageStudent\PageEditStudent.baml
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageStudent\PageStudent.baml
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageTimeTable\PageAdd.baml
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageTimeTable\PageEdit.baml
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageTimeTable\PageTimeTable.baml
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinChooseOrder.baml
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinClassroomTeacher.baml
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddCity.baml
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddDiscipline.baml
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddIssuedByWhom.baml
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddPlaceOfBorn.baml
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddStreet.baml
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinInfo\WinInfo.baml
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinInfo\WinInfoProgram.baml
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinInfo\WinTechSupport.baml
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinSingIn.baml
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WinSystemAdmin.baml
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\KEZH.g.resources
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\KEZH.Properties.Resources.resources
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\KEZH.csproj.GenerateResource.cache
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\KEZH.csproj.CoreCompileInputs.cache
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\KEZH.exe.manifest
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\KEZH.application
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\KEZH.csproj.CopyComplete
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\KEZH.exe
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\KEZH.pdb
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddDisciplineToTimeTable.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddDisciplineToTimeTable.baml
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddGroup.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddSpecializtion.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddGroup.baml
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddSpecializtion.baml
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageEditComboBox\EditComboBox.g.cs
+C:\Users\306pc11\Desktop\NEW KEZH FIN\KEZH\obj\Debug\PageFolder\PageEditComboBox\EditComboBox.baml
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\bin\Debug\KEZH.exe.config
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\bin\Debug\KEZH.exe.manifest
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\bin\Debug\KEZH.application
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\bin\Debug\KEZH.exe
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\bin\Debug\KEZH.pdb
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\bin\Debug\MaterialDesignColors.dll
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\bin\Debug\MaterialDesignColors.pdb
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\KEZH.csprojAssemblyReference.cache
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\KEZH.csproj.ResolveComReference.cache
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\ResourceFolder\DictionaryResource.baml
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\PageFolder\PageAttendance\PageAttendance.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\PageFolder\PageAttendance\PageListAttendance.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\PageFolder\PageAuthorization\PageAuthorization.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\PageFolder\PageAuthorization\PageEnterMail.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\PageFolder\PageAuthorization\PageForgetPassword.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\PageFolder\PageAuthorization\PageNewPassword.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\PageFolder\PageAuthorization\PagePasswordRecovered.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\PageFolder\PageAuthorization\PageReciveCode.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\PageFolder\PageDeducatedStudent\PageDeducatedList.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\PageFolder\PageEditComboBox\EditComboBox.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\PageFolder\PageMarks\PageInvoicingMarks.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\PageFolder\PageMarks\PageMarksLists.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\PageFolder\PageStudent\PageAddStudent.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\PageFolder\PageStudent\PageEditStudent.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\PageFolder\PageStudent\PageStudent.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\PageFolder\PageTimeTable\PageAdd.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\PageFolder\PageTimeTable\PageEdit.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\PageFolder\PageTimeTable\PageTimeTable.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\WindowFolder\WinChooseOrder.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\WindowFolder\WinClassroomTeacher.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddCity.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddDiscipline.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddDisciplineToTimeTable.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddGroup.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddIssuedByWhom.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddPlaceOfBorn.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddSpecializtion.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddStreet.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\WindowFolder\WinInfo\WinInfo.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\WindowFolder\WinInfo\WinInfoProgram.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\WindowFolder\WinInfo\WinTechSupport.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\WindowFolder\WinSingIn.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\WindowFolder\WinSystemAdmin.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\App.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\KEZH_MarkupCompile.cache
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\KEZH_MarkupCompile.lref
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\App.baml
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\PageFolder\PageAttendance\PageAttendance.baml
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\PageFolder\PageAttendance\PageListAttendance.baml
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\PageFolder\PageAuthorization\PageAuthorization.baml
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\PageFolder\PageAuthorization\PageEnterMail.baml
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\PageFolder\PageAuthorization\PageForgetPassword.baml
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\PageFolder\PageAuthorization\PageNewPassword.baml
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\PageFolder\PageAuthorization\PagePasswordRecovered.baml
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\PageFolder\PageAuthorization\PageReciveCode.baml
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\PageFolder\PageDeducatedStudent\PageDeducatedList.baml
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\PageFolder\PageEditComboBox\EditComboBox.baml
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\PageFolder\PageMarks\PageInvoicingMarks.baml
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\PageFolder\PageMarks\PageMarksLists.baml
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\PageFolder\PageStudent\PageAddStudent.baml
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\PageFolder\PageStudent\PageEditStudent.baml
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\PageFolder\PageStudent\PageStudent.baml
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\PageFolder\PageTimeTable\PageAdd.baml
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\PageFolder\PageTimeTable\PageEdit.baml
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\PageFolder\PageTimeTable\PageTimeTable.baml
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\WindowFolder\WinChooseOrder.baml
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\WindowFolder\WinClassroomTeacher.baml
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddCity.baml
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddDiscipline.baml
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddDisciplineToTimeTable.baml
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddGroup.baml
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddIssuedByWhom.baml
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddPlaceOfBorn.baml
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddSpecializtion.baml
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddStreet.baml
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\WindowFolder\WinInfo\WinInfo.baml
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\WindowFolder\WinInfo\WinInfoProgram.baml
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\WindowFolder\WinInfo\WinTechSupport.baml
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\WindowFolder\WinSingIn.baml
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\WindowFolder\WinSystemAdmin.baml
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\KEZH.g.resources
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\KEZH.Properties.Resources.resources
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\KEZH.csproj.GenerateResource.cache
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\KEZH.csproj.CoreCompileInputs.cache
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\KEZH.exe.manifest
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\KEZH.application
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\KEZH.csproj.CopyComplete
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\KEZH.exe
+C:\Users\totmyanina.COLLEGE\Desktop\NEW KEZH FIN — копия\KEZH\obj\Debug\KEZH.pdb
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\bin\Debug\KEZH.exe.config
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\bin\Debug\KEZH.exe.manifest
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\bin\Debug\KEZH.application
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\bin\Debug\KEZH.exe
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\bin\Debug\KEZH.pdb
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\bin\Debug\MaterialDesignColors.dll
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\bin\Debug\MaterialDesignColors.pdb
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\KEZH.csprojAssemblyReference.cache
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\KEZH.csproj.ResolveComReference.cache
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\ResourceFolder\DictionaryResource.baml
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\PageFolder\PageAttendance\PageAttendance.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\PageFolder\PageAttendance\PageListAttendance.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PageAuthorization.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PageEnterMail.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PageForgetPassword.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PageNewPassword.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PagePasswordRecovered.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PageReciveCode.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\PageFolder\PageDeducatedStudent\PageDeducatedList.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\PageFolder\PageEditComboBox\EditComboBox.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\PageFolder\PageMarks\PageInvoicingMarks.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\PageFolder\PageMarks\PageMarksLists.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\PageFolder\PageStudent\PageAddStudent.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\PageFolder\PageStudent\PageEditStudent.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\PageFolder\PageStudent\PageStudent.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\PageFolder\PageTimeTable\PageAdd.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\PageFolder\PageTimeTable\PageEdit.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\PageFolder\PageTimeTable\PageTimeTable.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\WindowFolder\WinChooseOrder.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\WindowFolder\WinClassroomTeacher.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddCity.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddDiscipline.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddDisciplineToTimeTable.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddGroup.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddIssuedByWhom.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddPlaceOfBorn.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddSpecializtion.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddStreet.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\WindowFolder\WinInfo\WinInfo.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\WindowFolder\WinInfo\WinInfoProgram.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\WindowFolder\WinInfo\WinTechSupport.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\WindowFolder\WinSingIn.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\WindowFolder\WinSystemAdmin.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\App.g.cs
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\KEZH_MarkupCompile.cache
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\KEZH_MarkupCompile.lref
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\App.baml
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\PageFolder\PageAttendance\PageAttendance.baml
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\PageFolder\PageAttendance\PageListAttendance.baml
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PageAuthorization.baml
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PageEnterMail.baml
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PageForgetPassword.baml
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PageNewPassword.baml
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PagePasswordRecovered.baml
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PageReciveCode.baml
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\PageFolder\PageDeducatedStudent\PageDeducatedList.baml
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\PageFolder\PageEditComboBox\EditComboBox.baml
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\PageFolder\PageMarks\PageInvoicingMarks.baml
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\PageFolder\PageMarks\PageMarksLists.baml
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\PageFolder\PageStudent\PageAddStudent.baml
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\PageFolder\PageStudent\PageEditStudent.baml
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\PageFolder\PageStudent\PageStudent.baml
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\PageFolder\PageTimeTable\PageAdd.baml
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\PageFolder\PageTimeTable\PageEdit.baml
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\PageFolder\PageTimeTable\PageTimeTable.baml
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\WindowFolder\WinChooseOrder.baml
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\WindowFolder\WinClassroomTeacher.baml
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddCity.baml
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddDiscipline.baml
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddDisciplineToTimeTable.baml
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddGroup.baml
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddIssuedByWhom.baml
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddPlaceOfBorn.baml
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddSpecializtion.baml
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddStreet.baml
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\WindowFolder\WinInfo\WinInfo.baml
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\WindowFolder\WinInfo\WinInfoProgram.baml
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\WindowFolder\WinInfo\WinTechSupport.baml
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\WindowFolder\WinSingIn.baml
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\WindowFolder\WinSystemAdmin.baml
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\KEZH.g.resources
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\KEZH.Properties.Resources.resources
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\KEZH.csproj.GenerateResource.cache
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\KEZH.csproj.CoreCompileInputs.cache
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\KEZH.exe.manifest
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\KEZH.application
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\KEZH.csproj.CopyComplete
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\KEZH.exe
+C:\Users\totmyanina.COLLEGE\Desktop\KEZH\KEZH\obj\Debug\KEZH.pdb
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\bin\Debug\KEZH.exe.config
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\bin\Debug\KEZH.exe.manifest
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\bin\Debug\KEZH.application
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\bin\Debug\KEZH.exe
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\bin\Debug\KEZH.pdb
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\bin\Debug\MaterialDesignColors.dll
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\bin\Debug\MaterialDesignColors.pdb
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\KEZH.csprojAssemblyReference.cache
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\KEZH.csproj.ResolveComReference.cache
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\ResourceFolder\DictionaryResource.baml
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\PageFolder\PageAttendance\PageAttendance.g.cs
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\PageFolder\PageAttendance\PageListAttendance.g.cs
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PageAuthorization.g.cs
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PageEnterMail.g.cs
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PageForgetPassword.g.cs
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PageNewPassword.g.cs
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PagePasswordRecovered.g.cs
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PageReciveCode.g.cs
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\PageFolder\PageDeducatedStudent\PageDeducatedList.g.cs
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\PageFolder\PageEditComboBox\EditComboBox.g.cs
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\PageFolder\PageMarks\PageInvoicingMarks.g.cs
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\PageFolder\PageMarks\PageMarksLists.g.cs
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\PageFolder\PageSocialPedagog\PageAttendance\PageAttendanceList.g.cs
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\PageFolder\PageSocialPedagog\PageListStudent\PageStidentList.g.cs
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\PageFolder\PageStudent\PageAddStudent.g.cs
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\PageFolder\PageStudent\PageEditStudent.g.cs
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\PageFolder\PageStudent\PageStudent.g.cs
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\PageFolder\PageTimeTable\PageAdd.g.cs
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\PageFolder\PageTimeTable\PageEdit.g.cs
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\PageFolder\PageTimeTable\PageTimeTable.g.cs
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\WindowFolder\WinChooseOrder.g.cs
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\WindowFolder\WinClassroomTeacher.g.cs
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddCity.g.cs
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddDiscipline.g.cs
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddDisciplineToTimeTable.g.cs
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddGroup.g.cs
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddIssuedByWhom.g.cs
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddPlaceOfBorn.g.cs
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddSpecializtion.g.cs
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddStreet.g.cs
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\WindowFolder\WinInfo\WinInfo.g.cs
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\WindowFolder\WinInfo\WinInfoProgram.g.cs
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\WindowFolder\WinInfo\WinTechSupport.g.cs
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\WindowFolder\WinSingIn.g.cs
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\WindowFolder\WinSocialPedagog\WinSocialPedagog.g.cs
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\WindowFolder\WinSystemAdmin.g.cs
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\App.g.cs
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\KEZH_MarkupCompile.cache
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\KEZH_MarkupCompile.lref
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\App.baml
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\PageFolder\PageAttendance\PageAttendance.baml
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\PageFolder\PageAttendance\PageListAttendance.baml
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PageAuthorization.baml
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PageEnterMail.baml
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PageForgetPassword.baml
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PageNewPassword.baml
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PagePasswordRecovered.baml
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\PageFolder\PageAuthorization\PageReciveCode.baml
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\PageFolder\PageDeducatedStudent\PageDeducatedList.baml
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\PageFolder\PageEditComboBox\EditComboBox.baml
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\PageFolder\PageMarks\PageInvoicingMarks.baml
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\PageFolder\PageMarks\PageMarksLists.baml
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\PageFolder\PageStudent\PageAddStudent.baml
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\PageFolder\PageStudent\PageEditStudent.baml
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\PageFolder\PageStudent\PageStudent.baml
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\PageFolder\PageTimeTable\PageAdd.baml
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\PageFolder\PageTimeTable\PageEdit.baml
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\PageFolder\PageTimeTable\PageTimeTable.baml
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\WindowFolder\WinChooseOrder.baml
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\WindowFolder\WinClassroomTeacher.baml
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddCity.baml
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddDiscipline.baml
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddDisciplineToTimeTable.baml
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddGroup.baml
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddIssuedByWhom.baml
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddPlaceOfBorn.baml
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddSpecializtion.baml
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\WindowFolder\WindowAdd\WinAddStreet.baml
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\WindowFolder\WinInfo\WinInfo.baml
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\WindowFolder\WinInfo\WinInfoProgram.baml
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\WindowFolder\WinInfo\WinTechSupport.baml
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\WindowFolder\WinSingIn.baml
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\WindowFolder\WinSystemAdmin.baml
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\PageFolder\PageSocialPedagog\PageAttendance\PageAttendanceList.baml
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\PageFolder\PageSocialPedagog\PageListStudent\PageStidentList.baml
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\WindowFolder\WinSocialPedagog\WinSocialPedagog.baml
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\KEZH.g.resources
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\KEZH.Properties.Resources.resources
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\KEZH.csproj.GenerateResource.cache
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\KEZH.csproj.CoreCompileInputs.cache
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\KEZH.exe.manifest
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\KEZH.application
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\KEZH.csproj.CopyComplete
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\KEZH.exe
+C:\Users\306pc11\Desktop\FINALLLL\KEZH\KEZH\obj\Debug\KEZH.pdb

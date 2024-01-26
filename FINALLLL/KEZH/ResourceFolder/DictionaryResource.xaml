@@ -1,0 +1,415 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Light.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Primary/MaterialDesignColor.DeepPurple.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Accent/MaterialDesignColor.Lime.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+
+    <Style TargetType="Window" x:Key="WinStyle">
+        <Setter Property="Background" Value="#F7F8FC"/>
+    </Style>
+
+    <Style TargetType="Window" x:Key="WinIcon">
+        <Setter Property="Icon" Value="/KEZH;component/ResourceFolder/PictureTeacher/headwear.png"/>
+    </Style>
+
+    <Style TargetType="Page" x:Key="PageStyle">
+        <Setter Property="Background" Value="#F7F8FC"/>
+    </Style>
+
+    <Style x:Key="LblStyle" TargetType="Label">
+        <Setter Property="FontFamily" Value="Helvetica Neue OTS"/>
+        <Setter Property="FontSize" Value="26"/>
+        <Setter Property="Foreground" Value="Black"/>
+        <Setter Property="Margin" Value="12"/>
+        <Setter Property="Padding" Value="12"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+    </Style>
+    
+    <Style x:Key="LblLogo" TargetType="Label" 
+           BasedOn="{StaticResource LblStyle}">
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="FontSize" Value="40"/>
+    </Style>
+
+    <Style x:Key="LblStyleLeft" TargetType="Label"
+           BasedOn="{StaticResource LblStyle}">
+        <Setter Property="HorizontalContentAlignment" Value="Left"/>
+    </Style>
+
+    <Style x:Key="LblStyleTabControl" TargetType="Label"
+           BasedOn="{StaticResource LblStyle}">
+        <Setter Property="Foreground" Value="Black"/>
+    </Style>
+    <Style x:Key="BtnMain1" TargetType="Button" 
+           BasedOn="{StaticResource MaterialDesignFlatDarkBgButton}">
+        <Setter Property="FontFamily" Value="Helvetica Neue OTS"/>
+        <Setter Property="FontSize" Value="26"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="Margin" Value="12"/>
+        <Setter Property="Padding" Value="12"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Background" Value="#5952FF"/>
+    </Style>
+
+    <Style x:Key="BtnSemestrChange" TargetType="Button"
+           BasedOn="{StaticResource BtnMain1}">
+        <Setter Property="Margin" Value="0"/>
+        <Setter Property="Padding" Value="0"/>
+        <Setter Property="Height" Value="110"/>
+        <Setter Property="Width" Value="145"/>
+    </Style>
+
+    <Style x:Key="BtnMissPassword" TargetType="Button" 
+           BasedOn="{StaticResource BtnMain}">
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border x:Name="Border" 
+                      BorderThickness="1"
+                      Background="{TemplateBinding Background}"
+                      BorderBrush="{TemplateBinding BorderBrush}">
+                        <ContentPresenter Margin="2"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center"
+                                    RecognizesAccessKey="True"/>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    
+    <Style x:Key="btnArrow" TargetType="Button"
+           BasedOn="{StaticResource BtnMain1}">
+        <Setter Property="Margin" Value="0"/>
+        <Setter Property="Padding" Value="0"/>
+        <Setter Property="Height" Value="50"/>
+        <Setter Property="Background" Value="Transparent"/>
+    </Style>
+
+    <Style TargetType="TextBox" BasedOn="{StaticResource MaterialDesignFloatingHintTextBox}">
+        <Setter Property="FontFamily" Value="Helvetica Neue OTS"/>
+        <Setter Property="FontSize" Value="26"/>
+        <Setter Property="Foreground" Value="Black"/>
+        <Setter Property="Margin" Value="12"/>
+        <Setter Property="Padding" Value="12"/>
+        <Setter Property="HorizontalContentAlignment" Value="Left"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Background" Value="Transparent"/>
+    </Style>
+
+    <Style x:Key="TbSearch" TargetType="TextBox" BasedOn="{StaticResource MaterialDesignOutlinedTextBox}">
+        <Setter Property="FontFamily" Value="Helvetica Neue OTS"/>
+        <Setter Property="FontSize" Value="26"/>
+        <Setter Property="Foreground" Value="Black"/>
+        <Setter Property="Margin" Value="12"/>
+        <Setter Property="Padding" Value="12"/>
+        <Setter Property="HorizontalContentAlignment" Value="Left"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Background" Value="Transparent"/>
+    </Style>
+    
+    <Style TargetType="PasswordBox" BasedOn="{StaticResource MaterialDesignFloatingHintPasswordBox}">
+        <Setter Property="FontFamily" Value="Helvetica Neue OTS"/>
+        <Setter Property="FontSize" Value="26"/>
+        <Setter Property="Foreground" Value="Black"/>
+        <Setter Property="Margin" Value="12"/>
+        <Setter Property="Padding" Value="12"/>
+        <Setter Property="HorizontalContentAlignment" Value="Left"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="PasswordChar" Value="*"/>
+    </Style>
+
+    <Style TargetType="ComboBox" 
+           BasedOn="{StaticResource MaterialDesignFloatingHintComboBox}">
+        <Setter Property="FontFamily" Value="Helvetica Neue OTS"/>
+        <Setter Property="FontSize" Value="26"/>
+        <Setter Property="Foreground" Value="Black"/>
+        <Setter Property="Margin" Value="12"/>        
+        <Setter Property="HorizontalContentAlignment" Value="Left"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Background" Value="Transparent"/>
+    </Style>
+
+    <Style TargetType="DataGrid" 
+           BasedOn="{StaticResource MaterialDesignDataGrid}">
+        <Setter Property="FontFamily" Value="Helvetica Neue OTS"/>
+        <Setter Property="FontSize" Value="26"/>
+        <Setter Property="Foreground" Value="Black"/>
+        <Setter Property="Margin" Value="12"/>
+        <Setter Property="Padding" Value="12"/>
+        <Setter Property="HorizontalContentAlignment" Value="Left"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Background" Value="#F7F8FC"/>
+        <Setter Property="BorderBrush" Value="#5952FF"/>
+        <Setter Property="BorderThickness" Value="3"/>
+    </Style>
+    <Style TargetType="DataGridColumnHeader" BasedOn="{StaticResource MaterialDesignDataGridColumnHeader}">
+        <Setter Property="Foreground" Value="Black"/>
+    </Style>
+    <Style TargetType="MenuItem" 
+           BasedOn="{StaticResource MaterialDesignMenuItem}">
+        <Setter Property="FontFamily" Value="Helvetica Neue OTS"/>
+        <Setter Property="FontSize" Value="24"/>
+        <Setter Property="Foreground" Value="Black"/>
+        <Setter Property="HorizontalContentAlignment" Value="Left"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Background" Value="Transparent"/>
+    </Style>
+
+    <Style TargetType="DatePicker" 
+           BasedOn="{StaticResource MaterialDesignFloatingHintDatePicker}">
+        <Setter Property="FontFamily" Value="Helvetica Neue OTS"/>
+        <Setter Property="FontSize" Value="26"/>
+        <Setter Property="Foreground" Value="Black"/>
+        <Setter Property="Margin" Value="12"/>
+        <Setter Property="Padding" Value="12"/>
+        <Setter Property="HorizontalContentAlignment" Value="Left"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Background" Value="Transparent"/>
+    </Style>
+    <Style TargetType="TextBlock" x:Key="TBlockStyle1">
+        <Setter Property="FontFamily" Value="Helvetica Neue OTS"/>
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="Foreground" Value="Black"/>
+        <Setter Property="Margin" Value="12"/>
+        <Setter Property="Padding" Value="12"/>
+        <Setter Property="Background" Value="Transparent"/>
+    </Style>
+    <Style TargetType="TextBlock" x:Key="tBlockLogo"
+           BasedOn="{StaticResource TBlockStyle1}">
+        <Setter Property="FontSize" Value="40"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+    </Style>
+    <Style TargetType="TextBlock" x:Key="tBlockMissPassword"
+           BasedOn="{StaticResource TBlockStyle1}">
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="Height" Value="Auto"/>
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="TextBlock.TextDecorations" Value="Underline"/>
+    </Style>
+
+    <Style TargetType="CheckBox" 
+           BasedOn="{StaticResource MaterialDesignCheckBox}">
+        <Setter Property="FontFamily" Value="Helvetica Neue OTS"/>
+        <Setter Property="FontSize" Value="26"/>
+        <Setter Property="Margin" Value="12"/>
+        <Setter Property="Foreground" Value="Black"/>
+        <Setter Property="Padding" Value="12"/>
+        <Setter Property="HorizontalContentAlignment" Value="Left"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+
+    </Style>
+
+
+    <Style x:Key="TextBoxAuthorization" TargetType="TextBox"
+           BasedOn="{StaticResource MaterialDesignFloatingHintTextBox}">
+        <Setter Property="Foreground" Value="#807CEF"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="BorderBrush" Value="#5952FF"/>
+    </Style>
+
+    <Style x:Key="PasswordBoxAuthorization" TargetType="PasswordBox"
+           BasedOn="{StaticResource MaterialDesignFloatingHintPasswordBox}">
+        <Setter Property="Foreground" Value="#807CEF"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="BorderBrush" Value="#5952FF"/>
+        <Setter Property="PasswordChar" Value="*"/>
+    </Style>
+
+    <Style x:Key="BtnMain" TargetType="Button" BasedOn="{StaticResource MaterialDesignFlatDarkBgButton}">
+        <Setter Property="FontSize" Value="40"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Background" Value="#5952FF"/>
+        <Setter Property="Margin" Value="10"/>
+
+    </Style>
+    <Style x:Key="ButtonAuthorization" TargetType="Button"
+           BasedOn="{StaticResource MaterialDesignFlatButton}">
+        
+    </Style>
+
+    <Style x:Key="ForgetButtonAuthorization" TargetType="Button"
+           BasedOn="{StaticResource MaterialDesignFlatButton}">
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="BorderBrush" Value="Transparent"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border x:Name="Border" 
+                      BorderThickness="1"
+                      Background="{TemplateBinding Background}"
+                      BorderBrush="{TemplateBinding BorderBrush}">
+                        <ContentPresenter Margin="2"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center"
+                                    RecognizesAccessKey="True"/>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style TargetType="TextBlock" x:Key="TBlockStyle" 
+           BasedOn="{StaticResource MaterialDesignBody1TextBlock}">       
+        <Setter Property="FontSize" Value="25"/>
+        <Setter Property="Foreground" Value="#807CEF"/>            
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="VerticalAlignment" Value="Top"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+    </Style>
+    <Style x:Key="TBlockStyle2" TargetType="TextBlock"
+           BasedOn="{StaticResource TBlockStyle1}">
+        <Setter Property="Foreground" Value="White"/>
+    </Style>
+    <Style TargetType="TextBlock" x:Key="TBlockLogo" 
+           BasedOn="{StaticResource TBlockStyle}">
+        <Setter Property="Foreground" Value="#5952FF"/>
+        <Setter Property="FontSize" Value="40"/>
+        <Setter Property="VerticalAlignment" Value="Bottom"/>
+    </Style>
+    <Style x:Key="TabStyle" TargetType="{x:Type TabItem}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type TabItem}">
+                    <Grid>
+                        <Border  Name="Border" Margin="0,0,-4,0" BorderThickness="2,0,2,0" CornerRadius="0,0,0,0" BorderBrush="Black">
+                            <ContentPresenter x:Name="ContentSite" VerticalAlignment="Center" HorizontalAlignment="Center" ContentSource="Header" Margin="12,2,12,2" RecognizesAccessKey="True"/>
+                        </Border>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+
+                        <Trigger Property="IsSelected" Value="True">
+                            <Setter Property="Panel.ZIndex" Value="100" />
+                            <Setter TargetName="Border" Property="Background" Value="White" />                          
+
+                        </Trigger>
+
+                        <Trigger Property="IsSelected" Value="False">
+                            <Setter TargetName="Border" Property="Background" Value="#807CEF" /> 
+                        </Trigger>                        
+
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="TabStyleLeft" TargetType="{x:Type TabItem}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type TabItem}">
+                    <Grid>
+                        <Border  Name="Border" Margin="0,0,-4,0" BorderThickness="0,0,2,0" CornerRadius="20,0,0,20" BorderBrush="Black">
+                            <ContentPresenter x:Name="ContentSite" VerticalAlignment="Center" HorizontalAlignment="Center" ContentSource="Header" Margin="12,2,12,2" RecognizesAccessKey="True"/>
+                        </Border>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+
+                        <Trigger Property="IsSelected" Value="True">
+                            <Setter Property="Panel.ZIndex" Value="100" />
+                            <Setter TargetName="Border" Property="Background" Value="White" />
+                            
+                        </Trigger>
+
+                        <Trigger Property="IsSelected" Value="False">
+                            <Setter TargetName="Border" Property="Background" Value="#807CEF" />                            
+                        </Trigger>
+
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="TabStyleRight" TargetType="{x:Type TabItem}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type TabItem}">
+                    <Grid>
+                        <Border  Name="Border" Margin="0,0,-4,0" BorderThickness="2,0,0,0" CornerRadius="0,20,20,0" BorderBrush="Black">
+                            <ContentPresenter x:Name="ContentSite" VerticalAlignment="Center" HorizontalAlignment="Center" ContentSource="Header" Margin="12,2,12,2" RecognizesAccessKey="True"/>
+                        </Border>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+
+                        <Trigger Property="IsSelected" Value="True">
+                            <Setter Property="Panel.ZIndex" Value="100" />
+                            <Setter TargetName="Border" Property="Background" Value="White" />
+                        </Trigger>
+
+                        <Trigger Property="IsSelected" Value="False">
+                            <Setter TargetName="Border" Property="Background" Value="#807CEF" />                            
+                        </Trigger>
+
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+    <Style x:Key="TabStyleDimaL" TargetType="{x:Type TabItem}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type TabItem}">
+                    <Grid>
+                        <Border  Name="Border" Margin="0,0,-4,0" BorderThickness="0,0,2,0" CornerRadius="20,0,0,0" BorderBrush="Black">
+                            <ContentPresenter x:Name="ContentSite" VerticalAlignment="Center" HorizontalAlignment="Center" ContentSource="Header" Margin="12,2,12,2" RecognizesAccessKey="True"/>
+                        </Border>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+
+                        <Trigger Property="IsSelected" Value="True">
+                            <Setter Property="Panel.ZIndex" Value="100" />
+                            <Setter TargetName="Border" Property="Background" Value="White" />
+                        </Trigger>
+
+                        <Trigger Property="IsSelected" Value="False">
+                            <Setter TargetName="Border" Property="Background" Value="#807CEF" />
+                        </Trigger>
+
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+    <Style x:Key="TabStyleDimaR" TargetType="{x:Type TabItem}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type TabItem}">
+                    <Grid>
+                        <Border  Name="Border" Margin="0,0,-4,0" BorderThickness="2,0,0,0" CornerRadius="0,20,0,0" BorderBrush="Black">
+                            <ContentPresenter x:Name="ContentSite" VerticalAlignment="Center" HorizontalAlignment="Center" ContentSource="Header" Margin="12,2,12,2" RecognizesAccessKey="True"/>
+                        </Border>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+
+                        <Trigger Property="IsSelected" Value="True">
+                            <Setter Property="Panel.ZIndex" Value="100" />
+                            <Setter TargetName="Border" Property="Background" Value="White" />
+                        </Trigger>
+
+                        <Trigger Property="IsSelected" Value="False">
+                            <Setter TargetName="Border" Property="Background" Value="#807CEF" />
+                        </Trigger>
+
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

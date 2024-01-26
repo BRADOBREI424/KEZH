@@ -1,0 +1,611 @@
+﻿<Page x:Class="KEZH.PageFolder.PageAttendance.PageTimeTable"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:KEZH.PageFolder.PageAttendance"
+       xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d" 
+      d:DesignHeight="1030" d:DesignWidth="1860"
+     
+      Title="PageTimeTable" Loaded="Page_Loaded">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="15"/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="15"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="200"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+
+        <Rectangle Fill="White" Grid.Column="1" Grid.Row="1" 
+                   Grid.ColumnSpan="4"
+                   RadiusX="40" RadiusY="40" 
+                   Margin="10,20,10,20" />
+
+
+        <Button x:Name="btnAdd" Grid.Column="4"
+                Grid.Row="1" 
+                Background="Transparent"
+                BorderBrush="Transparent"                
+                Height="Auto"
+                Click="btnAdd_Click" Margin="280,20,0,20" >
+            <Image Source="/KEZH;component/ResourceFolder/PageTimeTable/Group 83.png"
+                           Height="130" Width="130"
+                           VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        </Button>
+
+        <Label Content="Расписание" Grid.Row="1" 
+               Grid.Column="1" FontSize="40"
+               FontWeight="Bold" Margin="10,20,0,20" VerticalContentAlignment="Center"/>
+
+        <TabControl  x:Name="Semestr" Grid.Row="3" Grid.Column="1"
+                    Grid.ColumnSpan="4"  Background="Transparent"
+                    BorderBrush="Transparent">
+            <TabItem Style="{DynamicResource TabStyleLeft}"
+                     Width="230">
+                <TabItem.Header>
+                    <Label Content="1 Семестр" Style="{DynamicResource LblStyleLeft}"/>
+                </TabItem.Header>
+                <Grid>
+
+                    <TabControl  x:Name="DayWeek" Grid.Row="3" Grid.Column="1"
+                    Grid.ColumnSpan="4"  Background="Transparent"
+                    BorderBrush="Transparent">
+                        <TabItem Style="{DynamicResource TabStyleLeft}"
+                     Width="230">
+                            <TabItem.Header>
+                                <Label Content="Понедельник" Style="{DynamicResource LblStyleLeft}"/>
+                            </TabItem.Header>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1165"/>
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+                                <DataGrid x:Name="dgDayWeed" Margin="12"
+              IsReadOnly="True" AutoGenerateColumns="False" 
+                  materialDesign:DataGridAssist.CornerRadius="50"
+                  Background="White" Loaded="dgDayWeed_Loaded" MouseDoubleClick="dgDayWeed_MouseDoubleClick">
+                                    <DataGrid.ContextMenu>
+                                        <ContextMenu x:Name="Delete">
+                                            <MenuItem x:Name="BtnDelete" Click="BtnDelete_Click">
+                                                <MenuItem.Header>
+                                                    <StackPanel Orientation="Horizontal">
+                                                        <materialDesign:PackIcon Kind="TrashCan"
+                                                                     Height="20"
+                                                                     Width="20"
+                                                                     Margin="0 0 20 0"
+                                                                     VerticalAlignment="Center"/>
+                                                        <TextBlock Text="Удалить"/>
+                                                    </StackPanel>
+                                                </MenuItem.Header>
+                                            </MenuItem>
+                                        </ContextMenu>
+                                    </DataGrid.ContextMenu>
+                                   
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn x:Name="dgTcNumber"
+                            Header="Номер пары" Width="200"
+                            Binding="{Binding Number}"/>
+                                        <DataGridTextColumn x:Name="dgTcNameGroup"
+                            Header="Название группы" Width="300"
+                            Binding="{Binding NameGroup}"/>
+                                        <DataGridTextColumn x:Name="dgTcNameDiscipline"
+                            Header="Дисциплина" Width="400"
+                            Binding="{Binding NameDiscipline}">
+                                            <DataGridTextColumn.ElementStyle>
+                                                <Style>
+                                                    <Setter Property="TextBlock.TextWrapping" Value="Wrap"/>
+                                                </Style>
+                                            </DataGridTextColumn.ElementStyle>
+                                        </DataGridTextColumn>
+
+                                        <DataGridTextColumn Width="*"/>
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                            </Grid>
+                        </TabItem>
+
+                        <TabItem Style="{DynamicResource TabStyle}"
+                     Width="230" Margin="0">
+                            <TabItem.Header>
+                                <Label Content="Вторник" Style="{DynamicResource LblStyle}" Margin="0,12"/>
+                            </TabItem.Header>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1165"/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <DataGrid x:Name="dgDayWeed1" Margin="12"
+              IsReadOnly="True" AutoGenerateColumns="False"  
+                  materialDesign:DataGridAssist.CornerRadius="50"
+                  Background="White" Loaded="dgDayWeed1_Loaded" MouseDoubleClick="dgDayWeed1_MouseDoubleClick">
+                                    <DataGrid.ContextMenu>
+                                        <ContextMenu>
+                                            <MenuItem x:Name="BtnDelete2" Click="BtnDelete2_Click">
+                                                <MenuItem.Header>
+                                                    <StackPanel Orientation="Horizontal">
+                                                        <materialDesign:PackIcon Kind="TrashCan"
+                                                                     Height="20"
+                                                                     Width="20"
+                                                                     Margin="0 0 20 0"
+                                                                     VerticalAlignment="Center"/>
+                                                        <TextBlock Text="Удалить"/>
+                                                    </StackPanel>
+                                                </MenuItem.Header>
+                                            </MenuItem>
+                                        </ContextMenu>
+                                    </DataGrid.ContextMenu>
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn x:Name="dgTcNumber1"
+                            Header="Номер пары" Width="200"
+                            Binding="{Binding Number}"/>
+                                        <DataGridTextColumn x:Name="dgTcNameGroup1"
+                            Header="Название группы" Width="300"
+                            Binding="{Binding NameGroup}"/>
+                                        <DataGridTextColumn x:Name="dgTcNameDiscipline1"
+                            Header="Дисциплина" Width="400"
+                            Binding="{Binding NameDiscipline}">
+                                            <DataGridTextColumn.ElementStyle>
+                                                <Style>
+                                                    <Setter Property="TextBlock.TextWrapping" Value="Wrap"/>
+                                                </Style>
+                                            </DataGridTextColumn.ElementStyle>
+                                        </DataGridTextColumn>
+                                        <DataGridTextColumn Width="*"/>
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                            </Grid>
+                        </TabItem>
+
+                        <TabItem Style="{DynamicResource TabStyle}"
+                     Width="230" Margin="0">
+                            <TabItem.Header>
+                                <Label Content="Среда" Style="{DynamicResource LblStyle}" Margin="0,12"/>
+                            </TabItem.Header>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1165"/>
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+                                <DataGrid x:Name="dgDayWeed2" Margin="12"
+              IsReadOnly="True" AutoGenerateColumns="False" 
+                  materialDesign:DataGridAssist.CornerRadius="50"
+                  Background="White" Loaded="dgDayWeed2_Loaded" MouseDoubleClick="dgDayWeed2_MouseDoubleClick">
+                                    <DataGrid.ContextMenu>
+                                        <ContextMenu>
+                                            <MenuItem x:Name="BtnDelete3" Click="BtnDelete3_Click">
+                                                <MenuItem.Header>
+                                                    <StackPanel Orientation="Horizontal">
+                                                        <materialDesign:PackIcon Kind="TrashCan"
+                                                                     Height="20"
+                                                                     Width="20"
+                                                                     Margin="0 0 20 0"
+                                                                     VerticalAlignment="Center"/>
+                                                        <TextBlock Text="Удалить"/>
+                                                    </StackPanel>
+                                                </MenuItem.Header>
+                                            </MenuItem>
+                                        </ContextMenu>
+                                    </DataGrid.ContextMenu>
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn x:Name="dgTcNumber2"
+                            Header="Номер пары" Width="200"
+                            Binding="{Binding Number}"/>
+                                        <DataGridTextColumn x:Name="dgTcNameGroup2"
+                            Header="Название группы" Width="300"
+                            Binding="{Binding NameGroup}"/>
+                                        <DataGridTextColumn x:Name="dgTcNameDiscipline2"
+                            Header="Дисциплина" Width="400"
+                            Binding="{Binding NameDiscipline}">
+                                            <DataGridTextColumn.ElementStyle>
+                                                <Style>
+                                                    <Setter Property="TextBlock.TextWrapping" Value="Wrap"/>
+                                                </Style>
+                                            </DataGridTextColumn.ElementStyle>
+                                        </DataGridTextColumn>
+                                        <DataGridTextColumn Width="*"/>
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                            </Grid>
+                        </TabItem>
+
+                        <TabItem Style="{DynamicResource TabStyle}"
+                     Width="230" Margin="0">
+                            <TabItem.Header>
+                                <Label Content="Четверг" Style="{DynamicResource LblStyle}" Margin="0,12"/>
+                            </TabItem.Header>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1165"/>
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+                                <DataGrid x:Name="dgDayWeed3" Margin="12"
+              IsReadOnly="True" AutoGenerateColumns="False"  
+                  materialDesign:DataGridAssist.CornerRadius="50"
+                  Background="White" Loaded="dgDayWeed3_Loaded" MouseDoubleClick="dgDayWeed3_MouseDoubleClick">
+                                    <DataGrid.ContextMenu>
+                                        <ContextMenu>
+                                            <MenuItem x:Name="BtnDelete4" Click="BtnDelete4_Click">
+                                                <MenuItem.Header>
+                                                    <StackPanel Orientation="Horizontal">
+                                                        <materialDesign:PackIcon Kind="TrashCan"
+                                                                     Height="20"
+                                                                     Width="20"
+                                                                     Margin="0 0 20 0"
+                                                                     VerticalAlignment="Center"/>
+                                                        <TextBlock Text="Удалить"/>
+                                                    </StackPanel>
+                                                </MenuItem.Header>
+                                            </MenuItem>
+                                        </ContextMenu>
+                                    </DataGrid.ContextMenu>
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn x:Name="dgTcNumber3"
+                            Header="Номер пары" Width="200"
+                            Binding="{Binding Number}"/>
+                                        <DataGridTextColumn x:Name="dgTcNameGroup3"
+                            Header="Название группы" Width="300"
+                            Binding="{Binding NameGroup}"/>
+                                        <DataGridTextColumn x:Name="dgTcNameDiscipline3"
+                            Header="Дисциплина" Width="400"
+                            Binding="{Binding NameDiscipline}">
+                                            <DataGridTextColumn.ElementStyle>
+                                                <Style>
+                                                    <Setter Property="TextBlock.TextWrapping" Value="Wrap"/>
+                                                </Style>
+                                            </DataGridTextColumn.ElementStyle>
+                                        </DataGridTextColumn>
+                                        <DataGridTextColumn Width="*"/>
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                            </Grid>
+                        </TabItem>
+
+                        <TabItem Style="{DynamicResource TabStyleRight}"
+                     Width="230" Margin="0">
+                            <TabItem.Header>
+                                <Label Content="Пятница" Style="{DynamicResource LblStyle}" Margin="0,12"/>
+                            </TabItem.Header>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1165"/>
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+                                <DataGrid x:Name="dgDayWeed4" Margin="12"
+              IsReadOnly="True" AutoGenerateColumns="False"  
+                  materialDesign:DataGridAssist.CornerRadius="50"
+                  Background="White" Loaded="dgDayWeed4_Loaded" MouseDoubleClick="dgDayWeed4_MouseDoubleClick">
+                                    <DataGrid.ContextMenu>
+                                        <ContextMenu>
+                                            <MenuItem x:Name="BtnDelete5" Click="BtnDelete5_Click">
+                                                <MenuItem.Header>
+                                                    <StackPanel Orientation="Horizontal">
+                                                        <materialDesign:PackIcon Kind="TrashCan"
+                                                                     Height="20"
+                                                                     Width="20"
+                                                                     Margin="0 0 20 0"
+                                                                     VerticalAlignment="Center"/>
+                                                        <TextBlock Text="Удалить"/>
+                                                    </StackPanel>
+                                                </MenuItem.Header>
+                                            </MenuItem>
+                                        </ContextMenu>
+                                    </DataGrid.ContextMenu>
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn x:Name="dgTcNumber4"
+                            Header="Номер пары" Width="200"
+                            Binding="{Binding Number}"/>
+                                        <DataGridTextColumn x:Name="dgTcNameGroup4"
+                            Header="Название группы" Width="300"
+                            Binding="{Binding NameGroup}"/>
+                                        <DataGridTextColumn x:Name="dgTcNameDiscipline4"
+                            Header="Дисциплина" Width="400"
+                            Binding="{Binding NameDiscipline}">
+                                            <DataGridTextColumn.ElementStyle>
+                                                <Style>
+                                                    <Setter Property="TextBlock.TextWrapping" Value="Wrap"/>
+                                                </Style>
+                                            </DataGridTextColumn.ElementStyle>
+                                        </DataGridTextColumn>
+                                        <DataGridTextColumn Width="*"/>
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                            </Grid>
+                        </TabItem>
+                    </TabControl>
+                </Grid>
+            </TabItem>
+
+
+            <TabItem Style="{DynamicResource TabStyleRight}"
+                     Width="230">
+                <TabItem.Header>
+                    <Label Content="2 Семестр" Style="{DynamicResource LblStyleLeft}" />
+                </TabItem.Header>
+                <Grid>
+
+                    <TabControl  x:Name="DayWeek5" Grid.Row="3" Grid.Column="1"
+                    Grid.ColumnSpan="4"  Background="Transparent"
+                    BorderBrush="Transparent">
+                        <TabItem Style="{DynamicResource TabStyleLeft}"
+                     Width="230">
+                            <TabItem.Header>
+                                <Label Content="Понедельник" Style="{DynamicResource LblStyleLeft}"/>
+                            </TabItem.Header>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1165"/>
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+                                <DataGrid x:Name="dgDayWeed5" Margin="12"
+              IsReadOnly="True" AutoGenerateColumns="False"  
+                  materialDesign:DataGridAssist.CornerRadius="50"
+                  Background="White" Loaded="dgDayWeed5_Loaded" MouseDoubleClick="dgDayWeed5_MouseDoubleClick" >
+                                    <DataGrid.ContextMenu>
+                                        <ContextMenu>
+                                            <MenuItem x:Name="BtnDelete6" Click="BtnDelete6_Click">
+                                                <MenuItem.Header>
+                                                    <StackPanel Orientation="Horizontal">
+                                                        <materialDesign:PackIcon Kind="TrashCan"
+                                                                     Height="20"
+                                                                     Width="20"
+                                                                     Margin="0 0 20 0"
+                                                                     VerticalAlignment="Center"/>
+                                                        <TextBlock Text="Удалить"/>
+                                                    </StackPanel>
+                                                </MenuItem.Header>
+                                            </MenuItem>
+                                        </ContextMenu>
+                                    </DataGrid.ContextMenu>
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn x:Name="dgTcNumber5"
+                            Header="Номер пары" Width="200"
+                            Binding="{Binding Number}"/>
+                                        <DataGridTextColumn x:Name="dgTcNameGroup5"
+                            Header="Название группы" Width="300"
+                            Binding="{Binding NameGroup}"/>
+                                        <DataGridTextColumn x:Name="dgTcNameDiscipline5"
+                            Header="Дисциплина" Width="400"
+                            Binding="{Binding NameDiscipline}">
+                                            <DataGridTextColumn.ElementStyle>
+                                                <Style>
+                                                    <Setter Property="TextBlock.TextWrapping" Value="Wrap"/>
+                                                </Style>
+                                            </DataGridTextColumn.ElementStyle>
+                                        </DataGridTextColumn>
+                                        <DataGridTextColumn Width="*"/>
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                            </Grid>
+                        </TabItem>
+
+                        <TabItem Style="{DynamicResource TabStyle}"
+                     Width="230" Margin="0">
+                            <TabItem.Header>
+                                <Label Content="Вторник" Style="{DynamicResource LblStyle}" Margin="0,12"/>
+                            </TabItem.Header>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1165"/>
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+                                <DataGrid x:Name="dgDayWeed6" Margin="12"
+              IsReadOnly="True" AutoGenerateColumns="False"  
+                  materialDesign:DataGridAssist.CornerRadius="50"
+                  Background="White" Loaded="dgDayWeed6_Loaded" MouseDoubleClick="dgDayWeed6_MouseDoubleClick" >
+                                    <DataGrid.ContextMenu>
+                                        <ContextMenu>
+                                            <MenuItem x:Name="BtnDelete7" Click="BtnDelete7_Click">
+                                                <MenuItem.Header>
+                                                    <StackPanel Orientation="Horizontal">
+                                                        <materialDesign:PackIcon Kind="TrashCan"
+                                                                     Height="20"
+                                                                     Width="20"
+                                                                     Margin="0 0 20 0"
+                                                                     VerticalAlignment="Center"/>
+                                                        <TextBlock Text="Удалить"/>
+                                                    </StackPanel>
+                                                </MenuItem.Header>
+                                            </MenuItem>
+                                        </ContextMenu>
+                                    </DataGrid.ContextMenu>
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn x:Name="dgTcNumber6"
+                            Header="Номер пары" Width="200"
+                            Binding="{Binding Number}"/>
+                                        <DataGridTextColumn x:Name="dgTcNameGroup6"
+                            Header="Название группы" Width="300"
+                            Binding="{Binding NameGroup}"/>
+                                        <DataGridTextColumn x:Name="dgTcNameDiscipline6"
+                            Header="Дисциплина" Width="400"
+                            Binding="{Binding NameDiscipline}">
+                                            <DataGridTextColumn.ElementStyle>
+                                                <Style>
+                                                    <Setter Property="TextBlock.TextWrapping" Value="Wrap"/>
+                                                </Style>
+                                            </DataGridTextColumn.ElementStyle>
+                                        </DataGridTextColumn>
+                                        <DataGridTextColumn Width="*"/>
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                            </Grid>
+                        </TabItem>
+
+                        <TabItem Style="{DynamicResource TabStyle}"
+                     Width="230" Margin="0">
+                            <TabItem.Header>
+                                <Label Content="Среда" Style="{DynamicResource LblStyle}" Margin="0,12"/>
+                            </TabItem.Header>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1165"/>
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+                                <DataGrid x:Name="dgDayWeed7" Margin="12"
+              IsReadOnly="True" AutoGenerateColumns="False"  
+                  materialDesign:DataGridAssist.CornerRadius="50"
+                  Background="White" Loaded="dgDayWeed7_Loaded" MouseDoubleClick="dgDayWeed7_MouseDoubleClick" >
+                                    <DataGrid.ContextMenu>
+                                        <ContextMenu>
+                                            <MenuItem x:Name="BtnDelete8" Click="BtnDelete8_Click">
+                                                <MenuItem.Header>
+                                                    <StackPanel Orientation="Horizontal">
+                                                        <materialDesign:PackIcon Kind="TrashCan"
+                                                                     Height="20"
+                                                                     Width="20"
+                                                                     Margin="0 0 20 0"
+                                                                     VerticalAlignment="Center"/>
+                                                        <TextBlock Text="Удалить"/>
+                                                    </StackPanel>
+                                                </MenuItem.Header>
+                                            </MenuItem>
+                                        </ContextMenu>
+                                    </DataGrid.ContextMenu>
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn x:Name="dgTcNumber7"
+                            Header="Номер пары" Width="200"
+                            Binding="{Binding Number}"/>
+                                        <DataGridTextColumn x:Name="dgTcNameGroup7"
+                            Header="Название группы" Width="300"
+                            Binding="{Binding NameGroup}"/>
+                                        <DataGridTextColumn x:Name="dgTcNameDiscipline7"
+                            Header="Дисциплина" Width="400"
+                            Binding="{Binding NameDiscipline}">
+                                            <DataGridTextColumn.ElementStyle>
+                                                <Style>
+                                                    <Setter Property="TextBlock.TextWrapping" Value="Wrap"/>
+                                                </Style>
+                                            </DataGridTextColumn.ElementStyle>
+                                        </DataGridTextColumn>
+                                        <DataGridTextColumn Width="*"/>
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                            </Grid>
+                        </TabItem>
+
+                        <TabItem Style="{DynamicResource TabStyle}"
+                     Width="230" Margin="0">
+                            <TabItem.Header>
+                                <Label Content="Четверг" Style="{DynamicResource LblStyle}" Margin="0,12"/>
+                            </TabItem.Header>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1165"/>
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+                                <DataGrid x:Name="dgDayWeed8" Margin="12"
+              IsReadOnly="True" AutoGenerateColumns="False" 
+                  materialDesign:DataGridAssist.CornerRadius="50"
+                  Background="White" Loaded="dgDayWeed8_Loaded" MouseDoubleClick="dgDayWeed8_MouseDoubleClick" >
+                                    <DataGrid.ContextMenu>
+                                        <ContextMenu>
+                                            <MenuItem x:Name="BtnDelete9" Click="BtnDelete9_Click">
+                                                <MenuItem.Header>
+                                                    <StackPanel Orientation="Horizontal">
+                                                        <materialDesign:PackIcon Kind="TrashCan"
+                                                                     Height="20"
+                                                                     Width="20"
+                                                                     Margin="0 0 20 0"
+                                                                     VerticalAlignment="Center"/>
+                                                        <TextBlock Text="Удалить"/>
+                                                    </StackPanel>
+                                                </MenuItem.Header>
+                                            </MenuItem>
+                                        </ContextMenu>
+                                    </DataGrid.ContextMenu>
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn x:Name="dgTcNumber8"
+                            Header="Номер пары" Width="200"
+                            Binding="{Binding Number}"/>
+                                        <DataGridTextColumn x:Name="dgTcNameGroup8"
+                            Header="Название группы" Width="300"
+                            Binding="{Binding NameGroup}"/>
+                                        <DataGridTextColumn x:Name="dgTcNameDiscipline8"
+                            Header="Дисциплина" Width="400"
+                            Binding="{Binding NameDiscipline}">
+                                            <DataGridTextColumn.ElementStyle>
+                                                <Style>
+                                                    <Setter Property="TextBlock.TextWrapping" Value="Wrap"/>
+                                                </Style>
+                                            </DataGridTextColumn.ElementStyle>
+                                        </DataGridTextColumn>
+                                        <DataGridTextColumn Width="*"/>
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                            </Grid>
+                        </TabItem>
+
+                        <TabItem Style="{DynamicResource TabStyleRight}"
+                     Width="230" Margin="0">
+                            <TabItem.Header>
+                                <Label Content="Пятница" Style="{DynamicResource LblStyle}" Margin="0,12"/>
+                            </TabItem.Header>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1165"/>
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+                                <DataGrid x:Name="dgDayWeed9" Margin="12"
+              IsReadOnly="True" AutoGenerateColumns="False"  
+                  materialDesign:DataGridAssist.CornerRadius="50"
+                  Background="White" Loaded="dgDayWeed9_Loaded" MouseDoubleClick="dgDayWeed9_MouseDoubleClick" >
+                                    <DataGrid.ContextMenu>
+                                        <ContextMenu>
+                                            <MenuItem x:Name="BtnDelete10" Click="BtnDelete10_Click">
+                                                <MenuItem.Header>
+                                                    <StackPanel Orientation="Horizontal">
+                                                        <materialDesign:PackIcon Kind="TrashCan"
+                                                                     Height="20"
+                                                                     Width="20"
+                                                                     Margin="0 0 20 0"
+                                                                     VerticalAlignment="Center"/>
+                                                        <TextBlock Text="Удалить"/>
+                                                    </StackPanel>
+                                                </MenuItem.Header>
+                                            </MenuItem>
+                                        </ContextMenu>
+                                    </DataGrid.ContextMenu>
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn x:Name="dgTcNumber9"
+                            Header="Номер пары" Width="200"
+                            Binding="{Binding Number}"/>
+                                        <DataGridTextColumn x:Name="dgTcNameGroup9"
+                            Header="Название группы" Width="300"
+                            Binding="{Binding NameGroup}"/>
+                                        <DataGridTextColumn x:Name="dgTcNameDiscipline9"
+                            Header="Дисциплина" Width="400"
+                            Binding="{Binding NameDiscipline}">
+                                            <DataGridTextColumn.ElementStyle>
+                                                <Style>
+                                                    <Setter Property="TextBlock.TextWrapping" Value="Wrap"/>
+                                                </Style>
+                                            </DataGridTextColumn.ElementStyle>
+                                        </DataGridTextColumn>
+                                        <DataGridTextColumn Width="*"/>
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                            </Grid>
+                        </TabItem>
+                    </TabControl>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+
+        <Frame Grid.Row="3" Grid.Column="3" Grid.ColumnSpan="2" Margin="260,180,0,0"
+               x:Name="frmTimeTable"
+               Source="/PageFolder/PageTimeTable/PageAdd.xaml"/>
+
+
+    </Grid>
+</Page>

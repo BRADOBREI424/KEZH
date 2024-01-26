@@ -1,0 +1,85 @@
+﻿<Window x:Class="KEZH.WindowFolder.WinInfo.WinInfo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KEZH.WindowFolder.WinInfo"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="WinInfo" Height="550" Width="500"
+        WindowStartupLocation="CenterScreen" WindowStyle="None"
+        Background="#DDDCFF" Style="{DynamicResource WinIcon}">
+    
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="35"/>
+                <RowDefinition Height="1.10*"/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition Height="35"/>
+            </Grid.RowDefinitions>
+
+
+            <Grid x:Name="ToolBar" Height="35" VerticalAlignment="Top"
+                  Background="White" Opacity="0.8">
+                
+                <StackPanel Orientation="Horizontal" Height="35" FlowDirection="RightToLeft">
+
+                    <Button x:Name="btnClose" Background="Transparent" Padding="0"
+                        BorderBrush="Transparent" Height="Auto" Width="35" Click="btnClose_Click" MouseEnter="btnClose_MouseEnter">
+                        <StackPanel>
+                            <Image x:Name="ImgClose" Source="/KEZH;component/ResourceFolder/PictureCommon/Close.png"
+                               Margin="2"/>
+                        </StackPanel>
+                    </Button>                    
+                </StackPanel>
+                <Button x:Name="btnCloseV2" Background="Transparent" Padding="0"
+                        BorderBrush="Transparent" Height="Auto" Width="35" Click="btnClose_Click"
+                    HorizontalAlignment="Right" Visibility="Hidden" MouseLeave="btnCloseV2_MouseLeave">
+                    <StackPanel>
+                        <Image x:Name="ImgCloseV2" Source="/KEZH;component/ResourceFolder/PictureCommon/CloseV2.png"
+                               Margin="2" />
+                    </StackPanel>
+                </Button>                
+                <TextBlock Text="Классный электронный журнал" FontSize="20"
+                       HorizontalAlignment="Center" Foreground="#FF1C1D1D"
+                       VerticalAlignment="Center"/>
+                
+            </Grid>
+
+            <Label Content="Помощь" FontSize="40"
+               Foreground="#5952FF" Margin="150,28,150,38"
+               FontWeight="Bold" Grid.Row="1"
+               VerticalContentAlignment="Center"
+               HorizontalContentAlignment="Center"/>
+
+            <Button x:Name="BtnTechSupport" Content="Техническая поддержка"
+                Grid.Row="2"
+                VerticalContentAlignment="Center"
+                HorizontalContentAlignment="Center"
+                Height="Auto"
+                materialDesign:ButtonAssist.CornerRadius="25"
+                Background="#5952FF"
+                FontSize="25" Margin="46,18,46,17" Click="BtnTechSupport_Click"/>
+
+            <Button x:Name="BtnInfoProgam" Content="Информация о программе"
+                Grid.Row="3"
+                Height="Auto"
+                VerticalContentAlignment="Center"
+                HorizontalContentAlignment="Center"
+                materialDesign:ButtonAssist.CornerRadius="25"
+                Background="#5952FF"
+                FontSize="25" Margin="46,17,46,18" Click="BtnInfoProgam_Click"/>
+
+            <Button x:Name="BtnUserGuide" Content="Руководство пользователя"
+                Grid.Row="4"
+                Height="Auto"
+                VerticalContentAlignment="Center"
+                HorizontalContentAlignment="Center"
+                materialDesign:ButtonAssist.CornerRadius="25"
+                Background="#5952FF"
+                FontSize="25" Margin="46,18,46,17" Click="BtnUserGuide_Click"/>
+        </Grid>
+    
+</Window>

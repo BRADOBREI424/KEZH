@@ -1,0 +1,71 @@
+﻿<Window x:Class="KEZH.WindowFolder.WinChooseOrder"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KEZH.WindowFolder"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="WinChooseOrder" Height="750" Width="400"
+        WindowStartupLocation="CenterScreen" WindowStyle="None" Loaded="Window_Loaded"
+        Background="#DDDCFF" Style="{DynamicResource WinIcon}">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="50"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="120"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="20"/> 
+        </Grid.RowDefinitions>
+        <Grid x:Name="ToolBar" Height="35" VerticalAlignment="Top"
+              Background="White" Opacity="0.8" Grid.ColumnSpan="3">
+            <StackPanel Orientation="Horizontal" Height="35" FlowDirection="RightToLeft">
+
+                <Button x:Name="btnClose" Background="Transparent" Padding="0"
+                        BorderBrush="Transparent" Height="Auto" Width="35" Click="btnClose_Click" MouseEnter="btnClose_MouseEnter">
+                    <StackPanel>
+                        <Image x:Name="ImgClose" Source="/KEZH;component/ResourceFolder/PictureCommon/Close.png"
+                               Margin="2"/>
+                    </StackPanel>
+                </Button>                
+            </StackPanel>
+            <Button x:Name="btnCloseV2" Background="Transparent" Padding="0"
+                        BorderBrush="Transparent" Height="Auto" Width="35" Click="btnClose_Click"
+                    HorizontalAlignment="Right" Visibility="Hidden" MouseLeave="btnCloseV2_MouseLeave">
+                <StackPanel>
+                    <Image x:Name="ImgCloseV2" Source="/KEZH;component/ResourceFolder/PictureCommon/CloseV2.png"
+                               Margin="2" />
+                </StackPanel>
+            </Button>           
+
+        </Grid>
+        <TextBlock Grid.Row="2" Grid.Column="1" Text="Выберите тип приказа"
+                   TextWrapping="Wrap" TextAlignment="Center"
+                   Style="{DynamicResource tBlockLogo}"/>
+        <ComboBox x:Name="CbOrder" Grid.Column="1" Grid.Row="3"
+                  materialDesign:HintAssist.Hint=" Тип приказа"
+                  materialDesign:HintAssist.HintOpacity="1"/>
+        <DatePicker x:Name="DpDateOrder" Grid.Column="1" Grid.Row="4"
+                    materialDesign:HintAssist.Hint="Дата приказа"
+                    materialDesign:HintAssist.HintOpacity="1"/>
+        <TextBox x:Name="TbOrder" Grid.Column="1" Grid.Row="5"                               
+                 materialDesign:HintAssist.Hint="Приказ"
+                 materialDesign:HintAssist.HintOpacity="1"/>
+        <TextBox x:Name="TbComment" Grid.Column="1" Grid.Row="6"
+                 VerticalContentAlignment="Top"
+                 materialDesign:HintAssist.Hint="Комментарий"
+                 materialDesign:HintAssist.HintOpacity="1"/>
+        <Button x:Name="BtnOrder" Content="Принять" Grid.Row="7" Grid.Column="1"
+                Style="{DynamicResource BtnMain1}" Height="60"
+                materialDesign:ButtonAssist.CornerRadius="25" Click="BtnOrder_Click"/>
+    </Grid>
+</Window>

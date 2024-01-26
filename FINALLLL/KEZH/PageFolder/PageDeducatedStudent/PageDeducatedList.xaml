@@ -1,0 +1,346 @@
+﻿<Page x:Class="KEZH.PageFolder.PageDeducatedStudent.PageDeducatedList"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:KEZH.PageFolder.PageDeducatedStudent"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d" 
+      d:DesignHeight="1030" d:DesignWidth="1860"
+      Title="PageDeducatedList" Loaded="Page_Loaded">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="50"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="150"/>
+            <RowDefinition/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <Rectangle Fill="White" Grid.Column="1" Grid.Row="1" 
+                   RadiusX="40" RadiusY="40" 
+                   Margin="10,20,10,20"/>
+        <Label Grid.Row="1" Grid.Column="1" Content="Списки отчисленных студентов" 
+               Style="{DynamicResource LblLogo}" HorizontalContentAlignment="Left"/>
+        <TabControl x:Name="SemestrChange" Grid.Row="2" Grid.Column="1"
+                    Background="Transparent" BorderBrush="Transparent">
+            <TabItem Width="350" Style="{DynamicResource TabStyleLeft}"
+                     Margin="180 0 -180 0">
+                <TabItem.Header>
+                    <Label Content="Академический отпуск" 
+                           Style="{DynamicResource LblStyle}"/>
+                </TabItem.Header>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition/>
+
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <materialDesign:PackIcon Grid.Row="1" Kind="Search"
+                                 Foreground="#5952FF" Width="50" Height="50"
+                                  Margin="0,35,0,0"
+                                 HorizontalAlignment="Right"/>
+                    <TextBox x:Name="TbSearchAcadem" Grid.Column="1" Grid.Row="1"
+                             materialDesign:HintAssist.Hint="Поиск"
+                             materialDesign:HintAssist.HintOpacity="1" TextChanged="TbSearchAcadem_TextChanged"/>
+                    <DataGrid x:Name="DgDeducatedStudentAcadem" Grid.Row="2" 
+                              Grid.ColumnSpan="2"
+                              IsReadOnly="True" AutoGenerateColumns="False"
+                              materialDesign:DataGridAssist.CornerRadius="50">
+                        <DataGrid.ContextMenu>
+                            <ContextMenu>
+                                <MenuItem x:Name="MiRecoverAcadem" Click="MiRecoverAcadem_Click">
+                                    <MenuItem.Header>
+                                        <StackPanel Orientation="Horizontal">
+                                            <materialDesign:PackIcon Kind="Backup" 
+                                                                     Height="20"
+                                                                     Width="20"
+                                                                     Margin="0 0 20 0"
+                                                                     VerticalAlignment="Center"/>
+                                            <TextBlock Text="Восстановить"/>
+                                        </StackPanel>
+                                    </MenuItem.Header>
+                                </MenuItem>
+                            </ContextMenu>
+                        </DataGrid.ContextMenu>
+                        <DataGrid.Columns>
+                            <DataGridTextColumn
+                                    Header="ФИО"
+                                    Binding="{Binding FIO}"/>
+                            <DataGridTextColumn 
+                                    Header="Номер телефона"
+                                    Binding="{Binding NumberPhone}"/>
+                            <DataGridTextColumn 
+                                    Header="Электронная почта"
+                                    Binding="{Binding Email}"/>
+                            <DataGridTextColumn
+                                Header="Группа"
+                                Binding="{Binding NameGroup}"/>
+                            <DataGridTextColumn
+                                Header="Приказ"
+                                Binding="{Binding OrderTo}"/>
+                            <DataGridTextColumn
+                                Header="Дата"
+                                Binding="{Binding DateOrder, StringFormat=d}"/>
+                            <DataGridTextColumn
+                                Header="Комментарий"
+                                Binding="{Binding Comment}"
+                                Width="300">
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style TargetType="TextBlock">
+                                        <Setter Property="TextBlock.TextWrapping" Value="Wrap"/>
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+                            <DataGridTextColumn Width="*"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+            <TabItem Width="350" Style="{DynamicResource TabStyle}"
+                     Margin="180 0 -180 0">
+                <TabItem.Header>
+                    <Label Content="Перевод" 
+                           Style="{DynamicResource LblStyle}"/>
+                </TabItem.Header>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition/>
+
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <materialDesign:PackIcon Grid.Row="1" Kind="Search"
+                                 Foreground="#5952FF" Width="50" Height="50"
+                                  Margin="0,35,0,0"
+                                 HorizontalAlignment="Right"/>
+                    <TextBox x:Name="TbSearchTransfer" Grid.Column="1" Grid.Row="1"
+                             materialDesign:HintAssist.Hint="Поиск"
+                             materialDesign:HintAssist.HintOpacity="1" TextChanged="TbSearchTransfer_TextChanged"/>
+                    <DataGrid x:Name="DgDeducatedStudentTransfer" Grid.Row="2" 
+                              Grid.ColumnSpan="2"
+                              IsReadOnly="True" AutoGenerateColumns="False"
+                              materialDesign:DataGridAssist.CornerRadius="50">
+                        <DataGrid.ContextMenu>
+                            <ContextMenu>
+                                <MenuItem x:Name="MiRecoverTransfer" Click="MiRecoverTransfer_Click">
+                                    <MenuItem.Header>
+                                        <StackPanel Orientation="Horizontal">
+                                            <materialDesign:PackIcon Kind="Backup" 
+                                                                     Height="20"
+                                                                     Width="20"
+                                                                     Margin="0 0 20 0"
+                                                                     VerticalAlignment="Center"/>
+                                            <TextBlock Text="Восстановить"/>
+                                        </StackPanel>
+                                    </MenuItem.Header>
+                                </MenuItem>
+                            </ContextMenu>
+                        </DataGrid.ContextMenu>
+                        <DataGrid.Columns>                            
+                            <DataGridTextColumn 
+                                    Header="ФИО"
+                                    Binding="{Binding FIO}"/>
+                            <DataGridTextColumn 
+                                    Header="Номер телефона"
+                                    Binding="{Binding NumberPhone}"/>
+                            <DataGridTextColumn
+                                    Header="Электронная почта"
+                                    Binding="{Binding Email}"/>
+                            <DataGridTextColumn
+                                Header="Группа"
+                                Binding="{Binding NameGroup}"/>
+                            <DataGridTextColumn
+                                Header="Приказ"
+                                Binding="{Binding OrderTo}"/>
+                            <DataGridTextColumn
+                                Header="Дата"
+                                Binding="{Binding DateOrder, StringFormat=d}"/>
+                            <DataGridTextColumn
+                                Header="Комментарий"
+                                Binding="{Binding Comment}"
+                                Width="300">
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style TargetType="TextBlock">
+                                        <Setter Property="TextBlock.TextWrapping" Value="Wrap"/>
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+                            <DataGridTextColumn Width="*"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+            <TabItem Width="350" Style="{DynamicResource TabStyle}"
+                     Margin="180 0 -180 0">
+                <TabItem.Header>
+                    <Label Content="Отчислены" 
+                           Style="{DynamicResource LblStyle}"/>
+                </TabItem.Header>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition/>
+
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <materialDesign:PackIcon Grid.Row="1" Kind="Search"
+                                 Foreground="#5952FF" Width="50" Height="50"
+                                  Margin="0,35,0,0"
+                                 HorizontalAlignment="Right"/>
+                    <TextBox x:Name="TbSearchDeduct" Grid.Column="1" Grid.Row="1"
+                             materialDesign:HintAssist.Hint="Поиск"
+                             materialDesign:HintAssist.HintOpacity="1" TextChanged="TbSearchDeduct_TextChanged"/>
+                    <DataGrid x:Name="DgDeducatedStudentDeduct"  Grid.Row="2" 
+                              Grid.ColumnSpan="2"
+                              IsReadOnly="True" AutoGenerateColumns="False"
+                              materialDesign:DataGridAssist.CornerRadius="50">
+                        <DataGrid.ContextMenu>
+                            <ContextMenu>
+                                <MenuItem x:Name="MiRecoverDeducat" Click="MiRecoverDeduct_Click">
+                                    <MenuItem.Header>
+                                        <StackPanel Orientation="Horizontal">
+                                            <materialDesign:PackIcon Kind="Backup" 
+                                                                     Height="20"
+                                                                     Width="20"
+                                                                     Margin="0 0 20 0"
+                                                                     VerticalAlignment="Center"/>
+                                            <TextBlock Text="Восстановить"/>
+                                        </StackPanel>
+                                    </MenuItem.Header>
+                                </MenuItem>
+                            </ContextMenu>
+                        </DataGrid.ContextMenu>
+                        <DataGrid.Columns>
+                            <DataGridTextColumn 
+                                    Header="ФИО"
+                                    Binding="{Binding FIO}"/>
+                            <DataGridTextColumn 
+                                    Header="Номер телефона"
+                                    Binding="{Binding NumberPhone}"/>
+                            <DataGridTextColumn 
+                                    Header="Электронная почта"
+                                    Binding="{Binding Email}"/>
+                            <DataGridTextColumn
+                                Header="Группа"
+                                Binding="{Binding NameGroup}"/>
+                            <DataGridTextColumn
+                                Header="Приказ"
+                                Binding="{Binding OrderTo}"/>
+                            <DataGridTextColumn
+                                Header="Дата"
+                                Binding="{Binding DateOrder, StringFormat=d}"/>
+                            <DataGridTextColumn
+                                Header="Комментарий"
+                                Binding="{Binding Comment}"
+                                Width="300">
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style TargetType="TextBlock">
+                                        <Setter Property="TextBlock.TextWrapping" Value="Wrap"/>
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+                            <DataGridTextColumn Width="*"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+            <TabItem Width="350" Style="{DynamicResource TabStyleRight}"
+                     Margin="180 0 -180 0">
+                <TabItem.Header>
+                    <Label Content="Выпущены" 
+                           Style="{DynamicResource LblStyle}"/>
+                </TabItem.Header>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="181*"/>
+                        <ColumnDefinition Width="1473*"/>
+
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <materialDesign:PackIcon Grid.Row="1" Kind="Search"
+                                 Foreground="#5952FF" Width="50" Height="50"
+                                  Margin="0,35,0,0"
+                                 HorizontalAlignment="Right"/>
+                    <TextBox x:Name="TbSearchRelease" Grid.Column="1" Grid.Row="1"
+                             materialDesign:HintAssist.Hint="Поиск"
+                             materialDesign:HintAssist.HintOpacity="1" Grid.ColumnSpan="2" TextChanged="TbSearchRelease_TextChanged"/>
+                    <DataGrid x:Name="DgDeducatedStudentRelease"  Grid.Row="2" 
+                              Grid.ColumnSpan="3"
+                              IsReadOnly="True" AutoGenerateColumns="False"
+                              materialDesign:DataGridAssist.CornerRadius="50">
+                        <DataGrid.ContextMenu>
+                            <ContextMenu>
+                                <MenuItem x:Name="MiRecoverRelease" Click="MiRecoverRelease_Click">
+                                    <MenuItem.Header>
+                                        <StackPanel Orientation="Horizontal">
+                                            <materialDesign:PackIcon Kind="Backup" 
+                                                                     Height="20"
+                                                                     Width="20"
+                                                                     Margin="0 0 20 0"
+                                                                     VerticalAlignment="Center"/>
+                                            <TextBlock Text="Восстановить"/>
+                                        </StackPanel>
+                                    </MenuItem.Header>
+                                </MenuItem>
+                            </ContextMenu>
+                        </DataGrid.ContextMenu>
+                        <DataGrid.Columns>
+                            <DataGridTextColumn 
+                                    Header="ФИО"
+                                    Binding="{Binding FIO}"/>
+                            <DataGridTextColumn 
+                                    Header="Номер телефона"
+                                    Binding="{Binding NumberPhone}"/>
+                            <DataGridTextColumn 
+                                    Header="Электронная почта"
+                                    Binding="{Binding Email}"/>
+                            <DataGridTextColumn
+                                Header="Группа"
+                                Binding="{Binding NameGroup}"/>
+                            <DataGridTextColumn
+                                Header="Приказ"
+                                Binding="{Binding OrderTo}"/>
+                            <DataGridTextColumn
+                                Header="Дата"
+                                Binding="{Binding DateOrder, StringFormat=d}"/>
+                            <DataGridTextColumn
+                                Header="Комментарий"
+                                Binding="{Binding Comment}"
+                                Width="300">
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style TargetType="TextBlock">
+                                        <Setter Property="TextBlock.TextWrapping" Value="Wrap"/>
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+                            
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Page>

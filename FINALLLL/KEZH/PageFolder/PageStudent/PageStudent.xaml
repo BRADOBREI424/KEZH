@@ -1,0 +1,254 @@
+﻿<Page x:Class="KEZH.PageFolder.PageStudent.PageStudent"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:KEZH.PageFolder.PageStudent"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d" 
+      d:DesignHeight="1030" d:DesignWidth="1860"
+      Title="PageStudent" Loaded="Page_Loaded" >
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="330"/>
+            <ColumnDefinition Width="50"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="250"/>
+            <RowDefinition Height="120"/>
+            <RowDefinition/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+
+        <Rectangle Fill="White" Grid.Column="1" Grid.Row="1"
+                   Grid.ColumnSpan="3"
+                   RadiusX="40"
+                   RadiusY="40" Margin="0 30 0 30">
+        </Rectangle>
+        <Label x:Name="LblListGroup" Content="Список группы"
+               Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2"
+               Style="{DynamicResource LblLogo}" Margin="50,30,1048,110"/>
+
+        <Label x:Name="LblLoadNameGroup"
+               Grid.Column="2" Grid.Row="1"
+               Style="{DynamicResource LblLogo}" Margin="228,30,12,110"
+               HorizontalContentAlignment="Left"
+               Foreground="#807CEF"/>
+        
+        <Image x:Name="Add" Source="/KEZH;component/ResourceFolder/PictureCommon/AddButtonIco.png" Grid.Row="1" 
+               Grid.Column="3" Margin="90,60"/>
+        <Button x:Name="BtnAdd" Style="{DynamicResource ForgetButtonAuthorization}" 
+                Grid.Row="1" Grid.Column="3" Margin="90,60" Height="Auto" Click="BtnAdd_Click"/>
+        
+        <Label x:Name="LblListAddStud" Content="Вы можете добавить студента"
+               Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2"
+               Style="{DynamicResource LblStyle}" Margin="50,110,964,50"/>
+
+
+        <TextBox x:Name="TbSearch" Grid.Row="2" Grid.Column="2"                               
+                 materialDesign:HintAssist.Hint="Поиск"
+                 materialDesign:HintAssist.IsFloating="True"
+                 materialDesign:HintAssist.HintOpacity="1" TextChanged="TbSearch_TextChanged"/>
+        <materialDesign:PackIcon Kind="Search"
+            Grid.Row="2" Grid.Column="1" Height="50" Width="50"
+                                 VerticalAlignment="Top"
+                                 HorizontalAlignment="Right" Margin="0,50,0,0" RenderTransformOrigin="0.48,0.76" />
+        <materialDesign:PackIcon Kind="Search"
+            Grid.Row="2" Grid.Column="1" Height="50" Width="50"
+                                 VerticalAlignment="Top"
+                                 HorizontalAlignment="Right" Margin="0,50,0,0" 
+                                 RenderTransformOrigin="0.48,0.76" 
+                                 Foreground="#5952FF"/>
+
+
+
+
+
+        <Button x:Name="BtnExport" Grid.Column="3" Grid.Row="2"
+                Style="{DynamicResource ForgetButtonAuthorization}"
+                Height="Auto" Width="Auto" Click="BtnExport_Click" Margin="20">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="/KEZH;component/ResourceFolder/PictureCommon/Excel.png" Height="60" Width="60"/>
+                <Label Content="Экспорт" Style="{DynamicResource LblStyle}"/>
+
+
+            </StackPanel>
+        </Button>
+        <DataGrid x:Name="dgFullListStudent" AutoGenerateColumns="False"
+                  IsReadOnly="True" Grid.Column="1" Grid.Row="3"
+                  Grid.ColumnSpan="3" Grid.RowSpan="2" 
+                  VirtualizingPanel.IsVirtualizing="False"
+                  materialDesign:DataGridAssist.CornerRadius="50">
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="dgFIO"
+                                    Header="ФИО"
+                                    Binding="{Binding FIO}"/>                
+                <DataGridTextColumn x:Name="dgTcFullSeries"
+                                    Header="Серия паспорта"
+                                    Binding="{Binding Series}"/>
+                <DataGridTextColumn x:Name="dgTcFullNumber"
+                                    Header="Номер паспорта"
+                                    Binding="{Binding Number}"/>
+                <DataGridTextColumn x:Name="dgTcNameAuthority"
+                                    Header="Орган выдавший паспорт"
+                                    Binding="{Binding NameAuthority}"/>
+                <DataGridTextColumn x:Name="dgTcDateOfIssue"
+                                    Header="Дата выдачи паспорта"
+                                    Binding="{Binding DateOfIssue}"/>
+                <DataGridTextColumn x:Name="dgTcCodeDivision"
+                                    Header="Код подразделения"
+                                    Binding="{Binding CodeDivision}"/>
+                <DataGridTextColumn x:Name="dgTcNameGender"
+                                    Header="Пол"
+                                    Binding="{Binding NameGender}"/>
+                <DataGridTextColumn x:Name="dgTcFullDateOfBorn"
+                                    Header="Дата рождения"
+                                    Binding="{Binding DateOfBorn}"/>                             
+                <DataGridTextColumn x:Name="dgTcRegPostcode"
+                                    Header="Почтовый индекс по регистрации"
+                                    Binding="{Binding PostcodeReg}"/>
+                <DataGridTextColumn x:Name="dgTcRegNameCity"
+                                    Header="Город по регистрации"
+                                    Binding="{Binding NameCity}"/>
+                <DataGridTextColumn x:Name="dgTcRegNameRegion"
+                                    Header="Регион по регистрации"
+                                    Binding="{Binding NameStreet}"/>               
+                <DataGridTextColumn x:Name="dgTcRegHouse"
+                                    Header="Дом по регистрации"
+                                    Binding="{Binding HouseReg}"/>
+                <DataGridTextColumn x:Name="dgTcRegEnclosure"
+                                    Header="Корпус по регистрации"
+                                    Binding="{Binding EnclosureReg}"/>
+                <DataGridTextColumn x:Name="dgTcRegAppartment"
+                                    Header="Квартира по регистрации"
+                                    Binding="{Binding AppartmentReg}"/>
+                <DataGridTextColumn Header="Группа"
+                                    Binding="{Binding NameGroup}"/>
+                <DataGridTextColumn Header="Специальность"
+                                    Binding="{Binding NameSpecialization}"/>
+                <DataGridTextColumn x:Name="dgTcSNILS"
+                                    Header="СНИЛС"
+                                    Binding="{Binding SNILS}"/>
+                <DataGridTextColumn x:Name="dgTcINN"
+                                    Header="ИНН"
+                                    Binding="{Binding INN}"/>
+                <DataGridTextColumn x:Name="dgTcRealPostcode"
+                                    Header="Почтовый индекс по месту жительства"
+                                    Binding="{Binding Postcode}"/>
+                <DataGridTextColumn x:Name="dgTcRealNameCity"
+                                    Header="Город по месту жительства"
+                                    Binding="{Binding RealCity}"/>                
+                <DataGridTextColumn x:Name="dgTcRealNameStreet"
+                                    Header="Улица по месту жительства"
+                                    Binding="{Binding RealStreet}"/>
+                <DataGridTextColumn x:Name="dgTcRealHouse"
+                                    Header="Дом по месту жительства"
+                                    Binding="{Binding House}"/>
+                <DataGridTextColumn x:Name="dgTcRealEnclosure"
+                                    Header="Корпус по месту жительства"
+                                    Binding="{Binding Enclosure}"/>
+                <DataGridTextColumn x:Name="dgTcRealAppartment"
+                                    Header="Квартира по месту жительства"
+                                    Binding="{Binding Appartment}"/>             
+                <DataGridTextColumn x:Name="dgTcNumberPhone"
+                                    Header="Номер телефона"
+                                    Binding="{Binding NumberPhone}"/>
+                <DataGridTextColumn Header="Семья"
+                                    Binding="{Binding NameFamily}"/>
+                <DataGridTextColumn x:Name="dgTcNameFamilyStatus"
+                                    Header="Семейный статус"
+                                    Binding="{Binding NameFamilyStatus}"/>
+                <DataGridTextColumn x:Name="dgTcEmail"
+                                    Header="Электронная почта"
+                                    Binding="{Binding Email}"/>
+                <DataGridTextColumn Header="Медицинский полис"
+                                    Binding="{Binding HospitalPolice}"/>
+                <DataGridTextColumn Header="Почтовый индекс по месту временной прописки"
+                                    Binding="{Binding PostcodeTemp}"/>
+                <DataGridTextColumn Header="Город по месту временоой прописки"
+                                    Binding="{Binding TempCity}"/>
+                <DataGridTextColumn Header="Улица по месту временной прописки"
+                                    Binding="{Binding TempStreet}"/>
+                <DataGridTextColumn Header="Дом по месту временной прописки"
+                                    Binding="{Binding HouseTemp}"/>
+                <DataGridTextColumn Header="Корпус по месту временной прописки"
+                                    Binding="{Binding EnclosureTemp}"/>
+                <DataGridTextColumn Header="Квартира по месту временной прописки"
+                                    Binding="{Binding AppartmentTemp}"/>
+                <DataGridTextColumn Header="№ Приказа"
+                                    Binding="{Binding NumberOrder}"/>
+                <DataGridTextColumn Header="Приказ от"
+                                    Binding="{Binding DateOrder, StringFormat=d}"/>
+
+            </DataGrid.Columns>
+        </DataGrid>
+        <DataGrid x:Name="dgListStudent" AutoGenerateColumns="False"
+                  IsReadOnly="True"  MouseDoubleClick="dgListStudent_MouseDoubleClick"
+                  Grid.Column="1" Grid.Row="3"
+                  Grid.ColumnSpan="3" Grid.RowSpan="2"
+                  materialDesign:DataGridAssist.CornerRadius="50">
+            <DataGrid.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Click="MenuItem_Click_Marks">
+                        <MenuItem.Header>
+                            <StackPanel Orientation="Horizontal">
+                                <materialDesign:PackIcon Kind="Numeric5Box" 
+                                                         Height="20"
+                                                         Width="20"
+                                                         Margin="0 0 20 0"
+                                                         VerticalAlignment="Center"/>
+                                
+
+                                <TextBlock Text="Оценки"/>
+                            </StackPanel>
+                        </MenuItem.Header>
+                    </MenuItem>
+                    <MenuItem Click="MenuItem_Click_Order">
+                        <MenuItem.Header>
+                            <StackPanel Orientation="Horizontal">
+                                <materialDesign:PackIcon Kind="FileDocument" 
+                                                         Height="20"
+                                                         Width="20"
+                                                         Margin="0 0 20 0"
+                                                         VerticalAlignment="Center"/>
+                                <TextBlock Text="Приказ"/>
+                            </StackPanel>
+                        </MenuItem.Header>
+                    </MenuItem>
+                    <MenuItem Click="MenuItem_Click_Attendance">
+                        <MenuItem.Header>
+                            <StackPanel Orientation="Horizontal">
+                                <materialDesign:PackIcon Kind="CalendarToday" 
+                                                         Height="20"
+                                                         Width="20"
+                                                         Margin="0 0 20 0"
+                                                         VerticalAlignment="Center"/>
+                                <TextBlock Text="Список посещаемости"/>
+                            </StackPanel>
+                        </MenuItem.Header>
+                    </MenuItem>
+                </ContextMenu>
+            </DataGrid.ContextMenu>
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="dgTcFIO"
+                                    Header="ФИО"
+                                    Binding="{Binding FIO}"/>
+                <DataGridTextColumn x:Name="dgTcNumberPhone1"
+                                    Header="Номер телефона"
+                                    Binding="{Binding NumberPhone}"/>
+                <DataGridTextColumn x:Name="dgTcEmail1"
+                                    Header="Электронная почта"
+                                    Binding="{Binding Email}"/>
+                <DataGridTextColumn x:Name="dgTcSpace"
+                                    Header=""
+                                    Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Page>

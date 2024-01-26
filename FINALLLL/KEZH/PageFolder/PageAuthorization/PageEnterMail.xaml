@@ -1,0 +1,97 @@
+﻿<Page x:Class="KEZH.PageFolder.PageAuthorization.PageEnterMail"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:KEZH.PageFolder.PageAuthorization"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d" 
+      d:DesignHeight="742" d:DesignWidth="700"
+      Title="PageEnterMail">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="200"/>
+            <RowDefinition Height="90"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Image Source="/KEZH;component/ResourceFolder/PictureSingIn/QuestionLock.png"
+               Margin="0 20 0 0"
+               VerticalAlignment="Center"
+               HorizontalAlignment="Center"/>
+
+        <Label Content="Забыли пароль?" FontSize="40"
+               Foreground="#5952FF" VerticalAlignment="Bottom"
+               HorizontalAlignment="Center" Margin="0 0 0 10"
+               FontWeight="Bold" Grid.Row="1"/>
+
+        <Label Content="Введите почту от вашего профиля" FontSize="25"
+               Foreground="#807CEF" VerticalAlignment="Top"
+               HorizontalAlignment="Center" Margin="0 0 0 0"
+               Grid.Row="2" FontWeight="Bold"/>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="3" Width="550"
+                    Margin="50 0 50 0" HorizontalAlignment="Center">
+            <materialDesign:PackIcon Kind="EmailOutline" 
+                                         Height="50"
+                                         Width="50"
+                                         VerticalAlignment="Bottom"
+                                         Margin="15 10 5 15" Opacity="0.7" Foreground="#807CEF"/>
+            <TextBox x:Name="TbEmail" Grid.Row="3"
+                 Style="{DynamicResource TextBoxAuthorization}"
+                 materialDesign:HintAssist.Hint="Почта"
+                 materialDesign:HintAssist.HintOpacity="1"
+                 materialDesign:TextFieldAssist.HasClearButton="True"    
+                 FontSize="30"
+                     MaxLength="60"
+                 Width="450"
+                  Height="90"/>
+        </StackPanel>
+
+        <Button x:Name="BtnNext"        
+                Style="{DynamicResource BtnMain}"
+                Content="Далее"
+                    Grid.Row="4" Height="80" Width="400"                   
+                    materialDesign:ButtonAssist.CornerRadius="40"               
+                Margin="50 0 50 0"
+                    VerticalAlignment="Center" Click="BtnNext_Click"
+                    />
+
+        <Button x:Name="btnBack" Background="Transparent"
+                BorderBrush="Transparent" Margin="10,10,560,100" Height="Auto" Click="BtnBack_Click">
+            <StackPanel Orientation="Horizontal" Width="Auto"
+                    Height="Auto">
+                <Image Source="/KEZH;component/ResourceFolder/PictureCommon/BackArrow.png" 
+                       Width="80" Height="80"/>
+            </StackPanel>
+        </Button>
+
+
+        <TextBlock Text="Вернуться к авторизации"
+                   Grid.Row="5"
+                   Foreground="#807CEF"
+                   VerticalAlignment="Top"
+                   HorizontalAlignment="Center"
+                   Margin="0 20 0 0"
+                   FontSize="20">
+            <TextBlock.TextDecorations>
+                <TextDecoration Location="Underline"/>
+            </TextBlock.TextDecorations>
+        </TextBlock>
+        <Button x:Name="BtnToEnter"
+                Grid.Row="5"
+                Margin="0 15 0 0"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Center"
+                Width="200"
+                Height="40"
+                materialDesign:ButtonAssist.CornerRadius="40"
+                Background="Transparent"
+                BorderBrush="Transparent"
+                FontSize="30" Style="{DynamicResource ForgetButtonAuthorization}" Click="BtnToEnter_Click"/>
+    </Grid>
+</Page>

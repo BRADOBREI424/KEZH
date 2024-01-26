@@ -1,0 +1,587 @@
+﻿<Page x:Class="KEZH.PageFolder.PageMarks.PageMarksLists"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:KEZH.PageFolder.PageMarks"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d" 
+      d:DesignHeight="1030" d:DesignWidth="1860"
+      Title="PageMarksLists" Loaded="Page_Loaded">
+
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="50"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="95"/>
+            <RowDefinition Height="80"/>
+            <RowDefinition/>
+            <RowDefinition Height="120"/>
+            <RowDefinition Height="120"/>
+            <RowDefinition Height="120"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <Rectangle Fill="White" Grid.Column="1" Grid.Row="1" 
+                   Grid.ColumnSpan="8" RadiusX="40" RadiusY="40" 
+                   Margin="10" Grid.RowSpan="2"/>
+
+        <Label Grid.Row="1" Grid.Column="2" Content="Оценки" 
+               Style="{DynamicResource LblLogo}"/>
+        <Label Grid.Row="2" Grid.Column="2" Content="Выберите семестр"
+               Style="{DynamicResource LblStyle}" Grid.ColumnSpan="2"
+               HorizontalAlignment="Left"/>
+        <Button x:Name="btnBack" Grid.Row="1" Grid.Column="1" Grid.RowSpan="2"
+                Background="Transparent" BorderBrush="Transparent" Width="130" Height="130" Click="btnBack_Click">
+            <Image Source="/KEZH;component/ResourceFolder/PictureCommon/BackArrow.png" Width="100" Height="100"/>
+        </Button>
+        <TabControl x:Name="SemestrChange" Grid.Row="3" Grid.Column="1"
+                    Grid.ColumnSpan="8" Grid.RowSpan="6" Background="Transparent"
+                    BorderBrush="Transparent"
+                    >
+            <TabItem Style="{DynamicResource TabStyleLeft}"
+                     Width="220" >
+                <TabItem.Header>
+                    <Label Content="1 Семестр"
+                           Style="{DynamicResource LblStyleTabControl}"/>
+                </TabItem.Header>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20"/>
+                        <RowDefinition Height="130"/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Button x:Name="BtnExport1" Height="Auto" Width="285" Grid.Row="1" Background="Transparent"
+                            BorderBrush="Transparent" Margin="380,36,12,10" Click="BtnExport1_Click">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/KEZH;component/ResourceFolder/PictureCommon/Excel.png" Height="60" Width="60"/>
+                            <Label Content="Экспорт" Style="{DynamicResource LblStyle}"/>
+                        </StackPanel>
+                    </Button>
+                    <Label x:Name="LblMiddleMarkValue1" Grid.Row="5"
+               Style="{DynamicResource LblStyleLeft}" FontSize="80" Margin="60,12,538,12" HorizontalContentAlignment="Center" Foreground="#5952FF"/>
+                    <DataGrid x:Name="DgSemestr1Marks" IsReadOnly="True"
+                              Grid.Row="1" Grid.RowSpan="6"
+                              VirtualizingPanel.IsVirtualizing="False"
+                              AutoGenerateColumns="False" Grid.Column="1"
+                              materialDesign:DataGridAssist.CornerRadius="50">
+                        <DataGrid.ContextMenu>
+                            <ContextMenu>
+                                <MenuItem Click="MenuItemDelMark1_Click">
+                                    <MenuItem.Header>
+                                        <StackPanel Orientation="Horizontal">
+                                            <materialDesign:PackIcon Kind="TrashCan"
+                                                                     Height="20"
+                                                                     Width="20"
+                                                                     Margin="0 0 20 0"
+                                                                     VerticalAlignment="Center"/>
+                                            <TextBlock Text="Удалить"/>
+                                        </StackPanel>
+                                    </MenuItem.Header>
+                                </MenuItem>
+                            </ContextMenu>
+                        </DataGrid.ContextMenu>
+                        <DataGrid.Columns>
+                            <DataGridTextColumn x:Name="dgTcCypher1"
+                                                Header="Шифр"
+                                                Binding="{Binding Cypher}"/>
+                            <DataGridTextColumn x:Name="dgTcDiscipline1"
+                                                Header="Дисциплина"
+                                                Binding="{Binding NameDiscipline }"/>
+                            <DataGridTextColumn x:Name="dgTcMark1"
+                                                Header="Оценка"
+                                                Binding="{Binding NumberMark, StringFormat='0'}"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+            <TabItem Style="{DynamicResource TabStyle}"
+                     Width="220">
+                <TabItem.Header>
+                    <Label Content="2 Семестр"
+                           Style="{DynamicResource LblStyleTabControl}"/>
+                </TabItem.Header>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20"/>
+                        <RowDefinition Height="130"/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Button x:Name="BtnExport2" Height="Auto" Width="285" Grid.Row="1" Background="Transparent"
+                            BorderBrush="Transparent" Margin="380,36,12,10" Click="BtnExport2_Click">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/KEZH;component/ResourceFolder/PictureCommon/Excel.png" Height="60" Width="60"/>
+                            <Label Content="Экспорт" Style="{DynamicResource LblStyle}"/>
+                        </StackPanel>
+                    </Button>
+                    <Label x:Name="LblMiddleMarkValue2" Grid.Row="8"
+               Style="{DynamicResource LblStyleLeft}" FontSize="80" Margin="60,12,538,12" HorizontalContentAlignment="Center"
+                           Foreground="#5952FF"/>
+                    <DataGrid x:Name="DgSemestr2Marks" IsReadOnly="True"
+                              Grid.Row="1" Grid.RowSpan="6"
+                              VirtualizingPanel.IsVirtualizing="False"
+                              AutoGenerateColumns="False" Grid.Column="2"
+                              materialDesign:DataGridAssist.CornerRadius="50">
+                        <DataGrid.ContextMenu>
+                            <ContextMenu>
+                                <MenuItem Click="MenuItemDelMark2_Click">
+                                    <MenuItem.Header>
+                                        <StackPanel Orientation="Horizontal">
+                                            <materialDesign:PackIcon Kind="TrashCan"
+                                                                     Height="20"
+                                                                     Width="20"
+                                                                     Margin="0 0 20 0"
+                                                                     VerticalAlignment="Center"/>
+                                            <TextBlock Text="Удалить"/>
+                                        </StackPanel>
+                                    </MenuItem.Header>
+                                </MenuItem>
+                            </ContextMenu>
+                        </DataGrid.ContextMenu>
+                        <DataGrid.Columns>
+                            <DataGridTextColumn x:Name="dgTcCypher2"
+                                                Header="Шифр"
+                                                Binding="{Binding Cypher}"/>
+                            <DataGridTextColumn x:Name="dgTcDiscipline2"
+                                                Header="Дисциплина"
+                                                Binding="{Binding NameDiscipline}"/>
+                            <DataGridTextColumn x:Name="dgTcMark2"
+                                                Header="Оценка"
+                                                Binding="{Binding NumberMark, StringFormat='0'}"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+            <TabItem Style="{DynamicResource TabStyle}"
+                     Width="220">
+                <TabItem.Header>
+                    <Label Content="3 Семестр"
+                           Style="{DynamicResource LblStyleTabControl}"/>
+                </TabItem.Header>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20"/>
+                        <RowDefinition Height="130"/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Button x:Name="BtnExport3" Height="Auto" Width="285" Grid.Row="1" Background="Transparent"
+                            BorderBrush="Transparent" Margin="380,36,12,10" Click="BtnExport3_Click">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/KEZH;component/ResourceFolder/PictureCommon/Excel.png" Height="60" Width="60"/>
+                            <Label Content="Экспорт" Style="{DynamicResource LblStyle}"/>
+                        </StackPanel>
+                    </Button>
+                    <Label x:Name="LblMiddleMarkValue3" Grid.Row="8"
+               Style="{DynamicResource LblStyleLeft}" FontSize="80" Margin="60,12,538,12" HorizontalContentAlignment="Center"
+                           Foreground="#5952FF"/>
+                    <DataGrid x:Name="DgSemestr3Marks" IsReadOnly="True"
+                              Grid.Row="1" Grid.RowSpan="6"
+                              VirtualizingPanel.IsVirtualizing="False"
+                              AutoGenerateColumns="False" Grid.Column="1"
+                              materialDesign:DataGridAssist.CornerRadius="50">
+                        <DataGrid.ContextMenu>
+                            <ContextMenu>
+                                <MenuItem Click="MenuItemDelMark3_Click">
+                                    <MenuItem.Header>
+                                        <StackPanel Orientation="Horizontal">
+                                            <materialDesign:PackIcon Kind="TrashCan"
+                                                                     Height="20"
+                                                                     Width="20"
+                                                                     Margin="0 0 20 0"
+                                                                     VerticalAlignment="Center"/>
+                                            <TextBlock Text="Удалить"/>
+                                        </StackPanel>
+                                    </MenuItem.Header>
+                                </MenuItem>
+                            </ContextMenu>
+                        </DataGrid.ContextMenu>
+                        <DataGrid.Columns>
+                            <DataGridTextColumn x:Name="dgTcCypher3"
+                                                Header="Шифр"
+                                                Binding="{Binding Cypher}"/>
+                            <DataGridTextColumn x:Name="dgTcDiscipline3"
+                                                Header="Дисциплина"
+                                                Binding="{Binding NameDiscipline}"/>
+                            <DataGridTextColumn x:Name="dgTcMark3"
+                                                Header="Оценка"
+                                                Binding="{Binding NumberMark, StringFormat='0'}"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+            <TabItem Style="{DynamicResource TabStyle}"
+                     Width="220">
+                <TabItem.Header>
+                    <Label Content="4 Семестр"
+                           Style="{DynamicResource LblStyleTabControl}"/>
+                </TabItem.Header>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20"/>
+                        <RowDefinition Height="130"/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Button x:Name="BtnExport4" Height="Auto" Width="285" Grid.Row="1" Background="Transparent"
+                            BorderBrush="Transparent" Margin="380,36,12,10" Click="BtnExport4_Click">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/KEZH;component/ResourceFolder/PictureCommon/Excel.png" Height="60" Width="60"/>
+                            <Label Content="Экспорт" Style="{DynamicResource LblStyle}"/>
+                        </StackPanel>
+                    </Button>
+                    <Label x:Name="LblMiddleMarkValue4" Grid.Row="8"
+               Style="{DynamicResource LblStyleLeft}" FontSize="80" Margin="60,12,538,12" HorizontalContentAlignment="Center"
+                           Foreground="#5952FF"/>
+                    <DataGrid x:Name="DgSemestr4Marks" IsReadOnly="True"
+                              Grid.Row="1" Grid.RowSpan="6"
+                              VirtualizingPanel.IsVirtualizing="False"
+                              AutoGenerateColumns="False" Grid.Column="1"
+                              materialDesign:DataGridAssist.CornerRadius="50">
+                        <DataGrid.ContextMenu>
+                            <ContextMenu>
+                                <MenuItem Click="MenuItemDelMark4_Click">
+                                    <MenuItem.Header>
+                                        <StackPanel Orientation="Horizontal">
+                                            <materialDesign:PackIcon Kind="TrashCan"
+                                                                     Height="20"
+                                                                     Width="20"
+                                                                     Margin="0 0 20 0"
+                                                                     VerticalAlignment="Center"/>
+                                            <TextBlock Text="Удалить"/>
+                                        </StackPanel>
+                                    </MenuItem.Header>
+                                </MenuItem>
+                            </ContextMenu>
+                        </DataGrid.ContextMenu>
+                        <DataGrid.Columns>
+                            <DataGridTextColumn x:Name="dgTcCypher4"
+                                                Header="Шифр"
+                                                Binding="{Binding Cypher}"/>
+                            <DataGridTextColumn x:Name="dgTcDiscipline4"
+                                                Header="Дисциплина"
+                                                Binding="{Binding NameDiscipline}"/>
+                            <DataGridTextColumn x:Name="dgTcMark4"
+                                                Header="Оценка"
+                                                Binding="{Binding NumberMark, StringFormat='0'}"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+            <TabItem Style="{DynamicResource TabStyle}"
+                     Width="220">
+                <TabItem.Header>
+                    <Label Content="5 Семестр"
+                           Style="{DynamicResource LblStyleTabControl}"/>
+                </TabItem.Header>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20"/>
+                        <RowDefinition Height="130"/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Button x:Name="BtnExport5" Height="Auto" Width="285" Grid.Row="1" Background="Transparent"
+                            BorderBrush="Transparent" Margin="380,36,12,10" Click="BtnExport5_Click">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/KEZH;component/ResourceFolder/PictureCommon/Excel.png" Height="60" Width="60"/>
+                            <Label Content="Экспорт" Style="{DynamicResource LblStyle}"/>
+                        </StackPanel>
+                    </Button>
+                    <Label x:Name="LblMiddleMarkValue5" Grid.Row="8"
+               Style="{DynamicResource LblStyleLeft}" FontSize="80" Margin="60,12,538,12" HorizontalContentAlignment="Center" 
+                           Foreground="#5952FF"/>
+                    <DataGrid x:Name="DgSemestr5Marks" IsReadOnly="True"
+                              Grid.Row="1" Grid.RowSpan="6"
+                              VirtualizingPanel.IsVirtualizing="False"
+                              AutoGenerateColumns="False" Grid.Column="1"
+                              materialDesign:DataGridAssist.CornerRadius="50">
+                        <DataGrid.ContextMenu>
+                            <ContextMenu>
+                                <MenuItem Click="MenuItemDelMark5_Click">
+                                    <MenuItem.Header>
+                                        <StackPanel Orientation="Horizontal">
+                                            <materialDesign:PackIcon Kind="TrashCan"
+                                                                     Height="20"
+                                                                     Width="20"
+                                                                     Margin="0 0 20 0"
+                                                                     VerticalAlignment="Center"/>
+                                            <TextBlock Text="Удалить"/>
+                                        </StackPanel>
+                                    </MenuItem.Header>
+                                </MenuItem>
+                            </ContextMenu>
+                        </DataGrid.ContextMenu>
+                        <DataGrid.Columns>
+                            <DataGridTextColumn x:Name="dgTcCypher5"
+                                                Header="Шифр"
+                                                Binding="{Binding Cypher}"/>
+                            <DataGridTextColumn x:Name="dgTcDiscipline5"
+                                                Header="Дисциплина"
+                                                Binding="{Binding NameDiscipline}"/>
+                            <DataGridTextColumn x:Name="dgTcMark5"
+                                                Header="Оценка"
+                                                Binding="{Binding NumberMark, StringFormat='0'}"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+            <TabItem Style="{DynamicResource TabStyle}"
+                     Width="220">
+                <TabItem.Header>
+                    <Label Content="6 Семестр"
+                           Style="{DynamicResource LblStyleTabControl}"/>
+                </TabItem.Header>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20"/>
+                        <RowDefinition Height="130"/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Button x:Name="BtnExport6" Height="Auto" Width="285" Grid.Row="1" Background="Transparent"
+                            BorderBrush="Transparent" Margin="380,36,12,10" Click="BtnExport6_Click">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/KEZH;component/ResourceFolder/PictureCommon/Excel.png" Height="60" Width="60"/>
+                            <Label Content="Экспорт" Style="{DynamicResource LblStyle}"/>
+                        </StackPanel>
+                    </Button>
+                    <Label x:Name="LblMiddleMarkValue6" Grid.Row="8"
+               Style="{DynamicResource LblStyleLeft}" FontSize="80" Margin="60,12,538,12" HorizontalContentAlignment="Center"
+                           Foreground="#5952FF"/>
+                    <DataGrid x:Name="DgSemestr6Marks" IsReadOnly="True"
+                              Grid.Row="1" Grid.RowSpan="6"
+                              VirtualizingPanel.IsVirtualizing="False"
+                              AutoGenerateColumns="False" Grid.Column="1"
+                              materialDesign:DataGridAssist.CornerRadius="50">
+                        <DataGrid.ContextMenu>
+                            <ContextMenu>
+                                <MenuItem Click="MenuItemDelMark6_Click">
+                                    <MenuItem.Header>
+                                        <StackPanel Orientation="Horizontal">
+                                            <materialDesign:PackIcon Kind="TrashCan"
+                                                                     Height="20"
+                                                                     Width="20"
+                                                                     Margin="0 0 20 0"
+                                                                     VerticalAlignment="Center"/>
+                                            <TextBlock Text="Удалить"/>
+                                        </StackPanel>
+                                    </MenuItem.Header>
+                                </MenuItem>
+                            </ContextMenu>
+                        </DataGrid.ContextMenu>
+                        <DataGrid.Columns>
+                            <DataGridTextColumn x:Name="dgTcCypher6"
+                                                Header="Шифр"
+                                                Binding="{Binding Cypher}"/>
+                            <DataGridTextColumn x:Name="dgTcDiscipline6"
+                                                Header="Дисциплина"
+                                                Binding="{Binding NameDiscipline}"/>
+                            <DataGridTextColumn x:Name="dgTcMark6"
+                                                Header="Оценка"
+                                                Binding="{Binding NumberMark, StringFormat='0'}"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+            <TabItem Style="{DynamicResource TabStyle}"
+                     Width="220">
+                <TabItem.Header>
+                    <Label Content="7 Семестр"
+                           Style="{DynamicResource LblStyleTabControl}"/>
+                </TabItem.Header>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20"/>
+                        <RowDefinition Height="130"/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Button x:Name="BtnExport7" Height="Auto" Width="285" Grid.Row="1" Background="Transparent"
+                            BorderBrush="Transparent" Margin="380,36,12,10" Click="BtnExport7_Click">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/KEZH;component/ResourceFolder/PictureCommon/Excel.png" Height="60" Width="60"/>
+                            <Label Content="Экспорт" Style="{DynamicResource LblStyle}"/>
+                        </StackPanel>
+                    </Button>
+                    <Label x:Name="LblMiddleMarkValue7" Grid.Row="8"
+               Style="{DynamicResource LblStyleLeft}" FontSize="80" Margin="60,12,538,12" HorizontalContentAlignment="Center" Foreground="#5952FF"/>
+                    <DataGrid x:Name="DgSemestr7Marks" IsReadOnly="True"
+                              Grid.Row="1" Grid.RowSpan="6"
+                              VirtualizingPanel.IsVirtualizing="False"
+                              AutoGenerateColumns="False" Grid.Column="1"
+                              materialDesign:DataGridAssist.CornerRadius="50">
+                        <DataGrid.ContextMenu>
+                            <ContextMenu>
+                                <MenuItem Click="MenuItemDelMark7_Click">
+                                    <MenuItem.Header>
+                                        <StackPanel Orientation="Horizontal">
+                                            <materialDesign:PackIcon Kind="TrashCan"
+                                                                     Height="20"
+                                                                     Width="20"
+                                                                     Margin="0 0 20 0"
+                                                                     VerticalAlignment="Center"/>
+                                            <TextBlock Text="Удалить"/>
+                                        </StackPanel>
+                                    </MenuItem.Header>
+                                </MenuItem>
+                            </ContextMenu>
+                        </DataGrid.ContextMenu>
+                        <DataGrid.Columns>
+                            <DataGridTextColumn x:Name="dgTcCypher7"
+                                                Header="Шифр"
+                                                Binding="{Binding Cypher}"/>
+                            <DataGridTextColumn x:Name="dgTcDiscipline7"
+                                                Header="Дисциплина"
+                                                Binding="{Binding NameDiscipline}"/>
+                            <DataGridTextColumn x:Name="dgTcMark7"
+                                                Header="Оценка"
+                                                Binding="{Binding NumberMark, StringFormat='0'}"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+            <TabItem Style="{DynamicResource TabStyleRight}"
+                     Width="212">
+                <TabItem.Header>
+                    <Label Content="8 Семестр"
+                           Style="{DynamicResource LblStyleTabControl}"/>
+                </TabItem.Header>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20"/>
+                        <RowDefinition Height="130"/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Button x:Name="BtnExport8" Height="Auto" Width="285" Grid.Row="1" Background="Transparent"
+                            BorderBrush="Transparent" Margin="380,36,12,10" Click="BtnExport8_Click">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/KEZH;component/ResourceFolder/PictureCommon/Excel.png" Height="60" Width="60"/>
+                            <Label Content="Экспорт" Style="{DynamicResource LblStyle}"/>
+                        </StackPanel>
+                    </Button>
+                    <Label x:Name="LblMiddleMarkValue8" Grid.Row="8"
+               Style="{DynamicResource LblStyleLeft}" FontSize="80" Margin="60,12,538,12" HorizontalContentAlignment="Center" 
+                           Foreground="#5952FF"/>
+                    <DataGrid x:Name="DgSemestr8Marks" IsReadOnly="True"
+                              Grid.Row="1" Grid.RowSpan="6"
+                              VirtualizingPanel.IsVirtualizing="False"
+                              AutoGenerateColumns="False" Grid.Column="1"
+                              materialDesign:DataGridAssist.CornerRadius="50">
+                        <DataGrid.ContextMenu>
+                            <ContextMenu>
+                                <MenuItem Click="MenuItemDelMark8_Click">
+                                    <MenuItem.Header>
+                                        <StackPanel Orientation="Horizontal">
+                                            <materialDesign:PackIcon Kind="TrashCan"
+                                                                     Height="20"
+                                                                     Width="20"
+                                                                     Margin="0 0 20 0"
+                                                                     VerticalAlignment="Center"/>
+                                            <TextBlock Text="Удалить"/>
+                                        </StackPanel>
+                                    </MenuItem.Header>
+                                </MenuItem>
+                            </ContextMenu>
+                        </DataGrid.ContextMenu>
+                        <DataGrid.Columns>
+                            <DataGridTextColumn x:Name="dgTcCypher8"
+                                                Header="Шифр"
+                                                Binding="{Binding Cypher}"/>
+                            <DataGridTextColumn x:Name="dgTcDiscipline8"
+                                                Header="Дисциплина"
+                                                Binding="{Binding NameDiscipline}"/>
+                            <DataGridTextColumn x:Name="dgTcMark8"
+                                                Header="Оценка"
+                                                Binding="{Binding NumberMark, StringFormat='0'}"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+
+        <Border BorderBrush="White" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2"
+                Grid.RowSpan="3" CornerRadius="20" Margin="60, 20" BorderThickness="4">
+            <Image x:Name="ImgPhoto"/>
+        </Border>
+
+
+        <TextBlock x:Name="LblFIO" Grid.Row="5" Grid.Column="2" Grid.ColumnSpan="4"
+                 Style="{DynamicResource tBlockLogo}" Margin="180,12,200,84" 
+                   TextWrapping="Wrap" Grid.RowSpan="2"/>
+        <Label x:Name="LblGroup" Grid.Row="6" Grid.Column="2" Grid.ColumnSpan="4"
+                 Style="{DynamicResource LblStyleLeft}" Content="Группа" Margin="180,41,200,12"
+               FontSize="35"/>
+        <Label x:Name="LblMiddleMark" Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="2"
+                 Style="{DynamicResource LblStyleLeft}" Content="Средний балл"
+               VerticalAlignment="Bottom" HorizontalContentAlignment="Center"
+               FontSize="40"/>
+
+    </Grid>
+
+</Page>
